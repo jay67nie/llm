@@ -1,0 +1,1326 @@
+AN OVERVIEW
+The Education Sector in Uganda has government and the private sector as the key
+players. The sector has both formal and non-formal educational institutions spanning
+all educational levels.
+LEVELS OF EDUCATION IN THE EDUCATION SECTOR;
+1. Nursery/ kindergarten;
+2. Primary;
+3. Secondary;
+4. Business; Technical and Vocational Education and Training (BTVET); and
+5. Higher Education - Higher education in Uganda is composed of universities,
+national teachers colleges, colleges of commerce, technical colleges, training
+institutions, and other tertiary institutions.
+
+
+BUSINESS REGISTRATION FOR ENTITIES INVOLVED IN THE EDUCATION SECTOR
+BUSINESS/COMPANY REGISTRATION IN UGANDA
+The legal requirements for the incorporation / registration / formation of a company in
+Uganda are contained in the Companies Act, 2012.
+All businesses in Uganda are required to register with Uganda Registration Service
+Bureau (URSB) to formalize their legal status. The entity will receive either a Certificate
+of registration (if registered in your own names or business names) or Certificate of
+Incorporation if registered as a Limited Liability Company.
+The legal status is to be registered and cleared by different interest stakeholders below
+who have stake in the entity business.
+COMPLIANCE TO LAWS AND POLICIES
+Upon registration, education services business entities are required to comply with the
+requirements of statutory bodies like;
+•	 Uganda Investment Authority (UIA)
+•	 Ministry of Education and sports
+•	 KCCA/LOCAL GOVERNMENT- Upon approval of a Trading License application, you
+will be given a Trading License to enable you operate your business in a defined
+Local Authority country wide.
+REGISTRATION WITH URA
+A person liable to pay tax under a tax law shall apply to the Commissioner for registration
+with Uganda Revenue Authority (URA). On successful registration, the Commissioner
+shall issue to every applicant a Tax Identification Number (TIN).
+A person’s TIN shall be indicated on any return, notice, communication, or other
+document furnished, lodged, or used for the purposes of a tax law.
+A TIN is personal to the person to whom it has been issued and shall not be used by
+another person.
+Note: A TIN is obtained free of charge and therefore no one should charge you for it.
+A GUIDE TO TAXATION OF THE EDUCATION SECTOR 3
+4 A GUIDE TO TAXATION OF THE EDUCATION SECTOR
+DIRECTIVE TO MINISTRIES, GOVERNMENT DEPARTMENTS, AGENCIES AND
+INSTITUTIONS ON USE OF TINS
+Section 135(3) of the Income Tax Act (ITA), requires that every local authority,
+Government institution, or regulatory body shall require a Tax Identification Number
+from any person applying for a license or any form of authorization necessary for
+purposes of conducting any business in Uganda.
+
+
+WHAT IS A TIN?
+TIN stands for Tax Identification Number. A TIN is a 10-digit number which acts as
+an account of a taxpayer with Uganda Revenue Authority (URA). It shall be used for
+identification of each taxpayer, communication with URA and shall be used for all tax
+purposes under all tax laws.
+REQUIREMENTS FOR TIN REGISTRATION
+The key requirements for TIN registration include;
+1.Individuals
+An individual is a living person who applies for a TIN. The required documents include:
+• Copies of National identification card or two identification documents one which
+must be from the three listed here (Passport, Employee’s ID or Voter’s Card).
+• Others are; Driving Permit, Work Permit, Village Identity Card, Current Bank
+Statements (past 90 days), VISA card Number, Diplomatic Foreign Affairs ID.
+Please take note of the following categories that need additional requirements
+a.Foreign Directors
+Foreign Director is a non-Ugandan who has incorporated a company in Uganda.
+i)For resident foreign directors to qualify for a TIN in Uganda, they require to have the
+following documentations:
+• Valid passport and either
+• Work permit for non-East Africans (ie if it is already processed) or
+• National IDs for East-Africans or
+• Refugee ID for refugees
+b.Non-resident directors
+At least two valid identification documents are mandatory, ie valid passport and foreign
+national security cards among others.
+Note: A work permit is not mandatory for foreign directors as it is a requirement to have
+a TIN to process a work permit.
+c.Minors
+A Minor is a person who is under 18 years of age. For minors to qualify for a TIN, a copy
+of Legal / Court document of guardianship shall be attached.
+2.Non-Individuals
+A Non-Individual is an entity that is not a living person and it includes partnership, trust,
+a company, retirement fund, a government etc.
+{
+  "entities": [
+    {
+      "type": "Company",
+      "subTypes": [
+        {
+          "subType": "Public Company",
+          "documents": {
+            "Certificate of Incorporation": "O",
+            "Memorandum between Government and Entity": "M"
+          }
+        },
+        {
+          "subType": "Private Company",
+          "documents": {
+            "Company form 7(20)": "M",
+            "Certificate of Incorporation": "M",
+            "Company form 8": "O"
+          }
+        },
+        {
+          "subType": "Foreign Company",
+          "documents": {
+            "Certificate of Registration": "M",
+            "Company form 19": "M",
+            "Company form 21": "M"
+          }
+        }
+      ]
+    },
+    {
+      "type": "Other Entity types",
+      "subTypes": [
+        {
+          "subType": "Club, Society or Associations",
+          "documents": {
+            "Certificate of Registration": "M",
+            "Club Constitution": "O"
+          }
+        },
+        {
+          "subType": "Estate or Trust",
+          "documents": {
+            "Certificate of registration": "M",
+            "Trust deed": "O"
+          }
+        }
+      ]
+    },
+    {
+      "type": "Partnership",
+      "subTypes": [
+        {
+          "subType": "General Partnership",
+          "documents": {
+            "Partnership deed": "O",
+            "Certificate of Registration": "M",
+            "Statement of Particulars": "M"
+          }
+        },
+        {
+          "subType": "Joint Venture (JV)",
+          "notes": [
+            "Where the name of the JV is different from the corporate names of all partners which are corporations.",
+            "Where a partner in the JV is a resident person, the JV shall be registered as resident partnership.",
+            "Where none of the partners in the JV is a resident person, the JV shall be registered as a non-resident partnership."
+          ],
+          "documents": {
+            "Joint venture agreement duly endorsed by the Registrar of companies": "M",
+            "Registration/incorporation documents shall be required for the individual partners in the JV": "M",
+            "Certificate of Registration of the JV under the Registration of Business Names Act": "M"
+          }
+        },
+        {
+          "subType": "Limited Liability Partnership",
+          "documents": {
+            "Certificate of Registration of the Limited Liability Partnership": "M",
+            "Statement of Particulars": "M",
+            "Memorandum and Articles of Association": "M"
+          }
+        }
+      ]
+    }
+  ]
+}
+
+
+
+HOW CAN ONE APPLY FOR A TIN?
+A TIN can be acquired through any of the processes below:
+1. Through the URA Web portal:
+a. Visit the URA web portal
+b. Download the appropriate registration form (Individual or Non Individual),
+c. Complete the form by filling in the mandatory fields (boxes)
+d. Upload and submit online the completed form
+e. Receive an acknowledgment notice
+f. Print a copy of the form and sign it and together with the necessary attachments
+submit to the nearest URA office.
+g. Receive notification of approved or rejected TIN application
+h. Print TIN Certificate sent to the email registered with URA from anywhere
+2. Visiting a URA designated office
+In case a taxpayer cannot register online, he or she can walk into any of the URA offices
+or One Stop Centre located in any Municipality or KCCA division and assistance shall
+be provided to complete the registration process. Ensure that you move along with the
+necessary attachments as listed above.
+In case of failure to do any of the above, call the Contact Centre: 0800217000 or
+0800117000 (Toll free) or WhatsApp 0772140000 or send an email to services@ura.
+go.ug
+BENEFITS OF ACQUIRING A TIN:
+i. Acquiring a TIN enables you to:
+	Import or export goods within and outside Uganda.
+	Claim tax benefits that accrue to you e.g. tax refunds etc.
+	Access bank loans.
+A GUIDE TO TAXATION OF THE EDUCATION SECTOR 7
+	Acquire a license or any form of authorization necessary for purposes of
+conducting any business in Uganda from Local Government / KCCA, government
+institution or regulatory body.
+	Register your Motor Vehicle
+	Process land transactions above 50 Million UGX.
+The TIN acts as a security measure on transactions regarding some assets e.g. already
+validated motor vehicles, titled land since a notification is automatically sent to the
+owner’s TIN account and registered email.
+
+
+TAXPAYER RIGHTS AND OBLIGATIONS
+{
+  "rights": [
+    {
+      "right": "To object to tax assessments",
+      "details": "You can appeal for a review or to the Commissioner General, or to courts of law where you feel you have not been given satisfactory hearing."
+    },
+    {
+      "right": "To equity",
+      "details": [
+        "Tax laws and procedures shall be applied consistently to you",
+        "All your tax affairs handled with impartiality",
+        "You and your agent(s) shall be presumed honest until proven otherwise",
+        "You shall always pay the correct tax"
+      ]
+    },
+    {
+      "right": "To confidentiality",
+      "details": "Your tax affairs shall be kept secret and any tax information in our possession shall be used in accordance with the law."
+    },
+    {
+      "right": "To clear, precise, and timely information",
+      "details": "You and your authorized agent(s) shall be provided with clear, precise and timely information."
+    },
+    {
+      "right": "To courteous and professional services",
+      "details": "You will receive courteous and professional services at all times."
+    }
+  ],
+  "obligations": [
+    {
+      "obligation": "Comply with all the taxation requirements and regulations."
+    },
+    {
+      "obligation": "Make full disclosure of information and correct declaration of all transactions at all times."
+    },
+    {
+      "obligation": "Pay the correct tax at the right time and place as required by the relevant laws."
+    },
+    {
+      "obligation": "Not indulge in any form of tax evasion and other illegal practices."
+    },
+    {
+      "obligation": "Cooperate only with the Authority’s authorized staff in handling your tax matters."
+    },
+    {
+      "obligation": "Quote your Tax Identification Number (TIN) for all dealings with URA."
+    },
+    {
+      "obligation": "Request for a proper receipt for all your purchases and keep records properly."
+    }
+  ]
+}
+
+BOOK KEEPING AND ACCOUNTS FOR TAX PURPOSES
+1. It is very important for taxpayers to;
+– Keep proper records of all business transactions in English language;
+– Keep records such that it is easy to determine their tax liability;
+– Keep records for five years after the end of the tax period to which they relate for
+future reference.
+2. In case a record is necessary for a proceeding which started before the end of the 5
+year period, a taxpayer shall keep the record until the end of the proceedings.
+3. The records kept should contain sufficient transaction information and should be
+saved in a format that is capable of being recovered and converted to a standard
+understandable record format.
+4. A taxpayer who wishes to keep records in a different language or currency shall
+apply in writing with clear reasons to the commissioner for permission.
+5. Where a record is not in English, the taxpayer will be required to meet the cost of
+translation into English by a translator approved by the Commissioner.
+ However, the taxpayer shall file a tax return or provide other correspondence with
+the Commissioner in English.
+
+
+WHEN IS A PERSON DEREGISTERED BY URA?
+A person who no longer fulfills the registration conditions may, in the prescribed
+manner, apply to the Commissioner to be deregistered.
+•	 The Commissioner shall by notice in writing, deregister a person if he is convinced
+that the person no longer satisfies the registration conditions
+•	 A person who temporarily closes a business with an intention of resuming, shall not
+be deregistered but apply to the commissioner in writing to have his TIN deactivated
+and later on reactivated when they resume business
+FAILURE TO REGISTER FOR A TIN, CANCEL A REGISTRATION OR NOTIFY THE
+COMMISSIONER OF A CHANGE IN REGISTRATION OR CIRCUMSTANCES
+The penalty for a person who fails to apply for registration, cancel a registration or
+notify the Commissioner of a change in registration or circumstances is;
+i.a fine not exceeding Shs. 3,000,000 or imprisonment not exceeding six years or both
+on conviction if the failure/act was done knowingly or recklessly.
+ii.to a fine not exceeding Shs. 1,000,000 or imprisonment not exceeding two years or
+both on conviction in any other case.
+•	 The penalty to be paid under this section shall be recovered and collected as unpaid
+tax.
+USE OF A FALSE TIN
+A TIN is personal to the person to whom it has been issued and shall not be used by
+another person.
+•	 A person who uses a false TIN on a tax return or other document prescribed or used
+A GUIDE TO TAXATION OF THE EDUCATION SECTOR 9
+for the purposes of a tax law, knowingly or recklessly or not, commits an offence and
+is liable on conviction to a fine not exceeding Shs. 3,000,000 or imprisonment not
+exceeding six years or both.
+PENALTY FOR FAILURE TO MAINTAIN PROPER RECORDS
+The penalty for knowingly or recklessly or not failing to maintain records as required
+under any tax law is a fine not exceeding Shs. 2,000,000 or imprisonment not exceeding
+six years or both on conviction.
+Note: A taxpayer, who cannot effectively handle his tax matters, can appoint a tax
+agent to transact with URA on his/her behalf.
+
+
+USE OF TAX AGENTS
+WHO IS A TAX AGENT?
+A tax agent is a person licensed by the Tax Agents Registration Committee (TARC)
+to handle tax related issues on behalf of the taxpayer. An agent can be an individual,
+partnership, or company. An agent engages in the following activities on behalf of the
+taxpayer:
+•	 Preparation, certification, and filing tax returns, or other statements or reports
+required by the Authority.
+•	 Preparation of requests for ruling, petitions for reinvestigation, protests, objections,
+requests for refund or tax certificates, compromise settlements and/or reductions
+of tax liabilities and other official papers and correspondences with the Authority.
+•	 Attending meetings and hearings on behalf of the taxpayer in all matters relating to a
+taxpayer rights, privileges or liabilities under the laws administered by the Authority
+WHO REQUIRES A TAX AGENT?
+Taxpayers who need tax advisory services.
+
+
+TAX TYPES APPLICABLE TO THE EDUCATION AND SPORTS SECTOR
+INCOME TAX
+Any person dealing in education services business is required to be registered for
+income tax. Income tax applies generally to all types of persons who derive income,
+whether an individual, non-individual or partnership.
+Resident persons are taxed on worldwide income, while non-resident persons are taxed
+only on income derived from sources in Uganda.
+The tax payer is required to make a self-assessment by calculating the taxable income
+and then calculate tax due on that income. The taxpayer’s calculations are reviewed
+by revenue officials when returns are filed to ensure that the declarations made are
+correct. The income tax rates apply differently to;
+A.Non Individuals
+B.Individuals
+A) Tax rates for non-individuals in education services business.
+The income tax rate for a company i.e. a body of persons, corporate or unincorporated,
+created or recognized under any law in Uganda or elsewhere, is 30% of the entity’s
+CHARGEABLE INCOME (gross income less tax allowable deductions.)
+
+Income tax worked example for a non-individual in education services business.
+The table below shows the income statement for Chongod Primary school for the
+period 1/01/2018 to 31/12/2018
+{
+  "sales_revenue": {
+    "Tuition": 875025000,
+    "Swimming": 291675000,
+    "Total Sales": 1166700000
+  },
+  "cost_of_sales": {
+    "Total Cost Of Sales": 370428000
+  },
+  "expenses": {
+    "Pay Roll": 332177000,
+    "Employees Benefits": 56865000,
+    "Direct Expenses": 54835000,
+    "Advertising": 33834000,
+    "Study tours": 11667000,
+    "Utilities": 37334000,
+    "Administrative Expenses": 46668000,
+    "Total Expenses": 573380000
+  },
+  "profit_and_tax": {
+    "Profit Before Interest And Tax": 222892000,
+    "Interest": 84000000,
+    "Profit Before TAX": 138892000,
+    "TAX": 41667600
+  }
+}
+
+
+B) Tax rates for Individuals in education services business
+The income tax rate for individuals depends on the income bracket in which the
+individual falls. Resident individuals enjoy a tax free annual income threshold of UGX.
+2,820,000 per annum. The balance is taxed at 10%, 20% or 30% depending on the
+income bracket. Individuals who earn above UGX 120,000,000 per annum pay an
+additional 10% on the income above UGX 120 million.
+N.B CY represents chargeable income.
+{
+  "annual_chargeable_income": {
+    "rate_of_tax": {
+      "residents": [
+        {
+          "income_range": "0 to 2,820,000",
+          "tax_rate": "Nil"
+        },
+        {
+          "income_range": "2,820,000 to 4,020,000",
+          "tax_rate": "(CY – 2,820,000) x 10%"
+        },
+        {
+          "income_range": "4,020,000 to 4,920,000",
+          "tax_rate": "(CY – 4,020,000) x 20% + 120,000"
+        },
+        {
+          "income_range": "4,920,000 to 120,000,000",
+          "tax_rate": "(CY – 4,920,000) x 30% + 300,000"
+        },
+        {
+          "income_range": "Above 120,000,000",
+          "tax_rate": "[(CY – 4,920,000) x 30% + 300,000] + [(CY – 120,000,000) x 10%]"
+        }
+      ],
+      "non_residents": [
+        {
+          "income_range": "0 to 4,020,000",
+          "tax_rate": "CY x 10%"
+        },
+        {
+          "income_range": "4,020,000 to 4,920,000",
+          "tax_rate": "(CY – 4,020,000) x 20% + 402,000"
+        },
+        {
+          "income_range": "4,920,000 to 120,000,000",
+          "tax_rate": "(CY – 4,920,000) x 30% + 582,000"
+        },
+        {
+          "income_range": "Above 120,000,000",
+          "tax_rate": "[(CY – 4,920,000) x 30% + 582,000] + [(CY – 120,000,000) x 10%]"
+        }
+      ]
+    }
+  }
+}
+
+Income tax worked example for a resident individual in business.
+Using the example of Chongod primary school above; assuming the school is owned
+by Katende Edith a resident individual trading as Chongod primary school, the tax
+payable would be:
+SOLUTION:
+The chargeable Income UGX 138,892,000 falls in the bracket (above UGX 120,000,000)
+[(CY – 4,920,000) x 30% + 300,000] + [(CY –120,000,000) x 10%]
+{(138,892,000-4,920,000) *30%+300,000} + {(138,892,000-120,000,000) *10%}
+=42,380,800
+Tax payable =UGX 42,380,800
+Income tax exemption
+Public education institutions are Income tax exempt - if the sole purpose is the
+advancement of education and not operated or conducted for profit.
+NB: Private education institutions pay tax
+
+
+	PAYE AS YOU EARN.
+Any person dealing in education services business and offers employment is required
+to be registered for Pay As You Earn (PAYE).
+Employment refers to a;
+•	 Position of an individual in employment of another Person,
+•	 Directorship of a company, a position entitling the holder to a fixed or ascertainable
+A GUIDE TO TAXATION OF THE EDUCATION SECTOR 13
+remuneration.
+•	 Holding or acting in a public office.
+CASH received by the employee and BENEFITS IN KIND.
+Employment income includes gross cash received in form of; salary, leave pay,
+payment in lieu of leave, overtime pay, fees, commission, gratuity, bonus, allowances
+(entertainment, duty, utility, welfare, housing, medical, sitting, transport or any other
+allowances).
+Benefits in kind include use of employer office Motor vehicle for personal errands, free
+accommodation, use of driver, domestic workers and free utilities (power, water) paid
+by the employer on behalf of the employee. The benefits in kind are computed using
+particular formulae in the 3rd Schedule of the Income Tax Act.
+The PAYE is tax withheld from all employees earning a salary income above the stated
+threshold as per the Income Tax Act and filed by the employer to URA by the 15th of the
+following month.
+Please Note
+1) It is an obligation of the employer (not the employee) to deduct PAYE on a monthly
+basis and furnish the return by the 15th of the following month.
+2) The amounts withheld should also be paid over to URA by the 15th of the following
+month to avoid interest charges
+PAYE Tax rates that apply for both Residents and Non Residents.
+{
+  "chargeable_income_monthly": {
+    "rate_of_tax": {
+      "residents": [
+        {
+          "income_range": "0 to 235,000",
+          "tax_rate": "Nil"
+        },
+        {
+          "income_range": "235,000 to 335,000",
+          "tax_rate": "(CY – 235,000) x 10%"
+        },
+        {
+          "income_range": "335,000 to 410,000",
+          "tax_rate": "(CY – 335,000) x 20% + 10,000"
+        },
+        {
+          "income_range": "410,000 to 10,000,000",
+          "tax_rate": "(CY – 410,000) x 30% + 25,000"
+        },
+        {
+          "income_range": "Above 10,000,000",
+          "tax_rate": "[(CY – 410,000) x 30% + 25,000] + [(CY – 10,000,000) x 10%]"
+        }
+      ],
+      "non_residents": [
+        {
+          "income_range": "0 to 335,000",
+          "tax_rate": "CY x 10%"
+        },
+        {
+          "income_range": "335,000 to 410,000",
+          "tax_rate": "(CY – 335,000) x 20% + 33,500"
+        },
+        {
+          "income_range": "410,000 to 10,000,000",
+          "tax_rate": "(CY – 410,000) x 30% + 48,500"
+        },
+        {
+          "income_range": "Above 10,000,000",
+          "tax_rate": "[(CY – 410,000) x 30% + 48,500] + [(CY – 10,000,000) x 10%]"
+        }
+      ]
+    }
+  }
+}
+
+PAYE worked examples for resident employee.
+1. Kamonde is a resident employed by Seeta primary school. He earns a monthly salary
+of UGX 200,000. Is the company obliged to deduct PAYE tax from Kamonde?
+Solution; No, because Kamonde’s monthly salary is less than the threshold UGX
+235,000 so his salary does not attract PAYE.
+2. If Kamonde in addition to the monthly salary of UGX 200,000 is given travelling
+monthly allowance of UGX 95,000 and medical monthly allowance of UGX 55,000.
+Monthly allowance for accommodation UGX 150,000
+Compute his monthly amount of PAYE to be deducted from Kamonde’?
+Solution
+Computation of Monthly Employment Income:
+Salary 200,000 UGX
+Travelling allowance 95,000 UGX
+Medical allowance 55,000 UGX
+Accommodation allowance 150,000 UGX
+Total {chargeable income} 500,000 UGX
+Computation of the PAYE to be deducted:
+{500,000 falls under the bracket (Exceeding Shs. 410,000 but not exceeding
+10,000,000)}
+Thus the PAYE applicable will be (30% of the amount by which chargeable income
+exceeds Shs. 410,000 + 25000
+Chargeable Income 500.000 UGX
+Less 410.000 UGX
+Balance 90,000 UGX
+30 % 27,000 UGX
+Add 25,000 UGX
+Tax there on in UGX 53,000
+PAYE worked examples for non-resident employee.
+3. Mr. Brown is a non-resident employed by Seeta primary school. He earns a monthly
+salary of UGX15, 000,000. Compute his monthly amount of PAYE to be deducted?
+Solution
+15,000,000 falls under the bracket (Exceeding UGX 410,000)
+Thus PAYE = (48,500 + 30% (15,000,000 - 410,000)) + 10% (15,000,000 - 10,000,000)
+= UGX 4,925,500
+
+Common Mistakes made under PAYE Returns
+1. Excluding:
+• Temporary staff
+• Outsourced staff
+• Technical staff
+• Contract staff
+2. Not showing:
+• Staff TINS
+• Allowances for permanent and contract staff
+3. Others
+• Not deducting Local Service Tax (LST) before PAYE
+
+
+WITHHOLDING TAX (WHT)
+Withholding tax (WHT) is income tax that is withheld at source by one person
+(withholding agent) upon making payment to another person (payee).
+Withholding Agent:
+A withholding agent is a person legally obliged to withhold tax on payment.
+To become a withholding agent one must;
+• Be on the list of selected / designated withholding agents published by the Minister
+of finance in a gazette or
+• Be making a payment on a transaction that is required by law to be deducted from
+WHT.
+Withholding taxes may be final or creditable;
+• Under the final withholding tax system, the amount of income tax withheld by the
+withholding agent is constituted as a full and final payment of the income tax due
+from the payee on the said income. The payee is not required to file an income tax
+return for the particular income that has faced final withholding tax.
+• Under the creditable withholding tax system, taxes withheld on certain income
+payments are advance tax payments which are offset against a final tax liability in
+an assessment for a particular year of income. The payee required to file an income
+tax return to report the income and/or pay the difference between the tax withheld
+and the tax due on the income.
+WHT should be considered when making the following payments:
+i. Employment income: Tax is deducted by the employer from the employment
+income of every liable employee on a monthly basis under the PAYE system.
+ii. International payments: Tax is imposed on every non-resident person who derives
+16 A GUIDE TO TAXATION OF THE EDUCATION SECTOR
+any dividend, interest, royalty, natural resource payment or management charge
+from sources in Uganda. The tax is withheld by the payer at the rate of 15% on the
+gross amount before payment.
+iii. Payments to non-resident Contractors or professionals: Tax is imposed on every
+non-resident person deriving income under a Ugandan source service contract. The
+tax is charged at 15% of the gross amount of payment and the person making the
+payment should withhold the relevant tax before effecting the payment.
+iv. Payments on dividends: A resident company which pays a dividend to a resident
+shareholder is required to withhold tax at 15% of the gross amount of the dividend
+paid, except where the dividend income is exempt from tax in the hands of the
+shareholder. However, where the dividend is paid by a company listed on the stock
+exchange to a resident shareholder, the rate is 10% on the gross amount.
+v. Payment for Goods and services: Any payment of amounts in total exceeding Shs.
+1,000,000 to any person in Uganda for the supply of goods, materials of any kind
+or services, is required to withhold 6% of the gross amount. The threshold of Shs.
+1,000,000 is in respect of the total contract value, implying that separate supplies
+which constitute one contract are subject to the 6% withholding tax regardless of
+the fact that the amount paid per a single supply or transaction is less than the
+threshold value.
+vi. Payments to insurance agents: An insurance service provider who pays commission
+to an insurance agent is required to withhold 10% of the payment.
+vii. Payments to advertising agents: A person who makes a commission payment to an
+advertising agent is required to withhold 10% of the gross amount of the payment.
+Responsibility of Filing a WHT return and Payment of WHT
+• The responsibility for payment of the tax rests primarily on the person making
+payment as a withholding agent. Thus, in case of his/her failure to withhold the
+tax or in case of under-withholding, the under-collected tax becomes due from the
+withholding agent.
+• A WHT Agent is required to pay the tax withheld within 15 days after the end of
+the month in which the payment subject to withholding tax was made by the WHT
+Agent. . Note; this is not only for PAYE but also all other Withholding taxes.
+
+
+VALUE ADDED TAX (VAT)
+VAT is an indirect tax on consumption charged on value added to taxable supplies at
+different stages in the chain of distribution.
+Taxable supplies are goods or services supplied by a taxable person i.e. persons
+registered or required to register for VAT purposes.
+Taxable supplies are not exempt and can either be; Standard rated at 18% VAT or Zerorated at 0% VAT
+ The threshold for VAT registration is an annual turnover of taxable supplies of Shs.150
+million, or Shs. 37.5 million in the first 3 consecutive months.
+A GUIDE TO TAXATION OF THE EDUCATION SECTOR 17
+VAT exempt supplies
+EDUCATION SERVICES ARE VAT EXEMPT SUPPLIES
+ This means schools cannot charge VAT.
+“Education services” means;
+• a pre-primary, primary, secondary school,
+• a technical college or university
+• an institution established for the promotion of adult education, vocational training,
+technical education, or the education or training of physically or mentally handicapped
+persons;
+VAT zero rated supplies
+The supply of educational materials.
+
+IMPORTANT
+ISSUANCE OF E-INVOICES OR E-RECEIPTS BY ALL VAT REGISTERED TAXPAYERS
+It is mandatory for all VAT registered taxpayers to issue e-invoices or e-receipts as no
+tax credit is allowed or claimable on purchases unless they are supported by e-invoices
+or e-receipts.
+All VAT registered taxpayers are obliged to register for EFRIS and issue fiscalised
+invoices i.e. e-invoices.
+The Electronic Fiscal Receipting and Invoicing Solution (EFRIS) is a new smart business
+solution used to record business transactions and share the information with URA in
+real time.
+An e-invoice shows that a sale has occurred through EFRIS. It shows the seller’s details,
+URA information, Buyer’s details, Good and services details, Tax details and Summary
+sections.
+Penalties for non-compliance in regard to EFRIS
+A VAT registered taxpayer who does not adopt the use of EFRIS is liable to pay a
+penal tax equivalent to the tax due on the goods or services or 400 currency points
+whichever is higher.
+Note: One currency point =20,000 Uganda Shs.
+
+
+PERIOD FOR CLAIMING INPUT TAX
+The law allows a period of six (6) months from the date of issue of the invoice within
+which a person can apply for an input tax credit.
+Rental Tax.
+In cases where a person in education business, has rental properties and earns rental
+income or they lease out their land, this income is taxable under section 5 of the Income
+Tax Act.
+CUSTOMS DUTY
+These are taxes which are charged on all goods entering into or leaving our country.
+18 A GUIDE TO TAXATION OF THE EDUCATION SECTOR
+The taxes charged depend on the Value and nature of the item imported.
+Below are the Steps we follow when computing customs duties
+• Step 1 Determine Customs Value (CV);
+• Step 2 Convert the Customs Value to Local Currency (UGX);
+• Step 3 Classify the item (HSC) as per the common external tariff;
+• Step 4 Determine taxes collectable
+• Step 5 Apply the duty rates on the Customs Value
+Customs duties comprise of.
+a) Import duty
+This is a tax collected on imports and some exports not listed in the exemption schedule
+by URA. It is based on the customs value of the goods that are imported. The customs
+value is Cost, Freight and Insurance up to Mombasa or cost and insurance if by Air. The
+rate of import duty is either 0%, 10%, 25% or more for sensitive items like wheat and
+powdered milk.
+NB. For more information on import duty rates, please refer to our common external
+tariff book on the portal under tax assistant, A-Z tax topics.
+Formulae for calculating import duty
+	Import Duty (ID) = ID rate x Customs value
+	VAT = VAT value x 18%= (ID+EXD+CV) x 18%
+Where;
+ID= Import duty
+EXD= Excise duty
+CV= Customs value
+b)Excise duty at Importation
+This tax is only charged on specific goods imported at varying rates.
+Formulae for calculating excise duty
+	Excise duty (EXD)= EXD value x EXD rate= (ID + Customs value ) x EXD rate
+c) VAT at importation
+This is a tax on consumption charged on taxable goods imported into the country and
+is charged at a rate of 18% if the importer is registered for VAT and at 15% on the 18%
+of the value if the importer is not registered for VAT but importing taxable goods of a
+value of UGX 4,000,000 and above.
+NB. If the importer is registered for VAT, he/she can claim any VAT incurred at
+importation through her/his monthly VAT returns.
+A GUIDE TO TAXATION OF THE EDUCATION SECTOR 19
+Formulae for calculating VAT at importation
+	 VAT = VAT value x 18%= (ID+EXD+CV) x 18%
+	Domestic VAT = 15% (VAT value x 18%) = 15% ((ID+EXD+CV) x 18%)
+d)Withholding Tax (WHT) at importation
+This is income tax withheld at importation of a good. It is at a rate of 6% of customs
+value. It can be claimed by the importer when he/she is filing his/her final income tax
+return as advanced tax already paid.
+NB. If the importer is exempted from WHT, he/she should not be charged this tax at
+importation
+Formulae for calculating WHT at importation
+	WHT = Customs value x 6%
+e) Infrastructural levy
+This levy is only applicable to dutiable items imported from outside EAC Region.
+NB: The following will not attract the 1.5% Infrastructure Levy
+1. Items that are at 0% Import duty rate
+2. All items imported under conditional Exemptions as indicated in the 5th Schedule of
+the EACCMA (East African Community Customs Management Act)
+Formulae for calculating infrastructural levy
+	IL = Customs value x 1.5%
+Where; IL= Infrastructural levy
+f) Environmental levy
+This is tax levied on imports that may be harmful to the environment for example on
+used clothes and used vehicle.
+Formulae for calculating infrastructural levy
+	EL on used clothes = Customs value x 10%
+	EL on used vehicles of YOM between 5 and 10years = Customs value x 35%
+EL on used vehicles of YOM 10years and above = Customs value x 50%
+Where; EL= Environmental levy
+
+
+WHAT IS REQUIRED OF YOU AS A TAXPAYER AFTER TIN REGISTRATION?
+You will be required to meet your tax obligations through filing returns and making
+payments
+	RETURNS
+ A tax return is the tax format of reporting business income for the year to URA and
+declares business profits or losses for tax purposes
+ A Tax period is the duration for which a return is required i.e. a year, month or week
+20 A GUIDE TO TAXATION OF THE EDUCATION SECTOR
+ Due date is the deadline for filing a return beyond which a person is required to pay
+a penalty for late filing
+{
+  "annual_returns": {
+    "tax_types": [
+      {
+        "type": "Individual Income tax",
+        "provisional_return_due_date": "The last day of the 3rd month after the start of the year of Income.",
+        "final_return_due_date": "The last day of the 6th month after the end of the year of Income."
+      },
+      {
+        "type": "Rental Income tax – Individual",
+        "provisional_return_due_date": "The last day of the 3rd month after the start of the year of Income.",
+        "final_return_due_date": "The last day of the 6th month after the end of the year of Income."
+      },
+      {
+        "type": "Corporate income tax",
+        "provisional_return_due_date": "The last day of the 6th month after the start of the year of Income.",
+        "final_return_due_date": "The last day of the 6th month after the end of the year of Income."
+      },
+      {
+        "type": "Rental Income tax - Non individual",
+        "provisional_return_due_date": "The last day of the 6th month after the start of the year of Income.",
+        "final_return_due_date": "The last day of the 6th month after the end of the year of Income."
+      },
+      {
+        "type": "Presumptive/Small business income tax",
+        "provisional_return_due_date": "",
+        "final_return_due_date": "The last day of the 6th month after the end of the year of Income."
+      },
+      {
+        "type": "Trust Income tax (Chargeable in the hands of beneficiary)",
+        "provisional_return_due_date": "The last day of the 3rd month after the start of the year of Income.",
+        "final_return_due_date": "The last day of the 6th month after the end of the year of Income."
+      },
+      {
+        "type": "Trust Income tax (Chargeable in the hands other than beneficiary)",
+        "provisional_return_due_date": "The last day of the 6th month after the start of the year of Income.",
+        "final_return_due_date": "The last day of the 6th month after the end of the year of Income."
+      },
+      {
+        "type": "Partnership Income tax",
+        "provisional_return_due_date": "",
+        "final_return_due_date": "The last day of the 6th month after the end of the year of Income."
+      }
+    ]
+  },
+  "monthly_returns": {
+    "tax_types": [
+      {
+        "type": "With Holding Tax",
+        "due_date": "By the 15th day of the following month."
+      },
+      {
+        "type": "PAYE",
+        "due_date": "By the 15th day of the following month."
+      },
+      {
+        "type": "Excise Duty (Goods & Services)",
+        "due_date": "By the 15th day of the following month."
+      }
+    ]
+  }
+}
+
+
+C) Key return issues
+Advance return
+An advance return is a return of income submitted by a taxpayer before the end of a
+given year of Income.
+Instances when an advance Return is required.
+A GUIDE TO TAXATION OF THE EDUCATION SECTOR 21
+i. Before the end of the period for which it is due
+ii. At any time of any year of income, where a taxpayer has died, is bankrupt, wound
+up, gone into liquidation, is about to leave Uganda permanently or any other
+reason where the Commissioner considers appropriate that such a taxpayer may
+be required to file an advance return by a specified date.
+Where an Advance Return is not furnished by the due date, an Advance Assessment
+is issued.
+Note:
+A notice requesting for such a return shall be in writing specifying the due date for filing
+the return.
+Extension of Return Filing date
+If a person is not able to file a return, he can apply for an extension to file his return
+providing reasons justifying the extension.
+The extension if granted will not exceed 90 days and does not change the due date for
+payment of the tax due. Interest will therefore accrue on any outstanding tax liability.
+However multiple extensions can be applied for provided the number of days does not
+exceed 90 days.
+
+
+A GUIDE TO TAXATION OF THE EDUCATION SECTOR
+ Note: If the taxpayer is dissatisfied with the Commissioner’s decision about the
+extension, he may challenge it under the objection and appeals procedure.
+Offences and penalties on returns
+Offences and penalties on returns
+Failure to furnish a return by the due date
+A person who fails to furnish a tax return by the due date or within a further time
+allowed by the Commissioner is liable to a fine not exceeding Shs. 1,000,000 and failure
+to furnish the return within the time prescribed by court to a fine not exceeding Shs.
+2,000,000 on conviction
+Providing False statements
+A person who knowingly or recklessly makes false or misleading statements or omits
+from a statement to a tax officer, a matter or thing is liable to a fine not exceeding two
+hundred currency points that is Shs. 110,000,000 or imprisonment not exceeding ten
+years or both on conviction.
+WHAT HAPPENS IF A TAXPAYER DOESN’T FILE HIS RETURN?
+He will receive an assessment from the URA officer.
+TAX ASSESSMENTS
+An assessment is a document/ form showing the estimated taxable income of a person
+and the tax payable on it including any penalty
+22 A GUIDE TO TAXATION OF THE EDUCATION SECTOR
+DEFAULT ASSESSMENT
+This is a tax assessment made to a person based on estimated taxable income of that
+person. It is generated and issued by the Commissioner due to failure by the taxpayer
+to furnish a self-assessment return for any given tax period.
+ADVANCE ASSESSMENT
+Is a declaration issued if the Commissioner is satisfied that there is a risk that a taxpayer
+may delay, obstruct, prevent, or render ineffective payment or collection of tax that has
+not yet become due.
+It may be made before the date on which the taxpayer’s tax return for the period is due.
+It can be issued if a taxpayer defaults in submitting an advance return when requested
+by the Commissioner. However the Commissioner can also issue this assessment
+without notice.
+This assessment can be objected to and can also be amended.
+Where the taxpayer files a returns for a given period on which a Default or Advance
+assessments was issued, the taxpayer’s return for that period shall be accepted and
+takes precedence over the default assessment.
+Taxpayer is allowed to submit his/her return together with the objection.
+ADDITIONAL ASSESSMENT
+This is an amendment of an original tax assessment issued by the commissioner for any
+tax period to ensure that correct tax liability is obtained.
+
+
+A GUIDE TO TAXATION OF THE EDUCATION SECTOR
+ It is made at any time where fraud or any gross or wilful neglect has been committed
+by, or on behalf of the taxpayer or new information has been discovered in relation to
+the tax payable for a tax period.
+RETURN AMENDMENT
+A taxpayer may amend the tax return on condition the return is not under investigation
+and amendment is done within 3 years from the date on which the original return was
+lodged by the taxpayer.
+PAYMENT OF TAX
+WHAT NEXT AFTER FILING THE RETURN?
+The taxpayer will be required to register a payment and then pay.
+Note; The due date of making the payment is the due date of filing the return.
+HOW DOES ONE REGISTER A PAYMENT
+To register a tax payment;
+A GUIDE TO TAXATION OF THE EDUCATION SECTOR 23
+• Visit the web portal (ura.go.ug) Click on eservices, select Payment Registration
+under payments.
+• Select the tax head, go to details of Tax Type, select the tax head from the drop
+down and input the tax amount.
+• Fill in the details of the Taxpayer and bank mode of payment (VISA, MasterCard,
+American Express, Union Pay, Mobile Money, EFT, RTGS and Swift, Cash, Cheque,
+Demand draft, or Point of Sale), enter the given image and click Accept and
+Register.
+• Print out the Payment Registration Slip that appears on submission and take the
+form to the bank to effect payment.
+MODES YOU CAN USE TO PAY TAX.
+Payment for any tax type can be done using;
+VISA, MasterCard, American Express, Union Pay, Mobile Money, EFT, RTGS and Swift,
+Cash, Cheque, Demand draft, Point of Sale.
+PAYMENT OF TAX
+All taxpayers are required to pay the tax liable by the due date.
+Any unpaid tax shall be collected by the Commissioner through serving a notice of
+demand on the person liable.
+The taxpayer will be given at least 28 days from the date of service of the notice within
+which they can pay any outstanding amount specified in the demand notice.
+FAILURE TO PAY TAX
+Failure to pay attracts interest at a rate of 2%.per month the tax is not paid.
+PAYMENT ALLOCATION TO OUTSTANDING TAX
+If a taxpayer has any outstanding liability and pays any amount, the payment will be
+allocated in the order of PPI (Principal tax liability, penal tax and Interest due).
+If a taxpayer has more than one tax liability at the time a payment is made, the amount
+will be used to clear the oldest / earliest liability first in the same order as above (PPI).
+EXTENSION OF PAYMENT OF TAX
+A taxpayer can apply in writing to the Commissioner for an extension to pay tax at a
+later date.
+The date of payment can be extended but the payment due date is maintained. Interest
+shall accrue from the due date of the payment.
+
+
+OBJECTIONS AND APPEALS
+WHAT HAPPENS TO A TAXPAYER WHO HAS BEEN ASSESSED AND IS DISSATISFIED?
+The taxpayer has an option and a right to object to the decision against her/him.
+24 A GUIDE TO TAXATION OF THE EDUCATION SECTOR
+WHAT IS AN OBJECTION?
+An objection is a communication from a taxpayer to the Commissioner expressing
+dissatisfaction with either an assessment raised on him/her or any other tax decision
+made by the Commissioner.
+This is always presented in the format prescribed by the Commissioner.
+OBJECTION TIMELINES
+• A person who is dissatisfied with any tax decision may lodge an objection with the
+Commissioner within 45 days after receiving notice of the tax decision.
+• A person may apply in writing to the Commissioner for an extension of time to
+lodge an objection and wait for the Commissioner’s decision.
+• The Commissioner will serve a notice of an objection decision to the person
+objecting within 90 days from the date of receipt of the objection.
+• In case an objection decision has not been served within 90 days, the person
+objecting may, by notice in writing to the Commissioner, consider the Commissioner
+as having allowed his objection decision. This is called “electing”
+• The time limit for making an objection decision is waived in case a review of a
+taxpayer’s records is necessary for settlement of the objection and the taxpayer is
+notified.
+• A person dissatisfied with an objection decision may, within 30 days after being
+served with a notice of the objection decision;
+a) May apply to the Commissioner to resolve the dispute using alternative dispute
+resolution procedures that may be prescribed by the Minister through regulations.
+This may present other avenues for taxpayers who would like to review tax
+decisions issued by URA without necessarily lodging an appeal to the Tax Appeals
+Tribunal.
+b) Lodge an application to the Tax Appeals Tribunal (TAT) for review of the objection
+decision.
+• A person dissatisfied with a decision of the Tribunal may, within 30 days after
+being served with a notice of the decision, lodge an application with the High
+Court for review of the decision.
+• A person dissatisfied with a decision of the High Court, arising from appeals to the
+TAT, may, within 30 days after being served with a notice of the decision or within
+further time as the Court of Appeal may allow, lodge an application with the Court
+of Appeal for review of the decision. This appeal will be on questions of law only.
+• The Court of appeal shall inquire and determine the appeal expeditiously and shall
+declare its findings not later than 60 days from the date of filing the appeal.
+• An appeal to the Supreme Court may be lodged with a certificate of the court
+of appeal that the matter raises questions of law of great public importance or if
+the Supreme Court in its overall duty to see that justice is done, considers that the
+appeal should be heard.
+• The Supreme Court shall inquire and determine the appeal expeditiously and shall
+declare its findings not later than 30 days from the date of filing the appeal.”
+• Where the decision maker is required to refund an amount of tax to a person as
+a result of a decision of a reviewing body, the tax shall be repaid with interest at
+the rate specified in the relevant law on the amount of the refund for the period
+commencing from the date the person paid the tax refunded and ending on the
+last day of the month in which the refund is made.
+ Reviewing body means the Tribunal, the High Court, the Court of Appeal and the
+Supreme Court.
+
+BURDEN OF PROOF
+In any objection proceeding;
+a. It is upon the tax payer to prove that the assessment is incorrect.
+OR
+b. In case of a decision made to prove that the decision should not have been made
+or should have been made differently.
+ENFORCEMENT OF TAX
+COLLECTION OF TAX FROM PERSONS LEAVING UGANDA PERMANENTLY
+The Commissioner may issue a certificate containing particulars of the tax payable
+to the officer responsible for immigration control and request the Commissioner for
+Immigration to prevent that person from leaving Uganda until that person;
+(a)Makes payment of the tax in full; or
+(b)Executes a financial bond guaranteeing payment of the tax liability.
+RECOVERY OF TAX
+When a person refuses or fails to comply with payment of taxes as and when required,
+the commissioner may collect the outstanding tax using various methods, such as:
+• By Distress: Goods on which the assessed person has a claim are sold in order to
+recover tax.
+• By Agency Notice: Any other person who has money or other liabilities of the
+person to whom tax is assessed and being demanded from , is required to pay the
+amount held directly to URA.
+• Temporary closure of business premises.
+• Charge over immovable property: The Commissioner writes to the Registrar of
+Titles, directing the Registrar to the effect that the land or buildings in the notice
+are a subject of a security for unpaid tax.
+• Seizure of goods in cases where there is proof that the taxes due have not been
+paid especially in respect of the supply, removal or import of the goods.
+Note:
+If there is reason to believe that;
+(a) A taxpayer establishing a business in Uganda intends to carry on the business
+ for a limited time only; or
+(b)A taxpayer may not pay tax when it becomes payable.
+26 A GUIDE TO TAXATION OF THE EDUCATION SECTOR
+The Commissioner may write to a taxpayer to give security by bond, deposit, or
+anything else that is satisfactory to the Commissioner for the payment of tax that may
+become payable.
+INVESTIGATIONS
+ACCESS to premises, records and any information
+The Commissioner is entitled to have at all times and without prior notice, full and free
+access to;
+(i) Any premises or place;
+(ii) Any record, including a record in electronic format; or
+(iii) Any data storage device
+Make an extract or copy, seize any record, data storage device that may contain data
+relevant to a tax obligation; and retain any record or data storage device seized for as
+long as it is required for determining a taxpayer’s tax obligation and liability, including
+any proceedings.
+ INFORMATION OR EVIDENCE
+The Commissioner may, request any person;
+(a)To furnish, any information or
+(b)To attend and be examined at the time and place designated for that purpose
+concerning the tax affairs of that person or any other person, and for that purpose
+the Commissioner may require the person to produce any record, including an
+electronic format, in the control of the person.
+
+
+TAX INCENTIVES UNDER DOMESTIC TAXES
+INCOME TAX BENEFICIARY INCENTIVES
+{
+  "income_tax_beneficiary_incentives": [
+    {
+      "beneficiary": "Operator in an Industrial Park or Free Zone who invests in establishing or operating vocational or technical institutes",
+      "incentive": "Income derived from undertaking any of the listed business activities in the Industrial Park or Free Zone",
+      "period_of_incentive": "10 years",
+      "conditions": [
+        "Must invest a minimum of USD 10m for foreign investors and USD 300,000 for EAC citizens or USD 150,000 where the investment is made upcountry",
+        "Incentive takes effect from the date of commencement of the specified business, same incentives apply to an existing operator in an Industrial Park or Free Zone",
+        "The investor must use at least 70% of locally sourced raw materials and employ at least 70% EAC citizens who must take up at least 70% of the wage bill"
+      ]
+    },
+    {
+      "beneficiary": "Investor outside an industrial park or free zone carrying out activities as in above",
+      "incentive": "Income derived from undertaking any of the specified business activities",
+      "period_of_incentive": "10 years",
+      "conditions": [
+        "Must invest a minimum of USD 10m for foreign investors and USD 300,000 for EAC citizens or USD 150,000 where the investment is made upcountry",
+        "Incentive takes effect from the date of commencement of the specified business, same incentives apply to an existing operator in an Industrial Park or Free Zone",
+        "The investor must use at least 70% of locally sourced raw materials and employ at least 70% EAC citizens who must take up at least 70% of the wage bill"
+      ]
+    },
+    {
+      "beneficiary": "Collective Investment Schemes",
+      "incentive": "Income tax exemption for Collective Investment Schemes",
+      "period_of_incentive": "Indefinite",
+      "conditions": [
+        "Must be licensed to operate as a collective investment scheme",
+        "Participants in the scheme should not have day-to-day control over the management of the property",
+        "Participants' contributions and ultimate income/profits must be pooled",
+        "Property must be managed as a whole by the operator of the scheme"
+      ]
+    },
+    {
+      "beneficiary": "Private employers of persons with disabilities (PWDs)",
+      "incentive": "Deduction of 2% Income tax for employers that employ PWDs",
+      "period_of_incentive": "Indefinite",
+      "conditions": [
+        "5% of employees must be PWDs"
+      ]
+    },
+    {
+      "beneficiary": "Nonprofit making Organizations",
+      "incentive": "Income tax exemption",
+      "period_of_incentive": "Indefinite",
+      "conditions": [
+        "Where the Commissioner has issued a written ruling stating that it is exempt"
+      ]
+    },
+    {
+      "beneficiary": "Compliant taxpayers",
+      "incentive": "6% WHT exemption",
+      "period_of_incentive": "12 months renewable",
+      "conditions": [
+        "Where the Commissioner is satisfied that the taxpayer has regularly complied with the obligations under the tax laws"
+      ]
+    },
+    {
+      "beneficiary": "All taxpayers",
+      "incentive": "100% deduction of Scientific research expenditure",
+      "period_of_incentive": "Indefinite",
+      "conditions": [
+        "A person who incurs expenditure for scientific research"
+      ]
+    },
+    {
+      "beneficiary": "All taxpayers",
+      "incentive": "100% deduction of training expenditure",
+      "period_of_incentive": "Indefinite",
+      "conditions": [
+        "Employers who train permanent residents or provide tertiary education not exceeding in the aggregate 5 years"
+      ]
+    },
+    {
+      "beneficiary": "All taxpayers",
+      "incentive": "Initial allowance and Depreciation allowance",
+      "period_of_incentive": "Indefinite",
+      "conditions": [
+        "Initial Allowance – capital deduction of 50% of qualifying Plant & machinery and 20% on Industrial building placed in the radius of 50Km outside the boundaries of Kampala",
+        "Person who places depreciable assets in service e.g. computers, automobiles, specialized trucks, tractors, plant and machinery used in farming, manufacturing or mining operations, trailers and trailer mounted containers; and Industrial building deduction of 5% on cost of construction straight line method for 20 years"
+      ]
+    },
+    {
+      "beneficiary": "All taxpayers",
+      "incentive": "Carry forward losses: Assessed loss is carried forward as a deduction in the following year of income",
+      "period_of_incentive": "Duration of the loss",
+      "conditions": [
+        "All taxpayers"
+      ]
+    },
+    {
+      "beneficiary": "Investor established in a country with which Uganda has a DTA",
+      "incentive": "Double Taxation Agreements (DTA): Investors from countries with active DTA’s with Uganda",
+      "period_of_incentive": "Duration of the DTA",
+      "conditions": [
+        "Withholding tax rates applicable to dividends, interests, management fees and royalties are 10% except UK at 15%",
+        "Beneficial owner of investment as defined in the Income Tax Act established with economic substance in a country with which Uganda has a DTA"
+      ]
+    }
+  ]
+}
+
+
+VAT ACT BENEFICIARY INCENTIVES
+{
+  "vat_act_beneficiary_incentives": [
+    {
+      "beneficiary": "Investment in establishing or operating vocational or technical institutes",
+      "incentive": "No VAT on the supply of feasibility study and design services and on the supply of locally produced raw materials and inputs.",
+      "period_of_incentive": "Indefinite",
+      "conditions": [
+        "Must invest a minimum of USD 10m for foreign investors and USD 300,000 for EAC citizens or USD 150,000 where the investment is made upcountry",
+        "Incentive takes effect from the date of commencement of the specified business, same incentives apply to an existing operator in an Industrial Park or Free Zone",
+        "The investor must use at least 70% of locally sourced raw materials and employ at least 70% EAC citizens who must take up at least 70% of the wage bill",
+        "The investor must use at least 70% of locally sourced raw materials subject to their availability, capacity to employ at least 70% EAC citizens who must take up at least 70% of the wage bill"
+      ]
+    },
+    {
+      "beneficiary": "VAT Registered taxpayers",
+      "incentive": "VAT registered persons claim all the VAT incurred.",
+      "period_of_incentive": "Indefinite",
+      "conditions": [
+        "Turnover of UGX 150m in any 12-month period for first time registration",
+        "Ability to keep proper books of accounts and making taxable supplies"
+      ]
+    },
+    {
+      "beneficiary": "Suppliers of educational materials",
+      "incentive": "Zero rating of supply of educational materials.",
+      "period_of_incentive": "Indefinite",
+      "conditions": [
+        "Includes educational materials manufactured in Uganda and the partner states of the EAC"
+      ]
+    }
+  ]
+}
+
+
+STAMP DUTY ACT BENEFICIARY INCENTIVES
+{
+  "stamp_duty_act_beneficiary_incentives": [
+    {
+      "beneficiary": "Operator within an industrial park or free zone or an operator of a single factory or other business outside the industrial park who invests in operating vocational or technical institutes",
+      "incentive": "No Stamp duty on debentures, lease of land, Increase of share capital, transfer of land.",
+      "period_of_incentive": "Duration of activity",
+      "tax_incentive": "Must invest a minimum of USD 10m for foreign investors and USD 300,000 for EAC citizens or USD 150,000 where the investment is made upcountry. Incentive takes effect from the date of commencement of the specified business, same incentives apply to an existing operator in an Industrial Park or Free Zone. The investor must use at least 70% of locally sourced raw materials and employ at least 70% EAC citizens who must take up at least 70% of the wage bill."
+    },
+    {
+      "beneficiary": "Loan applicants",
+      "incentive": "NIL stamp duty on an agreement relating to the deposit of title deeds, pawn pledge-of the total value.",
+      "period_of_incentive": "Indefinite",
+      "tax_incentive": "Agreement relating to the deposit of title deeds, pawn pledge-of the total value."
+    },
+    {
+      "beneficiary": "Loan applicants",
+      "incentive": "NIL stamp duty on security bond or mortgage deed.",
+      "period_of_incentive": "Indefinite",
+      "tax_incentive": "Security bond or mortgage deed executed by way of security for the due execution of an office, or to account for money or other property received by virtue of security bond or mortgage deed executed by a surety to secure a loan or credit facility-of entry value."
+    }
+  ]
+}
+
+
+EXCISE DUTY ACT BENEFICIARY INCENTIVES
+{
+  "excise_duty_act_beneficiary_incentives": [
+    {
+      "beneficiary": "Operator within the industrial park, free zone or other business outside the industrial park or free zone who invests in technical or vocational institutes",
+      "incentive": "Nil duty on construction materials of a factory or warehouse exclusive of those available on the local market, locally produced raw materials and inputs.",
+      "period_of_incentive": "Indefinite",
+      "tax_incentive": "Must invest a minimum of USD 10m for foreign investors and USD 300,000 for EAC citizens or USD 150,000 where the investment is made upcountry. Incentive takes effect from the date of commencement of the specified business, same incentives apply to an existing operator in an Industrial Park or Free Zone. The investor must use at least 70% of locally sourced raw materials and employ at least 70% EAC citizens who must take up at least 70% of the wage bill."
+    }
+  ]
+}
+
+
+INTERNATIONAL TRADE INCENTIVES
+EDUCATION AND SPORTS SECTOR TAX INCENTIVES
+{
+  "education_and_sports_sector_tax_incentives": [
+    {
+      "description": "Educational materials",
+      "tax_incentive": "All approved educational articles and materials as specified in the Florence Agreement are tax exempt under the fifth schedule of the East African Community Customs Management Act. This includes scientific instruments or apparatus intended exclusively for educational purposes or pure scientific research, provided they are consigned to public or private scientific or educational institutions approved by the competent authorities of the importing country, and used under the control and responsibility of these institutions."
+    },
+    {
+      "description": "One motor vehicle for rally driver and spare parts",
+      "tax_incentive": "Exempted from all taxes under the 5th schedule of the East African Community Customs Management Act, 2004"
+    },
+    {
+      "description": "One Motorcycle for racing/rally",
+      "tax_incentive": "Exempted from all taxes under the 5th schedule of the East African Community Customs Management Act, 2004"
+    },
+    {
+      "description": "One Bicycle for racing/rally",
+      "tax_incentive": "Exempted from all taxes under the 5th schedule of the East African Community Customs Management Act, 2004"
+    },
+    {
+      "description": "Exercise books",
+      "tax_incentive": "Exempted from VAT if locally produced, imported exercise books attract VAT."
+    },
+    {
+      "description": "Mathematical sets & geometry sets used in educational services",
+      "tax_incentive": "Exempted from VAT. Import duty is 0% under East African Community Common External Tariff."
+    },
+    {
+      "description": "Woodworking machines",
+      "tax_incentive": "Exempted from VAT. Import duty is 0% under East African Community Common External Tariff."
+    },
+    {
+      "description": "Welding machines",
+      "tax_incentive": "Exempted from VAT. Import duty is 0% under East African Community Common External Tariff."
+    },
+    {
+      "description": "Sewing machines",
+      "tax_incentive": "Exempted from VAT. Import duty is 0% under East African Community Common External Tariff."
+    },
+    {
+      "description": "Crayons, coloured pencils, lead pencils, rulers, erasers, stencils, technical drawing sets, educational computer tablets, educational computer applications, or laboratory chemicals for teaching science subjects used in educational services",
+      "tax_incentive": "Exempted from VAT."
+    },
+    {
+      "description": "Textbooks",
+      "tax_incentive": "Exempted from VAT. Import duty is 0% under East African Community Common External Tariff."
+    },
+    {
+      "description": "Bible",
+      "tax_incentive": "Exempted from VAT. Import duty is 0% under East African Community Common External Tariff."
+    },
+    {
+      "description": "Qu'rans",
+      "tax_incentive": "Exempted from VAT. Import duty is 0% under East African Community Common External Tariff."
+    }
+  ]
+}
+
+
+OTHER IMPORTANT INFORMATION
+WHAT OTHER OFFENCES CAN BE COMMITTED?
+•Failure to furnish a return or any other document
+•Failure to comply with an agency notice or the requirements of a receiver
+•Failure to maintain proper records
+•Failure, without good cause, to comply with a request for information
+•Improper use of a taxpayer identification number
+•Making false or misleading statements
+•Obstructing an officer
+•Aiding and abetting another person to commit an offence.
+•Offering bribes to officers
+IS THERE ANY ADVICE TO THE PLAYERS IN THE SECTOR?
+i.For Associations, mobilize your members and invite URA to sensitize them.
+ii.For Tax payers in the education sector
+• Register for taxes
+• Periodically assess yourselves by filing returns and Pay liabilities due (or claim
+refunds) by the due dates to avoid any penalties and interest that may accrue due
+to non-compliance
+• Always attend URA Tax clinics whenever called upon
+• Engage URA as much as possible to avoid being misled about taxes
+ARE THERE ANY INITIATIVES TO TRAIN THOSE IN THE EDUCATION SECTOR?
+• One of URA’s focus areas this Financial Year is going to be the education sector
+thus we urge business owners to fully participate and attend URA Tax Clinics and
+Workshops when called upon.
+•Taxpayer Registration Expansion Program is being implemented to ease the
+registration process and compliance process.
+References:
+i. THE TAX PROCEDURES CODE ACT, 2014.
+ii. THE INCOME TAX ACT (IT A), CAP.340
+iii. THE VALUE ADDED TAX ACT (VAT A), CAP.349
+iv. THE EXCISE DUTY ACT,2014
+v. THE EAST AFRICAN COMMUNITY CUSTOMS MANAGEMENT ACT
+DISCLAIMER:
+This Information is strictly for purposes of guidance to our clientele
+and is subject to change on amendment of tax legislations & any
+other regulations that govern tax administration.
+
+
+
+
