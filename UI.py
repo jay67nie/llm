@@ -4,10 +4,10 @@ import streamlit as st
 
 
 def handle_user_question(user_question):
-    print(user_question)
-    st.write(st.session_state.messages)
+    # print(user_question)
+    # st.write(st.session_state.messages)
     st.session_state.messages.append({"role":"user", "content":user_question})
-    st.session_state.messages.append({"role":"assistant","content": "This is the response to the user question"})
+    st.session_state.messages.append({"role":"assistant","content": "You asked::: "+user_question})
     
 
     
@@ -31,7 +31,8 @@ def main():
 
     for message in st.session_state.messages:
         with st.chat_message(message["role"]):
-            st.markdown(message["content"])
+            st.write(message["content"])
+            # st.markdown(message["content"])
     
 
 
