@@ -1,0 +1,1180 @@
+Overview
+This sector includes both the wholesale and retail sale (i.e. sale without alteration) of
+any type of goods. Wholesaling and retailing are the final steps in the distribution of
+goods. Also included is the repair of motor vehicles and motorcycles.
+Wholesale is the resale (sale without alteration) of new and used goods to retailers,
+business-to-business trade, resale to other wholesalers, etc. Examples of wholesale
+trade includes
+• Non specialized wholesale trade
+• Wholesale on a fee or contract basis
+• Wholesale of agricultural raw materials and live animals
+• Wholesale of food, beverages and tobacco
+• Wholesale of household goods
+• Wholesale of machinery, equipment and supplies
+• Other specialized wholesale
+A wholesaler will often assemble, sort and grade goods in large lots, and repack and
+redistribute in smaller lots. The goods are frequently destined for retailers.
+Retailers
+Retailing is the resale (sale without alteration) of new and used goods – often referred
+to as consumer goods - mainly to the general public for personal or household
+consumption via shops, department stores, stalls, mail-order houses, door-to-door
+sales persons, etc.
+Retailers consist of small and large for-profit businesses that sell products directly to
+consumers. To realize a profit, retailers search for products that coincide with their
+business objectives and find suppliers with the most competitive pricing. Generally,
+a retailer can buy small quantities of an item from a distributor or a wholesaler. For
+instance, a retail trader who wanted to purchase 24 boxes of books could contact
+stationery distributors to inquire about pricing.
+The whole sale and retail sector faces a number of challenges and these includes:-
+• Illiteracy of the players
+• Numerous small segmented players.
+• Poor records keeping.
+• The sector is highly dominated by middle men who swindle traders’ money.
+N.B
+All players in this sector are required to account for their incomes and register for the
+applicable tax types.
+Any expense that exceeds 5 million in regard to an unregistered supplier is not tax
+deductible. The players in this sector should therefore endeavor to register for TINs
+and also transact with businesses that are registered too.
+
+
+IS YOUR BUSINESS OR COMPANY REGISTERED?
+All businesses in Uganda are required to register with URSB, KCCA/LOCAL
+GOVERNMENT and URA.
+At URSB, upon approval of Business Registration application, you will receive either
+a Certificate of Registration (if registered in Personal Name or Business Name
+or incorporated outside Uganda) or a Certificate of Incorporation (if the entity is
+registered as Limited by shares or guarantee). This will enable you to get a TIN either
+as an individual (in your Personal Name, or Business Name) or Non Individual (Limited
+Partnership or Trust or Government Body or Public Institution) name.
+At URA, upon approval of a TIN application, you will be given a Tax Identification
+Number (TIN) for tax purposes. It is a 10-digit number which acts as an account of a
+taxpayer with Uganda Revenue Authority (URA). All traders are required to quote this
+number in all their communications with URA and business transactions.
+A TIN is obtained free of charge and therefore no one should charge you for it.
+At KCCA/LOCAL GOVERNMENT, upon approval of a Trading License application, you
+will be given a Trading License to enable you operate your business in a delineated
+Local Authority country wide.
+
+REGISTRATION WITH URA
+Any trader generating income in Uganda is required to register for taxes.
+Once you acquire a TIN, then you must always use it when transacting with Uganda
+Revenue Authority for tax purposes.
+
+WHAT IS A TIN?
+TIN stands for Tax Identification Number. It is a 10-digit number which acts as an
+account of a taxpayer with Uganda Revenue Authority (URA). All taxpayers are
+required to quote this number in all their communications with URA and business
+transactions.
+A person’s TIN shall be indicated on any return, notice, communication, or other
+document furnished, lodged, or used for the purposes of a tax law.
+A TIN is personal to the person to whom it has been issued and shall not be used by
+another person.
+Please note that a TIN is obtained free of charge and therefore no one should charge
+you for it.
+
+REQUIREMENTS FOR TIN REGISTRATION
+The key requirements for TIN registration include;
+1. Individuals
+An individual is a living person who applies for a TIN. The required documents include:
+• Copies of National identification card or two identification documents one
+which must be from the three listed here (Passport, Employee’s ID or Voter’s
+Card).
+4 Aguide To Taxation Of The Wholesale And Retail Sector
+• Others are; Driving Permit, Work Permit, Village Identity Card, Current Bank
+Statements (past 90 days), VISA card Number, Diplomatic Foreign Affairs ID.
+Please take note of the following categories that need additional requirements
+a. Foreign Directors
+Foreign Director is a non-Ugandan who has incorporated a company in Uganda.
+i) For resident foreign directors to qualify for a TIN in Uganda, they require to have
+the following documentations:
+• Valid passport and either
+• Work permit for non-East Africans (ie if it is already processed) or
+• National IDs for East-Africans or
+• Refugee ID for refugees
+b. Non-resident directors
+At least two valid identification documents are mandatory, ie valid passport and
+foreign national security cards among others.
+Note: A work permit is not mandatory for foreign directors as it is a requirement to
+have a TIN to process a work permit.
+c. Minors
+A Minor is a person who is under 18 years of age. For minors to qualify for a TIN, a
+copy of Legal / Court document of guardianship shall be attached.
+2. Non-Individuals
+A Non-Individual is an entity that is not a living person and it includes partnership,
+trust, a company, retirement fund, a government etc.
+
+{
+  "entity_types": [
+    {
+      "type": "Company",
+      "sub_types": [
+        {
+          "name": "Public Company",
+          "documents_required": {
+            "Certificate of Incorporation": "Optional",
+            "Memorandum between Government and Entity": "Mandatory"
+          }
+        },
+        {
+          "name": "Private Company",
+          "documents_required": {
+            "Company form 7(20)": "Mandatory",
+            "Certificate of Incorporation": "Mandatory",
+            "Company form 8": "Optional"
+          }
+        },
+        {
+          "name": "Foreign Company",
+          "documents_required": {
+            "Certificate of Registration": "Mandatory",
+            "Company form 19": "Mandatory",
+            "Company form 21": "Mandatory"
+          }
+        }
+      ]
+    },
+    {
+      "type": "Other Entity types",
+      "sub_types": [
+        {
+          "name": "Club, Society or Associations",
+          "documents_required": {
+            "Certificate of Registration": "Mandatory",
+            "Club Constitution": "Optional"
+          }
+        },
+        {
+          "name": "Estate or Trust",
+          "documents_required": {
+            "Certificate of registration": "Mandatory",
+            "Trust deed": "Optional"
+          }
+        }
+      ]
+    },
+    {
+      "type": "Partnership",
+      "sub_types": [
+        {
+          "name": "General Partnership",
+          "documents_required": {
+            "Partnership deed": "Optional",
+            "Certificate of Registration": "Mandatory",
+            "Statement of Particulars": "Mandatory"
+          }
+        },
+        {
+          "name": "Joint Venture (JV)",
+          "documents_required": {
+            "Joint venture agreement duly endorsed by the Registrar of companies": "Mandatory",
+            "Registration/incorporation documents for individual partners in the JV": "Mandatory",
+            "Certificate of Registration of the JV under the Registration of Business Names Act": "Mandatory"
+          }
+        },
+        {
+          "name": "Limited Liability Partnership",
+          "documents_required": {
+            "Certificate of Registration of the Limited Liability Partnership": "Mandatory",
+            "Statement of Particulars": "Mandatory",
+            "Memorandum and Articles of Association": "Mandatory"
+          }
+        }
+      ]
+    }
+  ]
+}
+
+
+HOW DO YOU REGISTER FOR TAXES/ APPLY FOR A TIN?
+A TIN can be acquired through any of the processes below:
+1. Through the URA Web portal:
+a. Visit the URA web portal and click e-Services
+6 Aguide To Taxation Of The Wholesale And Retail Sector
+b. Under e-Services click register for taxes
+c. Select the registration type applicable to you;
+- Instant TIN application
+- Web form TIN application for individuals
+- Excel template Individual TIN registration
+- Non-individual TIN registration
+- Group TIN registration that is; registering a company along with its directors.
+d. Complete the application and submit
+e. Upon approval by URA, you will receive a TIN and it will be sent to the phone
+number and email address you provided to URA at the point of registration.
+f. Print TIN Certificate sent to your e-mail address.
+2. Visiting a URA designated office
+In case a taxpayer cannot register online, he or she can walk into any of the URA
+offices or One Stop Centre located in any Municipality or KCCA division and
+assistance shall be provided to complete the registration process. Ensure that you
+move along with the necessary attachments as listed above.
+In case of failure to do any of the above, call the Contact Centre: 0800217000 or
+0800117000 (Toll free) or WhatsApp 0772140000 or send an email to services@ura.
+go.ug
+
+WHAT ARE THE BENEFITS OF ACQUIRING A TIN?
+i. Acquiring a TIN enables you to:
+• Import or export goods within and outside Uganda.
+• Claim tax benefits that accrue to you e.g. tax refunds etc.
+• Access bank loans.
+• Acquire a trading license from Local Government / KCCA to undertake
+business in their jurisdiction.
+• Register your Motor Vehicle
+• Process land transactions above 50 Million Shillings.
+The TIN acts as a security measure on transactions regarding some assets e.g. already
+validated motor vehicles, titled land since a notification is automatically sent to the
+owner’s TIN account and registered email.
+NOTE:A local authority, government institution or regulatory body shall not issue a
+license or any form of
+
+Digital Tax Stamps
+What is a Digital Tax Stamp (DTS)?
+A Digital Tax Stamp is a marking that is applied to goods or their packaging and
+contains; security features and codes to prevent counterfeiting of goods and enable
+track and trace capabilities.
+Aguide To Taxation Of The Wholesale And Retail Sector 7
+Goods affected by Digital Tax Stamps include:
+a) All excisable goods; starting with wines, spirits, mineral water or bottled
+water, tobacco products, beer, soda, bottled water, Sugar, cement , cement
+bulker, cooking oil, fruit juice and vegetable juice, other alcoholic, other nonalcoholic and any other fermented beverages.
+b) Other goods as gazetted by the Commissioner.
+Note: These products whether locally manufactured or imported are not allowed on
+the market without stamps.
+Penalty for non- compliance:
+A trader in possession of gazetted goods on which a tax stamp is not affixed shall
+face a penal tax equivalent to double the tax due on goods or fifty (50) million
+shillings, whichever is higher.
+
+
+TAXPAYER RIGHTS AND OBLIGATIONS
+{
+  "Rights": {
+    "1": {
+      "Right": "You have a right to equity:",
+      "Details": [
+        "Tax laws and procedures shall be applied consistently to you",
+        "All your tax affairs handled with fairness",
+        "You and your agent(s) shall be presumed honest until proven otherwise",
+        "You shall always pay the correct tax"
+      ]
+    },
+    "2": {
+      "Right": "Your tax affairs shall be kept secret and tax information in our possession shall be used in accordance with the law."
+    },
+    "3": {
+      "Right": "You and your authorized agent(s) shall be provided with clear, precise and timely information."
+    },
+    "4": {
+      "Right": "You will receive courteous and professional services at all times."
+    }
+  },
+  "Obligations": {
+    "1": "Comply with all the taxation requirements and regulations.",
+    "2": "Make full disclosure of information and correct declaration of all transactions at all times.",
+    "3": "Pay the correct tax at the right time and place as required by the relevant laws.",
+    "4": "Not indulge in any form of tax evasion and other illegal practices.",
+    "5": "In handling your tax matters, you and or your appointed agent(s) shall be expected to deal and cooperate only with the Authority’s authorized staff.",
+    "6": "Quote your Tax Identification Number (TIN) for all dealings with URA.",
+    "7": "Request for a proper receipt for all your purchases and keep records properly."
+  }
+}
+
+
+BOOK KEEPING AND ACCOUNTS
+1. It is very important for taxpayers to;
+– Keep proper records of all business transactions in English language;
+– Keep records such that it is easy to determine their tax liability;
+– Keep records for five years after the end of the tax period to which they relate
+for future reference.
+2. In case a record is necessary for a proceeding which started before the end
+of the 5 year period, a taxpayer shall keep the record until the end of the
+proceedings.
+3. The records kept should contain sufficient transaction information and should be
+saved in a format that is capable of being recovered and converted to a standard
+understandable record format.
+4. A taxpayer who wishes to keep records in a different language or currency shall
+apply in writing with clear reasons to the commissioner for permission.
+5. Where a record is not in English, the taxpayer will be required to meet the cost of
+translation into English by a translator approved by the Commissioner.
+However, the taxpayer shall file a tax return or provide other correspondence with the
+Commissioner in English.
+
+
+WHEN IS A PERSON DEREGISTERED?
+A person who no longer fulfills the registration conditions may, in the prescribed
+manner, apply to the Commissioner to be deregistered.
+The Commissioner shall by notice in writing, deregister a person if he is convinced that
+the person no longer satisfies the registration conditions.
+A person who temporarily closes a business with an intention of resuming, shall not be
+deregistered but apply to the commissioner in writing to have his TIN deactivated and
+later on reactivated when they resume business.
+FAILURE TO REGISTER FOR A TIN, CANCEL A REGISTRATION OR NOTIFY THE
+COMMISSIONER OF A CHANGE IN REGISTRATION OR CIRCUMSTANCES
+A person who fails to apply for registration, cancel a registration or notify the
+Commissioner of a change in registration or circumstances is liable to;
+i. a fine not exceeding Shs. 3,000,000 or imprisonment not exceeding six years or
+both on conviction if the failure/act was done knowingly or recklessly.
+ii. a fine not exceeding Shs. 1,000,000 or imprisonment not exceeding two years or
+both on conviction in any other case.
+• The penalty to be paid under this section shall be recovered and collected as
+unpaid tax.
+Aguide To Taxation Of The Wholesale And Retail Sector 9
+
+USE OF A FALSE TIN
+A TIN is personal to the person to whom it has been issued and shall not be used by
+another person.
+• A person who uses a false TIN on a tax return or other document prescribed
+or used for the purposes of a tax law, knowingly or recklessly or not, commits
+an offence and is liable on conviction to a fine not exceeding Shs. 3,000,000 or
+imprisonment not exceeding six years or both.
+PENALTY FOR FAILURE TO MAINTAIN PROPER RECORDS
+A person who knowingly or recklessly or not fails to maintain records as required
+under any tax law is liable to a fine not exceeding Shs. 2,000,000 or imprisonment not
+exceeding six years or both on conviction.
+Note: A taxpayer, who cannot effectively handle his tax matters, can appoint a tax
+agent to transact with URA on his/her behalf.
+
+
+WHAT TAXES ARE APPLICABLE TO THE WHOLE SALE AND RETAIL SECTOR?
+I. Income Tax.
+This is tax imposed on a trader’s taxable income at specific rates and is charged on
+every person who has chargeable income for each year of income. (Section 4 of the
+Income Tax Act). This may be categorized into:
+a) Presumptive tax for small tax payers.
+A simplified process called Income Tax Presumptive (Small business) declaration was
+designed to enable registration of payments and filing of returns for taxpayers under
+this category.
+ The Assessment year is a period of 12 months for the current or next period and shall
+be in line with the registered accounting date.
+This is imposed on small taxpayers (both individuals and non-individuals) whose
+annual turnover is below UGX 150 million.
+The presumptive tax rates are based on turnover, however there is a standard of
+record keeping. Small businesses with no records will pay tax on a fixed basis whereas
+those with records will pay tax as a percentage of turnover.
+
+Schedule for the computation of “presumptive” income tax for small businesses
+{
+  "Gross Turnover Per Annum": {
+    "With Records": {
+      "Not exceeding UGX 10 million": "NIL",
+      "Exceeding UGX 10 million but does not exceed UGX 30 million": "0.4% of annual turnover in excess of 10 million UGX 80,000",
+      "Exceeding UGX 30 million but does not exceed UGX 50 million": "UGX 80,000 plus 0.5% of annual turnover in excess of UGX 30 million UGX 200,000",
+      "Exceeding UGX 50 million but does not exceed UGX 80 million": "UGX 180,000 plus 0.6% of annual turnover in excess of UGX 50 million UGX 400,000",
+      "Exceeding UGX 80 million but does not exceed UGX 150 million": "UGX 360,000 plus 0.7% of annual turnover in excess of UGX 80 million UGX 900,000"
+    },
+    "Without Records": {
+      "Not exceeding UGX 10 million": "NIL",
+      "Exceeding UGX 10 million but does not exceed UGX 30 million": "UGX 80,000",
+      "Exceeding UGX 30 million but does not exceed UGX 50 million": "UGX 200,000",
+      "Exceeding UGX 50 million but does not exceed UGX 80 million": "UGX 400,000",
+      "Exceeding UGX 80 million but does not exceed UGX 150 million": "UGX 900,000"
+    }
+  }
+}
+
+The trader must have a TIN in order to self-assess and register a payment in relation
+to “Income Tax -Small Business”. This can be done either within or outside the trader’s
+login.
+A trader can also declare multiple businesses in a single declaration. The trader will
+be required to provide the following details when making a declaration or registering
+payments.
+i. Taxpayer Details
+ii. Assessment Period
+iii. Business Assessment Details
+iv. Business Location And Other Details
+v. Payment Registration Details.
+After submission of the declaration on the URA portal, the client shall be able to
+receive the following.
+i. Income Tax assessment Notice
+ii. Payment registration slip
+iii. Mail Notification.
+After payment of the tax, the taxpayer is required to print a certificate for the given
+tax period and display it in his/her premises. All the business names relating to the
+declaration shall be displayed to be selected by the taxpayer for certificate generation.
+Note: No deductions are allowed in respect of any expenditure or losses and the
+assessed tax is the final tax for presumptive tax payers, however one has an option of
+filing returns.
+
+b) Individual Income Tax.
+The basis for determination of the Income tax liability for an individual trader is the
+gross income generated reduced by allowable deductions and any income tax paid or
+withheld at source on the gross Income for that year.
+
+N.B CY represents chargeable income.
+{
+  "Residents": {
+    "Annual Chargeable Income (CY) in UGX": {
+      "0 to 2,820,000": "Nil",
+      "2,820,000 to 4,020,000": "(CY – 2,820,000UGX) x 10%",
+      "4,020,000 to 4,920,000": "(CY – 4,020,000UGX) x 20% + 120,000UGX",
+      "4,920,000 to 120,000,000": "(CY – 4,920,000UGX) x 30% + 300,000UGX",
+      "Above 120,000,000": "[(CY – 4,920,000UGX) x 30% + 300,000UGX] + [(CY – 120,000,000UGX) x 10%]"
+    }
+  },
+  "Non-residents": {
+    "Annual Chargeable Income (CY) in UGX": {
+      "0 to 4,020,000": "CY x 10%",
+      "4,020,000 to 4,920,000": "(CY – 4,020,000UGX) x 20% + 402,000UGX",
+      "4,920,000 to 120,000,000": "(CY – 4,920,000UGX) x 30% + 582,000UGX",
+      "Above 120,000,000": "[(CY – 4,920,000UGX) x 30% + 582,000UGX] + [(CY – 120,000,000UGX) x 10%]"
+    }
+  }
+}
+
+Note
+That where the trader declares a loss, the tax payable is Nil (Zero)
+Illustration for computation of the tax:
+Illustration for individual business.
+Ms. Nakirunda received 160 million UGX from the sale of clothes during 2018/2019 of
+which 9.6 Million UGX (6% of 160 Million) was withheld by URA at importation of the
+clothes.
+From the beginning of the year, she incurred the following costs
+ Million UGX
+Direct costs…………………………………......................……...........................................................33
+Annual salary for 2 employees…………………..... ............................................................24
+Annual rent for store……………………………......................................................................….12
+Other Operation expenses…………………...............................................................……….14
+Renovating her home …………………...........…………........................................................…9
+Calculate his Income Tax Liability for 2014/2015.
+
+Solution
+ Million UGX
+Gross Income from sales…………………………………………….......................................….160
+Less:
+Direct costs………………………………………...............................................................................33
+Gross Profit………………………………………………………..........……......................................…127
+Less: Allowable deductions:
+Annual salary for 2 employees………………………………….......................................….24
+Annual rent for store……………………………………………………......................................…12
+Operation expenses……………………………………………………......................................….14- 50
+Chargeable Income…………………………………………………….….......................................77
+Income Tax Liability
+Since his chargeable income falls in the fourth category, then
+Tax Liability = (77,000,000-4,920,000) *30% +300,0000……………......21.924
+Less withholding Tax at source…………………………………………..............................9.6
+Net tax liability (Income Tax – Withholding tax) …………………………............12.324 Million UGX
+Note that the expense for renovating his home (9m) is not considered (disallowed
+expense) because it is not incurred in the generation of gross income from trading
+
+c) Non Individual (Corporation Tax)
+This is imposed on all corporate entities (Companies) engaging in wholesale and retail
+trading activities.
+Income Tax is charged at a rate of 30% on the profits from business (Chargeable
+Income).
+Illustration on the Determination of the Tax liability for companies (Non- individuals)
+
+The table below shows the income statement for Mukiibi and Sons Retailers Ltd
+located in Nakawa for the period 1/01/2015 to 31/12/2015
+{
+  "Sales/Revenue UGX": {
+    "Sanitary towels": 5000000,
+    "Stationery": 3000000,
+    "Liquid soap": 2000000,
+    "Toilet paper": 3200000,
+    "Detergent": 2800000,
+    "Total Sales": 16000000
+  },
+  "Cost of Sales": {
+    "Total Cost Of Sales": "Not provided"
+  },
+  "Expenses": {
+    "Salaries and Wages": 500000,
+    "Rent": 1500000,
+    "Utilities (water, electricity)": 700000,
+    "Total Expenses": 2700000
+  },
+  "Profit Before Tax": 10300000,
+  "Tax": "30% of 10,300,000 = 3,090,000"
+}
+
+Note. A company earning a gross turnover below 150 million UGX has an option of
+either filing a return and pay using the rate of 30% or make a presumptive payment as
+in I(a) above.
+All whole sale and retail companies earning a gross turnover above 150 million UGX
+should file a return and calculate tax payable using the tax rate of 30%.
+If a company does not pay rent but owns the building whether under lease or not, the
+value of the building is capitalized.
+All one off costs paid to URSB and KCCA should be expensed.
+
+d) Pay As You Earn (PAYE)
+PAYE is a monthly return furnished by an employer for an amount withheld from their
+employees who earn employment income or an associate as tax.
+Employment refers to a;
+• Position of an individual in employment of another Person,
+• Directorship of a company, a position entitling the holder to a fixed or
+ascertainable remuneration.
+• Holding or acting in a public office.
+All traders that employ staff that are paid monthly salaries are required to withhold
+PAYE under section 19 of the income tax Act.
+This tax is deducted from the total salary of employees (earning income above
+235,000 UGX) by employers and then remitted to URA on behalf of the employees.
+
+
+CASH RECEIVED BY THE EMPLOYEE AND BENEFITS IN KIND.
+Employment income includes gross cash received in form of; salary, leave pay,
+payment in lieu of leave, overtime pay, fees, commission, gratuity, bonus, allowances
+(entertainment, duty, utility, welfare, housing, medical, sitting ,transport or any other
+allowances).
+Benefits in kind include use of employer office Motor vehicle for personal errands, free
+accommodation, use of driver, domestic workers and free utilities (power, water, etc.)
+paid by the employer on behalf of the employee. The benefits in kind are computed
+using particular formulae in Part 1 of the 3rd Schedule of the Income Tax Act.
+
+Filing of PAYE
+The PAYE is tax withheld from all employees earning a salary income above the stated
+threshold as per the Income Tax Act and filed by the employer to URA by the 15th of
+the following month.
+ Please Note:
+1) It is an obligation of the employer (not the employee) to deduct PAYE on a
+monthly basis and furnish the return by the 15th of the following month.
+2)The amounts withheld should also be paid over to URA by the 15th of the
+following month to avoid interest charges.
+The PAYE rates are applied based on the person’s resident status as shown in the
+table below.
+
+PAYE Tax rates that apply for both Residents and Non Residents.
+{
+  "Resident": {
+    "Chargeable Income (CY) in UGX (Monthly)": {
+      "0 to 335,000": "UGX CY x 10%",
+      "335,000 to 410,000": "(CY – 335,000UGX) x 20% + 33,500",
+      "410,000 to 10,000,000": "(CY – 410,000UGX) x 30% + 48,500",
+      "Above 10,000,000": "[(CY – 410,000UGX) x 30% + 48,500UGX] + [(CY – 10,000,000UGX) x 10%]"
+    }
+  },
+  "Non-Resident": {
+    "Chargeable Income (CY) in UGX (Monthly)": {
+      "0 to 235,000": "Nil",
+      "235,000 to 335,000": "235,000 to 335,000",
+      "335,000 to 410,000": "(CY – 335,000UGX) x 20% + 10,000UGX",
+      "410,000 to 10,000,000": "(CY – 410,000UGX) x 30% + 25,000UGX",
+      "Above 10,000,000": "[(CY – 410,000UGX) x 30% + 25,000UGX] + [(CY – 10,000,000UGX) x 10%]"
+    }
+  }
+}
+
+Illustration
+1. Kamonde is a resident employed by ABC Enterprises. He earns a monthly salary
+of UGX 200,000. Is the company obliged to deduct PAYE tax from Kamonde?
+Aguide To Taxation Of The Wholesale And Retail Sector 15
+Solution; No, because Kamonde’s monthly salary is less than the threshold UGX
+235,000 so his salary does not attract PAYE.
+2. If Kamonde in addition to the monthly salary of UGX 200,000 is given travelling
+monthly allowance of UGX 95,000 and medical monthly allowance of UGX
+55,000. Monthly allowance for accommodation UGX 150,000
+Compute his monthly amount of PAYE to be deducted from Kamonde’?
+Solution;
+Computation of Monthly Employment Income:
+ UGX
+Salary 200,000
+Travelling allowance 95,000
+Medical allowance 55,000
+Accommodation allowance 150,000
+Total {chargeable income} 500,000
+Computation of the PAYE to be deducted:
+{UGX 500,000 falls under the bracket (Exceeding UGX 410,000 but not exceeding
+UGX 10,000,000)} Thus the PAYE applicable will be (30% of the amount by which
+chargeable income exceeds UGX 410,000) + UGX 25,000
+Chargeable Income 500000
+Less 410000
+Balance 90,000
+30 % 27,000
+Add 25,000
+Tax there on in Shs. 53,000.
+
+NOTE. For more information on how to calculate the employee benefits, please refer
+to the income tax act section 19 and the fifth schedule
+Local service tax paid to KCCA and local government is exempted from PAYE.
+
+e) Withholding Tax (WHT)
+This is a tax withheld at source at the point of making a payment to the supplier/
+service provider. Total payments to a supplier in respect of a supply of goods or
+services as provided for in a transaction amounting to one million shillings and above
+in aggregate attracts WHT of 6% to residents and 15% to non-residents under Section
+119 of the Income tax Act.
+Note that the amount withheld on any payment is part of your annual tax payment
+and thus reduces on
+16 Aguide To Taxation Of The Wholesale And Retail Sector
+Your annual tax liability.
+Responsibility of Filing a WHT return and Payment of WHT
+• The responsibility for payment of the tax rests primarily on the person making
+payment as a withholding agent. Thus, in case of his/her failure to withhold the
+tax or in case of under-withholding, the under-collected tax becomes due from
+the withholding agent.
+• A WHT Agent is required to pay the tax withheld within 15 days after the end
+of the month in which the payment subject to withholding tax was made by
+the WHT Agent. . Note; this is not only for PAYE but also all other Withholding
+taxes.
+Illustration
+If Muban and Sons a sole proprietorship supplies Capital Shoppers (Designated
+Withholding Agent) with taxable supplies worth 100 Million UGX, then he will receive
+a net of 94 million UGX and the 6 million UGX (6% of 100Million) will be Withheld and
+remitted to URA by Capital shoppers on his behalf.
+
+II. Value Added Tax (VAT)
+It is a tax on consumption charged on value added to “taxable” goods and services
+(Standard Rated Supplies), at different stages in the chain of distribution and
+is charged at a rate of 18% on all supplies made by taxable persons i.e. persons
+registered or required to register for VAT purposes. The threshold for VAT registration
+is an annual turnover of 150 million UGX and above or turnover of 37.5 million UGX in
+any 3 consecutive months.
+Some transactions are beyond the scope of VAT and these are classified as Exempt
+Supplies (Second Schedule of the VATA). Supplies on which VAT is charged at 0% are
+classified as Zero Rated Supplies (Third Schedule of the VAT Act).
+If a trader is registered for VAT, he can claim for his Input tax when selling a zero rated
+product/service.
+
+Note
+• Traders dealing in taxable supplies with a gross turnover 150 million UGX and
+above are required to register for VAT.
+• Traders dealing in exempt supplies are not subject to Value Added Tax (VAT)
+and so suffer VAT as a cost but must register for Income tax. However, traders
+who deal in taxable supplies with a gross turnover below 150 million UGX can
+voluntarily register for VAT if they meet the registration criteria.
+• All taxpayers registered for VAT are required to file VAT returns for each month
+by the 15th day of the following month.
+Voluntary Registration
+The Commissioner General shall register a person who applies for registration and
+Aguide To Taxation Of The Wholesale And Retail Sector 17
+issue to that person a certificate of registration including the VAT registration number
+(TIN) unless the Commissioner General is satisfied that;
+(a) the person has a fixed place of abode or business; or
+(b) the Commissioner General has reasonable grounds to believe that that
+person :–
+• will keep proper accounting records relating to any business activity carried
+on by that person;
+• will submit regular and reliable tax returns as required by Section 31; or
+• is a fit and proper person to be registered
+Some transactions are beyond the scope of VAT and these are classified as Exempt
+supplies. Supplies on which VAT is charged at 0% are classified as zero-rated supplies.
+
+
+IMPORTANT:
+ISSUANCE OF E-INVOICES OR E-RECEIPTS BY ALL VAT REGISTERED
+TAXPAYERS
+It is mandatory for all VAT registered taxpayers to issue e-invoices or e-receipts as
+no tax credit is allowed or claimable on purchases unless they are supported by
+e-invoices or e-receipts.
+All VAT registered taxpayers are obliged to register for EFRIS and issue fiscalised
+invoices i.e. e-invoices.
+The Electronic Fiscal Receipting and Invoicing Solution (EFRIS) is a new smart
+business solution used to record business transactions and share the information with
+URA in real time.
+An e-invoice shows that a sale has occurred through EFRIS. It shows the seller’s
+details, URA information, Buyer’s details, Good and services details, Tax details and
+Summary sections.
+
+Penalties for non-compliance in regard to EFRIS
+A VAT registered taxpayer who does not adopt the use of EFRIS is liable to pay a
+penal tax equivalent to the tax due on the goods or services or 400 currency points
+whichever is higher.
+Note: One currency point =20,000 Uganda Shs.
+
+PERIOD FOR CLAIMING INPUT TAX
+The law allows a period of six (6) months from the date of issue of the invoice within
+which a person can apply for an input tax credit.
+Illustration
+Gadhafi is an importer of children’s shoes. In June 2019 he imported 50 cartons of
+shoes at UGX 5,000,000 for the entire consignment. He sold to a wholesaler at UGX
+7,200,000. The wholesaler sold to a retailer at cost plus mark-up of 20%. The retailer
+sold to the consumers at a mark-up of 10%.
+18 Aguide To Taxation Of The Wholesale And Retail Sector
+NB:
+Assume that all the above figures were VAT exclusive, and that only VAT was liable.
+Required:
+Determine the VAT collected at each stage in the distribution chain.
+{
+  "Stages/Dealers": [
+    {
+      "Stage/Dealer": "Gadhafi at importation",
+      "Cost price (UGX)": "5,000,000",
+      "Selling price (UGX)": "-",
+      "Input tax (UGX)": "900,000",
+      "Output tax (UGX)": "-",
+      "Tax Payable (UGX)": "900,000"
+    },
+    {
+      "Stage/Dealer": "Gadhafi at domestic level",
+      "Cost price (UGX)": "5,000,000",
+      "Selling price (UGX)": "7,200,000",
+      "Input tax (UGX)": "900,000",
+      "Output tax (UGX)": "1,296,000",
+      "Tax Payable (UGX)": "396,000"
+    },
+    {
+      "Stage/Dealer": "Wholesaler",
+      "Cost price (UGX)": "7,200,000",
+      "Selling price (UGX)": "8,640,000",
+      "Input tax (UGX)": "1,296,000",
+      "Output tax (UGX)": "1,555,200",
+      "Tax Payable (UGX)": "259,200"
+    },
+    {
+      "Stage/Dealer": "Retailer",
+      "Cost price (UGX)": "8,640,000",
+      "Selling price (UGX)": "9,504,000",
+      "Input tax (UGX)": "1,555,200",
+      "Output tax (UGX)": "1,710,720",
+      "Tax Payable (UGX)": "155,520"
+    },
+    {
+      "Stage/Dealer": "Final Consumer",
+      "Cost price (UGX)": "9,504,000",
+      "Selling price (UGX)": "1,710,720",
+      "Input tax (UGX)": "-",
+      "Output tax (UGX)": "-",
+      "Tax Payable (UGX)": "-"
+    },
+    {
+      "Total payable to URA": "1,710,720"
+    }
+  ]
+}
+
+NOTE: The mechanism of VAT is such that, for goods that are imported and
+consumed in a particular state, the first seller (importer) pays the first point tax, and
+the next seller pays tax only on the value-added – leading to a total tax burden exactly
+equal to the last point tax.
+
+
+III. LOCAL EXCISE DUTY
+This is a tax that is imposed on specified imported or locally manufactured goods,
+and services. Initially Excise Duty was meant for “luxury” or prohibited items. However
+excise duty is now treated as any other source of revenue for Government. The
+applicable rates may be specific or ad valorem.
+The tax is imposed on the value of the import; and in the case of locally manufactured
+goods, the duty (local excise duty) is payable on the ex-factory price of the
+manufactured goods. Exported but locally manufactured goods are exempt from
+excise duty.
+Persons supplying excisable goods and services are required to register and file
+monthly returns to the tax authority by the 15th day of the month following the month
+in which delivery of the goods was made.
+Note
+Excise duty is charged on deliveries (Goods and services) made out of the factory as
+well as on payment regardless of whether payment is made or not.
+Excise duty return is submitted on a monthly basis and the due date for both filing
+the return and payment is the 15th day of the subsequent month. Computation of
+Aguide To Taxation Of The Wholesale And Retail Sector 19
+excisable duty payable
+EXCISE DUTY PAYABLE = (EX-FACTORY PRICE X QUANTITY) X EXCISE DUTY
+RATE
+However, Ex-factory price is defined as;
+{
+  "Items": [
+    {
+      "Item": "Cost of materials",
+      "Amount": "XXXX"
+    },
+    {
+      "Item": "Other related costs (overheads)",
+      "Amount": "X"
+    },
+    {
+      "Item": "Total Cost",
+      "Amount": "XXXX"
+    },
+    {
+      "Item": "Profit",
+      "Amount": "XXXX"
+    },
+    {
+      "Item": "Ex-Factory Price",
+      "Amount": "XXXXX"
+    }
+  ]
+}
+
+Solution
+EXCISE DUTY = (EX-FACTORY PRICE X QUANTITY) X EXCISE DUTY RATE
+= (400X20,000UGX) X 10%
+= 800,000 UGX
+IV. Customs duties
+These are taxes which are charged on all goods entering into or leaving our country.
+The taxes charged depend on the Value and nature of the item imported.
+Below are the Steps we follow when Computing Customs Duties.
+• Step 1 Determine Customs Value (CV);
+• Step 2 Convert the Customs Value to Local Currency (Shs.);
+• Step 3 Classify the item (HSC) as per the common external tariff;
+• Step 4 Determine taxes collectable
+• Step 5 Apply the duty rates on the Customs Value
+
+Customs duties comprise of.
+a) Import duty (ID)
+This is a tax collected on imports and some exports not listed in the exemption
+schedule by URA. It is based on the customs value of the goods that are imported.
+The customs value is Cost, Freight and Insurance up to Mombasa or cost and
+insurance if by Air. The rate of import duty is either 0%, 10%, 25% or more for sensitive
+items like wheat and powdered milk.
+NB. For more information on import duty rates, please refer to our common external
+tariff book on the portal under tax assistant, A-Z tax topics.
+
+Formulae for calculating import duty
+• Import Duty (ID) = ID rate x Customs value
+• VAT = VAT value x 18%= (ID+EXD+CV) x 18%
+b) Excise duty(EXD) at Importation
+This tax is only charged on specific goods imported at varying rates.
+Formulae for calculating excise duty
+• Excise duty (EXD)= EXD value x EXD rate= (ID + Customs value ) x EXD rate
+c) VAT at importation.
+This is a tax on consumption charged on taxable goods imported into the country and
+is charged at a rate of 18% if the importer is registered for VAT and at 15% on the 18%
+of the value if the importer is not registered for VAT but importing taxable goods of a
+value of shillings 4,000,000 and above.
+NB. If the importer is registered for VAT, he/she can claim any VAT incurred at
+importation through her/his monthly VAT returns.
+Formulae for calculating VAT at importation
+• VAT = VAT value x 18%= (ID+EXD+CV) x 18%
+• Domestic VAT = 15% (VAT value x 18%) = 15% ((ID+EXD+CV) x 18%)
+d) WHT at importation
+This is income tax withheld at importation of a good. It is at a rate of 6% of customs
+value. It can be claimed by the importer when he/she is filing his/her final income tax
+return as advanced tax already paid.
+NB. If the importer is exempted from WHT, he/she should not be charged this tax at
+importation Formulae for calculating WHT at importation
+• WHT = Customs value x 6%
+e) Infrastructural levy
+This levy is only applicable to dutiable items imported from outside EAC Region.
+NB: The following will not attract the 1.5% Infrastructure Levy
+1. Items that are at 0% Import duty rate
+2. All items imported under conditional Exemptions as indicated in the 5th Schedule
+of the EACCMA (East African Community Customs Management Act)
+Aguide To Taxation Of The Wholesale And Retail Sector 21
+Formulae for calculating infrastructural levy
+• WT = Customs value x 1.5%
+f) Environmental levy
+This is tax levied on imports that may be harmful to the environment for example on
+used clothes and used vehicle.
+Formulae for calculating Environmental levy
+• EL on used clothes = Customs value x 10%
+• EL on used vehicles of YOM between 5 and 10 years = Customs value x 35%
+• EL on used vehicles of YOM 10years and above = Customs value x 50%
+
+
+WHAT ARE THE TAX POINTS APPLICABLE TO PLAYERS IN THE SECTOR?
+i. The suppliers of stock: These are expected to have the following;
+o Valid TINs that are clearly shown on invoices issued to their clients every time they
+supply.
+o File income tax returns or the simplified returns under Part 1 of the second
+schedule of the Income Tax Act.
+o They may opt to use presumptive rates where applicable
+o Where their turnover is above 150 million UGX, they are required to register for
+VAT
+o Where their employee(s) is/are earning above 235,000 UGX per month, they
+should register and withhold PAYE at the appropriate rates.
+ii. Other suppliers: These could either be local suppliers or foreign suppliers.
+o Local suppliers: where the trader withholds tax on behalf of government
+(Section 119 (1)), he/she is required to file a WHT return, remit the payment to
+URA and issue the PAYEE a Withholding Tax Credit Certificate. The payees
+could be transporters, cleaning firms, land lords/ladies or any other vendors.
+Take note that separate supplies of goods or materials or supplies amounting
+to above 1 million may attract the 6% WHT.
+o International payments: this is applicable where a trader makes foreign
+payments for management fees, or makes payments to a non-resident
+contractor or professional under sections 83 and 85 of the Income Tax Act
+respectively
+
+
+WHAT TAX INCENTIVES APPLY TO THE WHOLE SALE AND RETAIL SECTOR?
+TAX INCENTIVES UNDER DOMESTIC TAXES
+
+{
+  "Income Tax Beneficiary Incentives": [
+    {
+      "Beneficiary": "Exporters of finished consumer and capital goods",
+      "Period of Incentive": "10 years",
+      "Conditions for the Tax Incentive": [
+        "Exemption valid from the beginning of the investment.",
+        "Investor must export at least 80% of production.",
+        "Investor must apply for and be issued with a certificate of exemption."
+      ]
+    },
+    {
+      "Beneficiary": "Collective Investment Schemes to the extent of distribution",
+      "Period of Incentive": "Indefinite",
+      "Conditions for the Tax Incentive": [
+        "Must be licensed to operate as a collective investment scheme.",
+        "Participants in the scheme should not have day-to-day control over the management of the property.",
+        "Participants' contributions and ultimate income/profits must be pooled.",
+        "Property must be managed as a whole by the operator of the scheme."
+      ]
+    },
+    {
+      "Beneficiary": "Private employers of persons with disabilities (PWDs)",
+      "Period of Incentive": "Indefinite",
+      "Conditions for the Tax Incentive": [
+        "5% of employees must be PWDs."
+      ]
+    },
+    {
+      "Beneficiary": "Nonprofit making Organizations",
+      "Period of Incentive": "Indefinite",
+      "Conditions for the Tax Incentive": [
+        "Where the Commissioner has issued a written ruling stating that it is exempt."
+      ]
+    },
+    {
+      "Beneficiary": "Compliant taxpayers",
+      "Period of Incentive": "12 months renewable",
+      "Conditions for the Tax Incentive": [
+        "Where the Commissioner is satisfied that the taxpayer has regularly complied with the obligations under the tax laws."
+      ]
+    },
+    {
+      "Beneficiary": "All taxpayers",
+      "Period of Incentive": "Indefinite",
+      "Conditions for the Tax Incentive": [
+        "A person who incurs expenditure for scientific research."
+      ]
+    },
+    {
+      "Beneficiary": "All taxpayers",
+      "Period of Incentive": "Indefinite",
+      "Conditions for the Tax Incentive": [
+        "Employers who train permanent residents or provide tertiary education not exceeding in the aggregate 5 years."
+      ]
+    },
+    {
+      "Beneficiary": "All taxpayers",
+      "Period of Incentive": "Indefinite",
+      "Conditions for the Tax Incentive": [
+        "All taxpayers with depreciable assets."
+      ]
+    },
+    {
+      "Beneficiary": "All taxpayers",
+      "Period of Incentive": "Duration of the loss",
+      "Conditions for the Tax Incentive": [
+        "Assessed loss is carried forward as a deduction in the following year of income."
+      ]
+    },
+    {
+      "Beneficiary": "Investor established in a country with which Uganda has a DTA",
+      "Period of Incentive": "Duration of the DTA",
+      "Conditions for the Tax Incentive": [
+        "Beneficial owner of investment as defined in the Income Tax Act established with economic substance in a country with which Uganda has a DTA.",
+        "Withholding tax rates applicable to dividends, interests, management fees, and royalties are 10% except UK at 15%."
+      ]
+    }
+  ]
+}
+{
+  "VAT Act Beneficiary Incentives": [
+    {
+      "Beneficiary": "VAT Registered taxpayers",
+      "Period of Incentive": "Indefinite",
+      "Conditions for the Tax Incentive": "Turnover of UGX 150m in any 12-month period for first-time registration, ability to keep proper books of accounts, and making taxable supplies."
+    },
+    {
+      "Beneficiary": "Contractors executing aid-funded projects",
+      "Period of Incentive": "Duration of the project",
+      "Conditions for the Tax Incentive": "Contractors executing aid-funded projects"
+    },
+    {
+      "Beneficiary": "Exporters",
+      "Period of Incentive": "Indefinite",
+      "Conditions for the Tax Incentive": "All exporters"
+    },
+    {
+      "Beneficiary": "Suppliers to government",
+      "Period of Incentive": "Indefinite",
+      "Conditions for the Tax Incentive": "VAT registered suppliers"
+    },
+    {
+      "Beneficiary": "Suppliers of oxygen for medical use",
+      "Period of Incentive": "Indefinite",
+      "Conditions for the Tax Incentive": "Oxygen for medical use"
+    },
+    {
+      "Beneficiary": "Suppliers of assistive devices for persons with disability",
+      "Period of Incentive": "Indefinite",
+      "Conditions for the Tax Incentive": "Assistive devices must be for use by persons with disability"
+    },
+    {
+      "Beneficiary": "Suppliers of educational materials",
+      "Period of Incentive": "Indefinite",
+      "Conditions for the Tax Incentive": "Includes educational materials manufactured in Uganda and the partner states of the EAC"
+    },
+    {
+      "Beneficiary": "Suppliers and manufacturers of menstrual cups",
+      "Period of Incentive": "Indefinite",
+      "Conditions for the Tax Incentive": "Suppliers and manufacturers of menstrual cups"
+    }
+  ]
+}
+{
+  "Stamp Duty Act Beneficiary Incentives": [
+    {
+      "Beneficiary": "Loan applicants",
+      "Period of Incentive": "Indefinite",
+      "Tax Incentive": "NIL stamp duty on an agreement relating to the deposit of title deeds, pawn pledge-of the total value."
+    },
+    {
+      "Beneficiary": "Loan applicants",
+      "Period of Incentive": "Indefinite",
+      "Tax Incentive": "NIL stamp duty on security bond or mortgage deed."
+    }
+  ]
+}
+
+
+WHAT IS REQUIRED OF YOU AS A TAXPAYER AFTER TIN REGISTRATION?
+You will be required to meet your tax obligations through filing returns and making
+payments
+
+RETURNS
+• A tax return is the tax format of reporting business income for the year to
+URA and declares business profits or losses for tax purposes.
+• A Tax period is the duration for which a return is required i.e. a year, month or
+week.
+• Due date is the deadline for filing a return beyond which a person is required to
+pay a penalty for late filing.
+{
+  "Annual Returns": {
+    "Tax Type": [
+      {
+        "Tax Type": "Individual Income tax",
+        "Provisional return due date": "The last day of the 3rd month after the start of the year of Income.",
+        "Final Return Due date": "The last day of the 6th month after the end of the year of Income."
+      },
+      {
+        "Tax Type": "Rental Income tax – Individual",
+        "Provisional return due date": "The last day of the 3rd month after the start of the year of Income.",
+        "Final Return Due date": "The last day of the 6th month after the end of the year of Income."
+      },
+      {
+        "Tax Type": "Corporate income tax",
+        "Provisional return due date": "The last day of the 6th month after the start of the year of Income.",
+        "Final Return Due date": "The last day of the 6th month after the end of the year of Income."
+      },
+      {
+        "Tax Type": "Rental Income tax- Non individual",
+        "Provisional return due date": "The last day of the 6th month after the start of the year of Income.",
+        "Final Return Due date": "The last day of the 6th month after the end of the year of Income."
+      },
+      {
+        "Tax Type": "Presumptive/Small business income tax",
+        "Provisional return due date": "The last day of the 6th month after the end of the year of Income.",
+        "Final Return Due date": "The last day of the 6th month after the end of the year of Income."
+      },
+      {
+        "Tax Type": "Trust Income tax(Chargeable in the hands of beneficiary)",
+        "Provisional return due date": "The last day of the 3rd month after the start of the year of Income.",
+        "Final Return Due date": "The last day of the 6th month after the end of the year of Income."
+      },
+      {
+        "Tax Type": "Trust Income tax(Chargeable in the hands other than beneficiary)",
+        "Provisional return due date": "The last day of the 6th month after the start of the year of Income.",
+        "Final Return Due date": "The last day of the 6th month after the end of the year of Income."
+      },
+      {
+        "Tax Type": "Partnership Income tax",
+        "Provisional return due date": "The last day of the 6th month after the end of the year of Income.",
+        "Final Return Due date": "The last day of the 6th month after the end of the year of Income."
+      }
+    ],
+    "Monthly Returns": {
+      "Tax Type": [
+        {
+          "Tax Type": "With Holding Tax",
+          "Due Date": "By the 15th day of the following month."
+        },
+        {
+          "Tax Type": "PAYE",
+          "Due Date": "By the 15th day of the following month."
+        },
+        {
+          "Tax Type": "Excise Duty(Goods & Services)",
+          "Due Date": "By the 15th day of the following month."
+        }
+      ]
+    }
+  }
+}
+
+
+**Advance Return and Instances**
+Key return issues encompass various aspects of tax return filing, including Advance Return and the extension of Return Filing date. An Advance Income Tax return is submitted by a taxpayer before the end of a given year of Income. Instances requiring an advance return include situations where it's due before the end of the period, or in cases such as the taxpayer's death, bankruptcy, liquidation, permanent departure from Uganda, or other reasons deemed appropriate by the Commissioner. Failure to furnish an Advance Return by the due date results in the issuance of an Advance Assessment. The notice requesting such a return must be in writing, specifying the due date.
+**Extension of Return Filing Date**
+If a person is not able to file a return by the due date, they can apply for an extension, provided valid reasons justify the extension. However, the granted extension cannot exceed 90 days and does not alter the due date for tax payment, resulting in accrued interest on any outstanding tax liability. Multiple extensions can be requested as long as the total extension period does not exceed 90 days. Taxpayers dissatisfied with the Commissioner’s decision regarding the extension may challenge it through the objection and appeals procedure.
+**Offences and Penalties on Returns**
+Failure to furnish a return by the due date or within the extended time allowed by the Commissioner incurs penalties. The penalty for understating provisional tax estimates by more than 10% of the actual chargeable income is 20% of the difference in tax. Additionally, providing false statements knowingly or recklessly may result in a fine not exceeding Shs. 110,000,000 or imprisonment for up to ten years or both upon conviction.
+**Consequences of Not Filing Return**
+If a taxpayer fails to file their return, they will receive an assessment from the URA officer.
+
+**Tax Assessments Overview**
+Tax assessments are vital documents showing the estimated taxable income of an individual and the corresponding tax payable, including any penalties incurred.
+**Default Assessment**
+A default assessment is issued by the Commissioner to a taxpayer based on estimated taxable income when the taxpayer fails to furnish a self-assessment return for any given tax period.
+**Advance Assessment**
+An advance assessment is issued by the Commissioner if there is a risk that a taxpayer may delay, obstruct, prevent, or render ineffective tax payment or collection. It can be issued even before the taxpayer’s tax return for the period is due, particularly when the taxpayer defaults in submitting an advance return.
+**Return Amendment**
+Return amendment involves altering an original tax assessment to ensure the correct tax liability is established. Amendments can be made if fraud or gross neglect is discovered or if new information regarding tax liability surfaces.
+**Payment of Tax and Subsequent Steps**
+After filing the return, the taxpayer needs to register a payment and then proceed with the payment process. The payment should be made by the due date of filing the return.
+**Registration of Payment**
+To register a tax payment, taxpayers can visit the URA web portal and follow the instructions under the e-services section. They need to select the appropriate tax head, input the tax amount, provide taxpayer details, select the mode of payment, and complete the registration process.
+**Modes of Tax Payment**
+Tax payments can be made using various modes such as VISA, MasterCard, American Express, Union Pay, Mobile Money, EFT, RTGS, Swift, Cash, Cheque, Demand draft, or Point of Sale.
+**Consequences of Non-Payment**
+Failure to pay tax on time incurs interest at a rate of 2% per month on the outstanding amount. The Commissioner may collect any unpaid tax by serving a notice of demand on the person liable.
+**Extension of Payment**
+Taxpayers can request an extension to pay tax at a later date by submitting a written application to the Commissioner. However, interest will accrue from the original due date of payment despite any extension granted.
+
+**Taxpayer's Recourse: Objections and Appeals**
+**Option for Dissatisfied Taxpayers**
+Taxpayers who are dissatisfied with their tax assessments have the right to object to the decision made against them.
+**Understanding Objections**
+An objection serves as a formal communication from a taxpayer to the Commissioner expressing dissatisfaction with an assessment or any other tax decision. This objection must follow the prescribed format determined by the Commissioner.
+**Timelines for Objections**
+Taxpayers have 45 days after receiving notice of a tax decision to lodge an objection with the Commissioner. They may also apply for an extension of time to lodge an objection, subject to the Commissioner's decision. The Commissioner must respond to the objection within 90 days of its receipt. Failure to respond within this timeframe allows the taxpayer to consider the objection as having been allowed.
+**Options for Further Appeal**
+If dissatisfied with the Commissioner's objection decision, taxpayers have two main avenues for further appeal:
+a) They can apply for alternative dispute resolution procedures with the Commissioner.
+b) They can lodge an application with the Tax Appeals Tribunal (TAT) for a review of the objection decision.
+**Further Legal Recourse**
+If still dissatisfied with the decision of the Tribunal, taxpayers can appeal to the High Court within 30 days of receiving notice of the decision. Subsequently, an appeal to the Court of Appeal can be made within 30 days of receiving notice of the High Court's decision. Appeals to the Supreme Court may be pursued on matters of great public importance or when the Court of Appeal deems it necessary for the interests of justice.
+**Enforcement of Tax Recovery**
+When taxpayers fail to comply with tax payment requirements, the Commissioner may enforce tax recovery through various means, including distress sales, agency notices, temporary closure of business premises, and seizure of goods. Additionally, taxpayers may be required to provide security for potential tax liabilities.
+**Investigative Powers**
+The Commissioner holds broad investigative powers, including access to premises, records, and information relevant to tax obligations. Taxpayers may be compelled to furnish information or attend examinations concerning their tax affairs, with penalties for non-compliance.
+
+
+**Tax Clearance Certificate: Who Needs It?**
+Certain taxpayers are required to obtain a tax clearance certificate for specific activities:
+- Providers of passenger or freight transport services with vehicles of a capacity of two tonnes or more.
+- Providers of warehousing or clearing and forwarding services.
+- Taxpayers supplying goods or services to the Government.
+
+**Other Potential Offences**
+Various offences related to tax compliance may be committed, including:
+- Failure to submit returns or documents.
+- Non-compliance with agency notices or receiver requirements.
+- Inadequate record-keeping.
+- Failure to provide information without reasonable cause.
+- Misuse of a taxpayer identification number.
+- Making false or misleading statements.
+- Obstruction of officers.
+- Aiding or abetting others in committing offences.
+- Offering bribes to officers.
+
+**Guidance for Sector Participants**
+Advice for players in the sector includes:
+- Associations should organize sessions with URA to educate their members.
+- Taxpayers in the Wholesale and Retail sector should register for taxes, file returns regularly, pay liabilities promptly, attend URA Tax clinics, and engage with URA for accurate tax information.
+
+**Training Initiatives for Traders**
+URA is focusing on training initiatives for the wholesale and retail sector:
+- Traders are encouraged to participate fully in URA's Tax clinics and workshops.
+- The Taxpayer Registration Expansion Program aims to simplify the registration and compliance process for businesses.
+
+
+References:
+i. THE TAX PROCEDURES CODE ACT, 2014.
+ii. THE INCOME TAX ACT (IT A), CAP.340
+iii. THE VALUE ADDED TAX ACT (VAT A), CAP.349
+iv. THE EAST AFRICAN CUSTOMS MANAGEMENT ACT (EACMA)
+v. THE EXCISE DUTY ACT,2014
+vi. THE STAMP DUTY ACT,2014
+DISCLAIMER:
+This Information is strictly for purposes of guidance to our clientele and is
+subject to change on amendment of tax legislations & any other regulations
+that govern tax administration

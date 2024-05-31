@@ -28,12 +28,52 @@ text_splitter = CharacterTextSplitter(chunk_size=1000, chunk_overlap=50)
 # db = Chroma.from_documents(documents=text_chunks, embedding=OpenAIEmbeddings(), collection_name="agric_guide",
 #                            persist_directory="./chroma_db")
 
-with open("text/education.txt", "r", encoding='utf-8') as f:
-    education_txt = f.read()
+# with open("text/education.txt", "r", encoding='utf-8') as f:
+#     education_txt = f.read()
+#
+# text_chunks = text_splitter.create_documents([education_txt])
+#
+# db = Chroma.from_documents(documents=text_chunks, embedding=OpenAIEmbeddings(), collection_name="education_guide")
+#
+#
+# print("Done")
 
-text_chunks = text_splitter.create_documents([education_txt])
+# with open("text/health.txt", "r", encoding='utf-8') as f:
+#     health_txt = f.read()
+#
+# text_chunks = text_splitter.create_documents([health_txt])
+#
+# db = Chroma.from_documents(documents=text_chunks, embedding=OpenAIEmbeddings(), collection_name="health_guide")
+#
+#
+# print("Done")
 
-db = Chroma.from_documents(documents=text_chunks, embedding=OpenAIEmbeddings(), collection_name="education_guide")
+# with open("text/manufacturing.txt", "r", encoding='utf-8') as f:
+#     manufacturing_txt = f.read()
+#
+# text_chunks = text_splitter.create_documents([manufacturing_txt])
+#
+# db = Chroma.from_documents(documents=text_chunks, embedding=OpenAIEmbeddings(), collection_name="manufacturing_guide")
+#
+#
+# print("Done")
+
+# with open("text/wholesale_and_retail.txt", "r", encoding='utf-8') as f:
+#     wholesale_retail_txt = f.read()
+#
+# text_chunks = text_splitter.create_documents([wholesale_retail_txt])
+#
+# db = Chroma.from_documents(documents=text_chunks, embedding=OpenAIEmbeddings(), collection_name="wholesale_retail_guide")
+#
+#
+# print("Done")
+
+with open("text/hotel_and_accommodation.txt", "r", encoding='utf-8') as f:
+    hotel_accommodation_txt = f.read()
+
+text_chunks = text_splitter.create_documents([hotel_accommodation_txt])
+
+db = Chroma.from_documents(documents=text_chunks, embedding=OpenAIEmbeddings(), collection_name="hotel_accommodation_guide")
 
 
 print("Done")

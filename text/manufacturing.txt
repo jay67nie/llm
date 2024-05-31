@@ -1,0 +1,1788 @@
+AN OVERVIEW
+Manufacturing is a process of physically or chemically transforming raw materials,
+substances, or components into new products. The raw materials, substances, or
+components transformed are products of agriculture, forestry, fishing, mining or
+quarrying as well as products of other manufacturing activities.
+
+IT INVOLVES;
+According to the International Standard Industrial Classification of all Economic
+Activities (ISIC), manufacturing involves substantial alteration (fabrications, welding,
+moldings, mixing), renovation or reconstruction of goods using power-driven
+machines and materials-handling equipment. It also includes transformation of
+materials or substances into new products by hand, or heavy machinery at factories or
+in the worker’s home, etc.
+
+MANUFACTURING SECTOR IS DIVIDED INTO TWO UNITS
+1) Units that directly process materials or
+2) Units that contract with other units to process their materials for them.
+The output of a manufacturing process may be a finished product in the sense that
+it is ready for utilization or consumption e.g. ready beer, cement, clothes and sugar
+among others
+It may be semi-finished products (Intermediate), i.e. products used as inputs for
+further manufacturing e.g. sugar used as a raw material for manufacturing of beer,
+spirits; milk used for processing cheese, ice-cream, primary ALUMINIUM is an input
+to ALUMINIUM wires, while ALUMINIUM wire is an input for the manufacture of
+fabricated wire products.
+
+THE ACTIVITIES CONSIDERED IN THE MANUFACTURING SECTOR UNDER
+INTERNATIONAL STANDARD FOR INDUSTRIAL CLASIFFICATION (ISIC) CODE
+INCLUDE:
+•Manufacture of food products
+•Manufacture of beverages
+•Manufacture of tobacco products
+•Manufacture of textiles
+•Manufacture of wearing apparel
+•Manufacture of leather and related products
+•Manufacture of wood and of products of wood and cork, except furniture;
+•manufacture of articles of straw and plaiting materials
+•Manufacture of paper and paper products
+•Printing and reproduction of recorded media
+•Manufacture of coke and refined petroleum products
+•Manufacture of chemicals and chemical products
+•Manufacture of pharmaceuticals, medicinal chemical and botanical products
+3 A GUIDE TO TAXATION OF THE MANUFACTURING SECTOR
+•Manufacture of rubber and plastics products
+•Manufacture of other non-metallic mineral products
+•Manufacture of basic metals
+•Manufacture of fabricated metal products, except machinery and equipment
+•Manufacture of computer, electronic and optical products
+•Manufacture of electrical equipment
+•Manufacture of machinery and equipment
+•Manufacture of motor vehicles, trailers and semi-trailers
+•Manufacture of other transport equipment
+•Manufacture of furniture
+
+
+SHOULD I PAY TAX AS A MANUFACTURER?
+Yes. In Uganda, individuals and companies in the manufacturing business are required
+to register and pay their fair share of tax from the income earned.
+Please note:
+All players in the manufacturing sector are required to register for the relevant tax
+types and account for the applicable incomes. Under section 22(2)(m), of the Income
+Tax Act, no expenditure will be allowed for any expense that exceeds 5 million in one
+transaction in regard to supplies (goods or services) from an unregistered supplier.
+The players in this sector should, therefore, endeavor to register for a TIN and also
+transact with businesses that are registered.
+
+HOW DO I REGISTER MY MANUFACTURING BUSINESS?
+All manufacturers in Uganda are required to be registered with;
+• Uganda Registration Services Bureau (URSB) for business name or company
+registration
+• Uganda Revenue Authority (URA) for taxes
+• Local council authority e.g. KCCA, municipal council, for a trading license
+Please note:
+Upon registration, the manufacturer is required to comply with the requirements
+of statutory bodies like the Uganda National Bureau of Standards (UNBS), Uganda
+Investment Authority (UIA) and National Environment Management Authority
+(NEMA).
+
+WHAT DO I NEED TO REGISTER FOR TAXES (TIN REGISTRATION)?
+TIN stands for Tax Identification Number. It is a 10-digit number which acts as an
+account of a taxpayer with Uganda Revenue Authority (URA). All taxpayers are
+required to quote this number in all their communications with URA and business
+transactions.
+
+Please note: A TIN is obtained free of charge and therefore no one should charge you
+for it.
+Key requirements for TIN registration include;
+1. Individuals
+An individual is a living person who applies for a TIN. The required documents include:
+• Copies of National identification card or two identification documents one which
+must be from the three listed here (Passport, Employee’s ID or Voter’s Card).
+• Others are; Driving Permit, Work Permit, Village Identity Card, Current Bank
+Statements (past 90 days), VISA card Number, Diplomatic Foreign Affairs ID.
+Please take note of the following categories that need additional requirements
+a. Foreign Directors
+Foreign Director is a non-Ugandan who has incorporated a company in Uganda.
+1. For resident foreign directors to qualify for a TIN in Uganda, they require to have
+the following documentations:
+• Valid passport and either
+• Work permit for non-East Africans (i.e. if it is already processed) or
+• National IDs for East-Africans or
+• Refugee ID for refugees
+b. Non-resident directors
+At least two valid identification documents are mandatory, i.e. valid passport and
+foreign national security cards among others.
+Note: A work permit is not mandatory for foreign directors as it is a requirement to
+have a TIN to process a work permit.
+c. Minors
+A Minor is a person who is under 18 years of age. For minors to qualify for a TIN, a
+copy of Legal / Court document of guardianship shall be attached.
+2. Non-Individuals
+A Non-Individual is an entity that is not a living person and it includes partnership,
+trust, a company, retirement fund, a government etc.
+
+{
+  "entity_types": [
+    {
+      "type": "Company",
+      "sub_types": [
+        "Public Company",
+        "Private Company",
+        "Foreign Company"
+      ],
+      "documents_required": {
+        "Mandatory": ["Company"],
+        "Optional": []
+      }
+    },
+    {
+      "type": "Other Entity types",
+      "sub_types": ["Club", "Society", "Associations"],
+      "documents_required": {
+        "Mandatory": ["Certificate of Registration"],
+        "Optional": ["Club Constitution"]
+      }
+    },
+    {
+      "type": "Estate or Trust",
+      "sub_types": ["Estate", "Trust"],
+      "documents_required": {
+        "Mandatory": ["Certificate of registration"],
+        "Optional": ["Trust deed"]
+      }
+    },
+    {
+      "type": "Partnership",
+      "sub_types": [
+        {
+          "name": "General Partnership",
+          "documents_required": {
+            "Mandatory": ["Certificate of Registration", "Statement of Particulars"],
+            "Optional": ["Partnership deed"]
+          }
+        },
+        {
+          "name": "Joint Venture",
+          "notes": [
+            "i) Where the name of the JV is different from the corporate names of all partners which are corporations.",
+            "ii) Where a partner in the JV is a resident person, the JV shall be registered as resident partnership.",
+            "iii) Where none of the partners in the JV is a resident person, the JV shall be registered as a non-resident partnership."
+          ],
+          "documents_required": {
+            "Mandatory": [
+              "Joint venture agreement duly endorsed by the Registrar of companies",
+              "Registration/incorporation documents shall be required for the individual partners in the JV",
+              "Certificate of Registration of the JV under the Registration of Business Names Act"
+            ],
+            "Optional": []
+          }
+        },
+        {
+          "name": "Limited Liability Partnership",
+          "documents_required": {
+            "Mandatory": [
+              "Certificate of Registration of the Limited Liability Partnership",
+              "Statement of Particulars",
+              "Memorandum and Articles of Association"
+            ],
+            "Optional": []
+          }
+        }
+      ]
+    }
+  ]
+}
+
+
+HOW DO I REGISTER A MANUFCATURING BUSINESS FOR TAXES?
+A TIN can be acquired through any of the processes below:
+1. Through the URA Web portal:
+a. Visit the URA web portal and click e-Services
+b. Under e-Services click register for taxes
+c. Select the registration type applicable to you;
+• Instant TIN application
+• Individual TIN registration
+• Non-individual TIN registration
+• Group TIN registration that is; registering a company along with its directors.
+d. Complete the application and submit
+e. Upon approval by URA, you will receive a TIN and it will be sent to the phone
+number and email address you provided to URA at the point of registration.
+f. Print TIN Certificate sent to your email address.
+2.	 Visiting a URA designated office
+In case a taxpayer cannot register online, he or she can walk into any of the URA
+offices or One Stop Centre located in any Municipality or KCCA division and
+assistance shall be provided to complete the registration process. Ensure that you
+move along with the necessary attachments as listed above.
+In case of failure to do any of the above, call: 0800217000 or 0800117000 (Toll free)
+or WhatsApp 0772140000 or send an email to services@ura.go.ug
+
+WHAT ARE THE BENEFITS OF ACQUIRING A TIN?
+Acquiring a TIN enables you to:
+• Import or export goods.
+• Claim tax benefits that accrue to you e.g. tax refunds.
+• Access bank loans.
+• Acquire a license or any form of authorization necessary for purposes of
+conducting any business in Uganda from a local authority, Government institution,
+or regulatory body.
+7 A GUIDE TO TAXATION OF THE MANUFACTURING SECTOR
+• Register an instrument required to pay stamp duty for example court order.
+• Register your Motor Vehicle
+• Process land transactions.
+The TIN acts as a security measure on transactions regarding some assets e.g. already
+validated motor vehicles, titled land since a notification is automatically sent to the
+owner’s TIN account and registered email.
+
+
+WHAT ARE MY RIGHTS AND OBLIGATIONS AS A TAXPAYER?
+{
+  "rights": [
+    "You have a right to equity",
+    "Tax laws and procedures shall be applied consistently to you",
+    "All your tax affairs will be handled with impartiality",
+    "You and your agent(s) shall be presumed honest until proven otherwise",
+    "Your tax affairs shall be kept secret and tax information in our possession shall be used in accordance with the law",
+    "You and your authorized agent(s) shall be provided with clear, precise and timely information",
+    "You will receive courteous and professional services at all times",
+    "In handling your tax matters, you and or your appointed agent(s) shall be expected to deal and cooperate only with the Authority’s authorized staff"
+  ],
+  "obligations": [
+    "You shall always pay the correct tax",
+    "Ensure that you voluntarily register with Uganda Revenue Authority as a Taxpayer",
+    "File correct Tax Returns, Customs Entries or any forms relating to taxes and other revenue",
+    "Pay the correct tax at the right time and place as required by the relevant laws",
+    "Be honest with URA",
+    "Quote your Tax Identification Number (TIN) for all dealings with URA",
+    "Comply with all the taxation requirements and regulations",
+    "Make full disclosure of information and correct declaration of all transactions at all times",
+    "Not indulge in any form of tax evasion and other illegal practices",
+    "Request for a proper receipt for all your purchases and keep records properly"
+  ]
+}
+
+
+WHAT KIND OF RECORDS DO I HAVE TO KEEP?
+A business has to keep records relating to all its transactions. It is important
+to always have records that are dated so that you can understand which
+reports relate to what period. These include;
+• Record of income realized in a given year
+• Record of receipts / invoices and payments
+• Record of vaccination details if applicable
+• Record of debtors and Creditors
+• Payroll for your employees if applicable
+• Import schedules if applicable
+• Contracts for supply
+• Bank statements
+• Utility bills
+• Stock records
+• Asset registers
+
+WHAT DO I NEED TO KNOW REGARDING RECORD KEEPING IN MY
+MANUFACTURING BUSINESS?
+• Keep proper records of all business transactions in the English language.
+• Keep records such that it is easy to determine their tax liability.
+• Keep records for five years after the end of the tax period to which they
+relate for future reference.
+• In case a record is necessary for a proceeding that started before the end
+of the 5-year period, a taxpayer shall keep the record until the end of the
+proceedings.
+• The records kept should contain sufficient transaction information and
+should be saved in a format that is capable of being recovered and
+converted to a standard understandable record format.
+• A taxpayer who wishes to keep records in a different language or
+currency shall apply in writing with clear reasons to the commissioner for
+permission.
+• Where a record is not in English, the taxpayer will be required to meet
+the cost of translation into English by a translator approved by the
+Commissioner.
+
+
+WHAT TAXES ARE APPLICABLE TO THE MANUFACTURING SECTOR?
+Non-Individual Income Tax (Corporation Tax)
+This is imposed on all corporate entities (Companies) in the manufacturing
+sector.
+Income Tax is charged at a rate of 30% on the profits from business
+(Chargeable Income).
+Income tax worked example for a non-individual in business:
+ABC limited incurred the following costs of production for the period 1/1/2021
+to 31/12/2022
+{
+  "income_tax_details": {
+    "opening_stock_raw_materials": 100000,
+    "purchases_raw_materials": 200000,
+    "closing_stock_raw_materials": -50000,
+    "cost_raw_materials": 250000,
+    "cost_direct_labor": 200000,
+    "direct_expenses": 100000,
+    "prime_costs": 550000,
+    "factory_overheads": {
+      "factory_rent": 10000,
+      "power": 56000,
+      "indirect_wages": 13000
+    },
+    "total_production_costs": 629000
+  }
+}
+
+Calculate the tax payable to Uganda Revenue Authority by ABC limited.
+SOLUTION
+{
+  "trading_account": {
+    "sales": {
+      "sale_of_finished_goods": 1200000,
+      "other_income": 200000,
+      "total_sales": 1400000
+    },
+    "cost_of_goods_sold": {
+      "opening_stock": 15000,
+      "production_cost": 629000,
+      "closing_stock": -50000,
+      "total_cost_of_sales": 594000
+    },
+    "gross_profit": 806000,
+    "expenses": {
+      "administrative_expenses": 12000,
+      "selling_and_distribution_expenses": 15000,
+      "financial_expenses": 26000,
+      "total_expenses": 53000
+    },
+    "net_profit": 753000,
+    "tax": {
+      "rate": 0.30,
+      "amount": 225900
+    }
+  }
+}
+The tax payable to URA will be UGX 225,900.
+NOTE;
+If a taxpayer incurs a loss, then tax payable would be zero.
+
+
+Individual Income Tax.
+This is a tax imposed on individuals in the sector using the individual rates applicable.
+Resident individuals enjoy a tax free annual income threshold of UGX. 2,820,000 per
+annum. The balance is taxed at 10%, 20% or 30% depending on the income bracket.
+Individuals who earn above UGX 120,000,000 per annum pay an additional 10% on
+the income above UGX 120 million.
+Rate of tax for Resident individuals
+N.B CY represents chargeable income.
+{
+  "tax_rates": {
+    "residents": [
+      {
+        "income_range": "0 to 2,820,000",
+        "rate": "Nil"
+      },
+      {
+        "income_range": "2,820,000 to 4,020,000",
+        "rate": "(CY – 2,820,000) x 10%"
+      },
+      {
+        "income_range": "4,020,000 to 4,920,000",
+        "rate": "(CY – 4,020,000) x 20% + 120,000"
+      },
+      {
+        "income_range": "4,920,000 to 120,000,000",
+        "rate": "(CY – 4,920,000) x 30% + 300,000"
+      },
+      {
+        "income_range": "Above 120,000,000",
+        "rate": "[(CY – 4,920,000) x 30% + 300,000] + [(CY – 120,000,000) x 10%]"
+      }
+    ],
+    "non_residents": [
+      {
+        "income_range": "0 to 2,820,000",
+        "rate": "Nil"
+      },
+      {
+        "income_range": "2,820,000 to 4,020,000",
+        "rate": "(CY – 2,820,000) x 10%"
+      },
+      {
+        "income_range": "4,020,000 to 4,920,000",
+        "rate": "(CY – 4,920,000) x 30% + 582,000"
+      },
+      {
+        "income_range": "4,920,000 to 120,000,000",
+        "rate": "(CY – 4,920,000) x 30% + 582,000"
+      },
+      {
+        "income_range": "Above 120,000,000",
+        "rate": "[(CY – 4,920,000) x 30% + 582,000] + [(CY – 120,000,000) x 10%]"
+      }
+    ]
+  }
+}
+Income tax worked example for a resident individual in business:
+Using the example of ABC manufacturing above; assuming it’s registered as
+an individual, and is a resident, the tax payable would be:
+Answer
+The chargeable Income 753,000 falls in the bracket (0 to 2,820,000 UGX)
+Tax payable =Nil
+
+
+PAY AS YOU EARN (PAYE)
+This tax applies to a sector player who has employees (administrative or
+causal laborers) that earn an aggregate in excess of 235,000 per month.
+This form of tax is withheld every month from the employee’s salary by the
+employers and then remitted to URA on behalf of the employees.
+Please Note:
+1. It is an obligation of the employer (not the employee) to deduct PAYE on
+a monthly basis and furnish the return by the 15th of the following month.
+2. The amounts withheld should also be paid over to URA by the 15th of the
+following month to avoid interest charges.
+
+PAYE tax rates applicable for residents and non-residents:
+{
+  "monthly_tax_rates": {
+    "residents": [
+      {
+        "income_range": "0 to 235,000",
+        "rate": "Nil"
+      },
+      {
+        "income_range": "235,000 to 335,000",
+        "rate": "(CY – 235,000) x 10%"
+      },
+      {
+        "income_range": "335,000 to 410,000",
+        "rate": "(CY – 335,000) x 20% + 10,000"
+      },
+      {
+        "income_range": "410,000 to 10,000,000",
+        "rate": "(CY – 410,000) x 30% + 25,000"
+      },
+      {
+        "income_range": "Above 10,000,000",
+        "rate": "[(CY – 410,000) x 30% + 25,000] + [(CY – 10,000,000) x 10%]"
+      }
+    ],
+    "non_residents": [
+      {
+        "income_range": "0 to 235,000",
+        "rate": "CY x 10%"
+      },
+      {
+        "income_range": "335,000 to 410,000",
+        "rate": "(CY – 335,000) x 20% + 33,500"
+      },
+      {
+        "income_range": "410,000 to 10,000,000",
+        "rate": "(CY – 410,000) x 30% + 48,500"
+      },
+      {
+        "income_range": "Above 10,000,000",
+        "rate": "[(CY – 410,000) x 30% + 48,500] + [(CY – 10,000,000) x 10%]"
+      }
+    ]
+  }
+}
+
+PAYE worked examples for resident employee.
+1. Kamonde is a resident employed by ABC manufacturing ltd. He earns a
+monthly salary of UGX 200,000. Is the company obliged to deduct PAYE tax from
+Kamonde?
+Solution; No, because Kamonde’s monthly salary is less than the threshold UGX
+235,000 so his salary does not attract PAYE.
+2. If Kamonde in addition to the monthly salary of UGX 200,000 is given
+travelling monthly allowance of UGX 95,000 and medical monthly allowance of UGX
+55,000. Monthly allowance for accommodation UGX 150,000 Compute his monthly
+amount of PAYE to be deducted from Kamonde’?
+13 A GUIDE TO TAXATION OF THE MANUFACTURING SECTOR
+Solution;
+Computation of Monthly Employment Income:
+Salary 200,000 UGX
+Travelling allowance 95,000 UGX
+Medical allowance 55,000 UGX
+Accommodation allowance 150,000 UGX
+Total {chargeable income} 500,000 UGX
+Computation of the PAYE to be deducted:
+{500,000 falls under the bracket (Exceeding Shs 410,000 but not exceeding
+10,000,000)}
+Thus the PAYE applicable will be (30% of the amount by which chargeable income
+exceeds Shs 410,000 + 25000
+Chargeable Income 500.000 UGX
+Less 410.000 UGX
+Balance 90,000 UGX
+30 % 27,000 UGX
+Add 25,000 UGX
+Tax there on in UGX 52,000
+PAYE worked examples for non-resident employee.
+3. Mr. Brown is a non-resident employed by ABC manufacturing ltd. He earns
+a monthly salary of UGX15, 000,000= Compute his monthly amount of PAYE to be
+deducted?
+Solution
+15,000,000 falls under the bracket (Exceeding UGX 410,000)
+Thus PAYE = (30% (15,000,000 - 410,000) + 48,500) + 10% (15,000,000 -
+10,000,000) = UGX 4,925,500
+
+
+Withholding Tax (WHT)
+Withholding tax (WHT) is a form of advance income tax that is withheld at source by
+one person (withholding agent) upon making payment to another person (payee).
+If a person supplies goods above one million Uganda shillings, the person to whom
+those goods are supplied charges withholding tax at a rate of 6%.
+The threshold of Shs. 1,000,000 is in respect of the total contract value, implying that
+separate supplies which constitute one contract are subject to the 6% withholding tax
+regardless of the fact that the amount paid per a single supply or transaction is less
+than the threshold value.
+The supplier receives a Tax Credit Certificate that helps in offsetting tax liability in the
+final income tax return.
+
+Who is a Withholding Agent?
+A withholding agent is a person legally obliged to withhold tax on payment. To
+become a withholding agent one must;
+• Be on the list of selected / designated withholding agents published by the
+Minister of finance in a gazette or
+• Be making a payment on a transaction that is required by law to be deducted
+from WHT.
+
+Illustration
+If Kato a resident individual supplies factory sundries worth 100 million UGX to ABC
+manufacturing, he will receive a net of 94 million UGX and the 6 million UGX (6% of
+100 million UGX) will be Withheld and remitted to URA by ABC ltd on his behalf. Note
+that the 6million UGX withheld forms part of Kato’s annual Tax liability and thus will
+reduce his Tax liability for the year.
+Responsibility of Filing a WHT return and Payment of WHT
+• The responsibility for payment of the tax rests primarily on the person making
+payment as a withholding agent. Thus, in case of his/her failure to withhold the
+tax or in case of under-withholding, the under-collected tax becomes due from
+the withholding agent.
+• A WHT Agent is required to pay the tax withheld within 15 days after the end of
+the month in which the payment subject to withholding tax was made by the
+WHT Agent. . Note; this is not only for PAYE but also all other Withholding taxes.
+
+
+Value Added Tax (VAT)
+This is an indirect tax on consumption charged on value added to taxable supplies, at
+different stages in the chain of distribution at the rate of 18%.
+Some transactions are beyond the scope of VAT and these are classified as exempt
+supplies and are specified in the Second Schedule of the VAT Act Cap 349. Supplies
+on which VAT is charged at 0% are classified as zero-rated supplies and are specified
+in the Third Schedule of the VAT Act Cap 349.
+VAT registration
+The threshold for VAT registration is an annual turnover of over 150 million, or 37.5
+million in the first 3 consecutive months.
+Compulsory Registration
+There are two categories of persons that are required to compulsorily register for VAT
+under the VAT Act. These are:
+• Persons who make taxable supplies (turnover) in excess of 37.5 million in any 3
+consecutive calendar months.
+• Public bodies that engage in business activities. These include Government
+Ministries, departments, parastatals, Town Councils and District Administrations
+among others. These bodies should apply for registration on the date they start
+dealing in business activities. The business activities include hall hire, tendering
+of services, markets, street parking, toilet management services, street bill board
+adverts and disposal of assets, among others.
+
+Voluntary Registration
+Persons whose taxable turnover is below the VAT threshold are eligible to register if
+they wish to do so provided they meet the following general requirements;
+• The applicant must have a fixed place of abode or business.
+• The applicant should be able to keep proper books of accounts.
+• The applicant should be able to submit regular and reliable tax returns.
+• The applicant should be a fit and a proper person in the opinion of the
+Commissioner
+•
+Illustration
+Mertz Investments made the following sales (VAT inclusive) to the following
+customers in the month of September 2021. Usur 5,000,000 UGX, Biyinzika 600,000
+UGX and Coka 3,200,000 UGX. Mertz
+Investments also incurred the following purchases (VAT inclusive) Globo Chemicals
+(U) Ltd 1,200,500 UGX. Jactor Supermarket 100,800 UGX.
+Calculate the VAT payable to URA.
+{
+  "sales": [
+    {
+      "name": "Usur",
+      "particulars": "Cooking oil",
+      "TIN": "1000427333",
+      "amount_charged": 4237288,
+      "VAT": 762712,
+      "VAT_inclusive": 5000000
+    },
+    {
+      "name": "Biyinzika wholesalers",
+      "particulars": "soap",
+      "TIN": "1002240249",
+      "amount_charged": 508475,
+      "VAT": 91525,
+      "VAT_inclusive": 600000
+    },
+    {
+      "name": "Coka super market",
+      "particulars": "Cooking oil",
+      "TIN": "1000243003",
+      "amount_charged": 2711864,
+      "VAT": 488136,
+      "VAT_inclusive": 3200000
+    }
+  ],
+  "total_sales_VAT": 1342373,
+  "purchases": [
+    {
+      "name": "Globo Chemicals ltd",
+      "particulars": "Factory supplies",
+      "TIN": "1000159958",
+      "amount_charged": 1017373,
+      "VAT": 183127,
+      "VAT_inclusive": 1200500
+    },
+    {
+      "name": "Jactor Supermarket",
+      "particulars": "Detergents",
+      "TIN": "1000153993",
+      "amount_charged": 85424,
+      "VAT": 15376,
+      "VAT_inclusive": 100800
+    }
+  ],
+  "total_purchases_VAT": 198503
+}
+
+
+IMPORTANT:
+ISSUANCE OF E-INVOICES BY ALL VAT REGISTERED TAXPAYERS
+It is mandatory for all VAT registered taxpayers to register for EFRIS and issue
+fiscalised invoices i.e. e-invoices.
+The Electronic Fiscal Receipting and Invoicing Solution (EFRIS) is a new smart
+business solution used to record business transactions and share the information with
+URA in real time.
+An e-invoice shows that a sale has occurred through EFRIS.
+Penalties for non-compliance in regard to EFRIS
+A VAT registered taxpayer who does not adopt the use of EFRIS is liable to pay a
+penal tax equivalent to the tax due on the goods or services or 400 currency points
+whichever is higher.
+Note: One currency point =20,000 Uganda Shs.
+
+PERIOD FOR CLAIMING INPUT TAX
+The law allows a period of six (6) months from the date of issue of the e-invoice within
+which a person can apply for an input tax credit.
+Please note: Input VAT claims are limited to only supplies acquired for use in the
+related business, generating a taxable supply.
+
+
+LOCAL EXCISE DUTY
+This is a tax that is imposed on specified imported or locally manufactured goods,
+and services. Initially Excise Duty was meant for “luxury” or prohibited items. However
+excise duty is now treated as any other source of revenue for Government. The
+applicable rates may be specific or ad valorem.
+The tax is imposed on the value of the import; and in the case of locally manufactured
+goods, the duty (local excise duty) is payable on the ex-factory price of the
+manufactured goods.
+Exported but locally manufactured goods are exempt from excise duty. Persons
+supplying excisable goods and services are required to register and file monthly
+returns to the tax authority by the 15th day of the month following the month in which
+delivery of the goods was made.
+
+EXCISE DUTY IN RESPECT OF EXCISABLE GOODS AND SERVICES
+{
+  "excise_duty_rates": {
+    "cigarettes": {
+      "soft_cap": {
+        "locally_manufactured": 55000,
+        "imported": 75000
+      },
+      "hinge_lid": {
+        "locally_manufactured": 80000,
+        "imported": 100000
+      }
+    },
+    "tobacco_products": {
+      "cigars_cheroots_cigarillos": 200,
+      "smoking_tobacco": 200,
+      "homogenized_tobacco": 200
+    },
+    "beer": {
+      "malt_beer": {
+        "rate": "60% or UGX 2050 per litre, whichever is higher"
+      },
+      "local_raw_material_beer": {
+        "rate": "30% or UGX 950 per litre, whichever is higher"
+      },
+      "barley_beer": {
+        "rate": "30% or UGX 950 per litre, whichever is higher"
+      },
+      "opaque_beer": {
+        "rate": "20% or UGX 230 per litre, whichever is higher"
+      }
+    },
+    "spirits": {
+      "local_raw_material_spirits": {
+        "rate": "60% or UGX 1500 per litre, whichever is higher"
+      },
+      "undenatured_spirits": {
+        "rate": "100% or UGX 2500 per litre, whichever is higher"
+      },
+      "ready_to_drink_spirits": {
+        "rate": "80% or UGX 1700 per litre, whichever is higher"
+      }
+    },
+    "non_alcoholic_beverages": {
+      "excluding_fruit_vegetable_juices": {
+        "rate": "11% or UGX 250 per litre, whichever is higher"
+      },
+      "fruit_vegetable_juice": {
+        "rate": "12% or UGX 250 per litre, whichever is higher"
+      },
+      "powder_for_reconstitution": {
+        "rate": "15% of the value"
+      },
+      "fermented_sugary_tea_solution": {
+        "rate": "12% or UGX 250 per litre, whichever is higher"
+      }
+    },
+    "wine": {
+      "local_raw_material_wine": {
+        "rate": "20% or UGX 2000 per litre, whichever is higher"
+      },
+      "other_wine": {
+        "rate": "80% or UGX 8000 per litre, whichever is higher"
+      }
+    },
+    "fuel": {
+      "motor_spirit": 1450,
+      "gas_oil_automotive": 1130,
+      "other_gas_oils": 630,
+      "motor_vehicle_lubricants": "15%"
+    },
+    "other_excisable_goods": {
+      "mineral_bottled_water": "10%",
+      "chewing_gum_sweets_chocolates": "Nil",
+      "local_material_furniture": "Nil",
+      "other_furniture": "20%",
+      "specialized_hospital_furniture": "Nil",
+      "cosmetics_perfumes": "10%",
+      "cement": 500,
+      "cooking_oil": 200,
+      "cane_beet_sugar_industrial_use": "0%",
+      "cane_beet_sugar_sucrose": 100,
+      "plastic_product_granules": "2.5% or USD 70/ton, whichever is higher"
+    }
+  }
+}
+
+Note
+Excise duty is charged on deliveries (Goods and services) made out of the factory as
+well as on payment regardless of whether payment is made or not.
+Excise duty return is submitted on a monthly basis and the due date for both filing the
+return and payment is the 15th day of the subsequent month.
+Computation of excisable duty payable
+EXCISE DUTY PAYABLE = (EX-FACTORY PRICE X QUANTITY) X EXCISE DUTY RATE
+However, Ex-factory price is defined as;
+{
+  "goods_cost_breakdown": {
+    "cost_of_materials": "XXXX",
+    "overheads": "XXXX",
+    "total_cost": "XXXXX",
+    "profit": "XXXX",
+    "ex_factory_price": "XXXXX"
+  }
+}
+
+Example
+Kanya Company limited produced and delivered 400 cartons of bottled water to a
+concert. The ex-factory price per carton was 20,000 UGX and the excisable duty rate
+was 10%. Required determine the excisable duty payable?
+Solution
+EXCISE DUTY = (EX-FACTORY PRICE X QUANTITY) X EXCISE DUTY RATE
+= (400X20,000 UGX) X 10%
+= UGX 800,000
+
+DIGITAL TRACKING SOLUTION (DTS)
+URA in partnership with Uganda National Bureau of Standards (UNBS) introduced
+the Digital Tracking Solution (DTS) as a track & trace platform that sends production
+and importation data for specific products immediately, to both URA and UNBS.
+The Digital Tracking Solution involves the stamping of products with a digital stamp.
+The digital stamps comprise of both;
+a. Digital Tax Stamps - for tax purposes (URA) and;
+b. Conformity Stamps - for safety standards certification (UNBS)
+ What is a Digital Tax Stamp?
+A Digital Tax Stamp is a marking that is applied to goods or their packaging and
+contains; security features and codes to prevent counterfeiting of goods and enable
+track and trace capabilities.
+Goods affected by DTS include:
+a. All excisable goods; starting with wines, spirits, water, cigarettes, beer, soda,
+cement sugar, cooking oil, fruit and vegetable juices, any other alcoholic, nonalcoholic and fermented beverages.
+b. Other goods as gazetted by the Commissioner.
+NB. These products will not be allowed on the market without stamps.
+a. The Digital Tracking Solution is used by both local manufacturers and importers
+of products, specified by the Commissioner by a notice in a gazette and it is
+mandatory for these taxpayers to apply tax stamps.
+
+Benefits of DTS
+a. Ability to conveniently verify and trace all specified goods throughout the
+distribution chain
+b. Make instant requests for report of one’s daily, weekly, monthly transactions
+c. mproved record keeping since one can track their transactions
+d. Facilitation to comply through immediate access of details of your production/
+imports which in turn facilitates easy processing of VAT refunds and quickens
+return filing
+e. For importers, the system quickens customs clearing as the information would
+have been captured beforehand
+f) Reduction in smuggling and dumping of goods hence controlling illicit trade
+and encouraging fair market competition
+Penalties relating to tax stamps
+A manufacturer who does not affix a stamp on gazette goods is liable to pay a penal
+tax equivalent to double the tax due on goods or fifty (50) million
+Shillings, whichever is higher.
+
+
+HOW ARE THE LOCAL AUTHORITY CHARGES TREATED FOR INCOME TAX
+PURPOSES?
+All charges imposed by local authorities (ground rent, environmental tax, and license
+operating fees) are allowed as a deduction in the income statement.
+
+RETURNS AND ACCOUNTS
+WHAT IS REQUIRED OF YOU AS A TAX PAYER AFTER TIN REGISTRATION?
+You will be required to meet your tax obligations by timely filing tax returns and
+making payments.
+
+WHAT IS A TAX RETURN?
+• A tax return is the tax form on which you report your income for the year to URA
+and declare your profits or losses for tax purposes.
+• A Tax period is the duration for which a return is required i.e. a year, month or
+week.
+• Due date is the deadline for filing a return beyond which a person is required to
+pay a penalty for late filing.
+{
+  "return_filing_due_dates": {
+    "annual_returns": {
+      "individual_income_tax": {
+        "provisional_return_due_date": "The last day of the 3rd month after the start of the year of Income.",
+        "final_return_due_date": "The last day of the 6th month after the end of the year of Income."
+      },
+      "rental_income_tax_individual": {
+        "provisional_return_due_date": "The last day of the 3rd month after the start of the year of Income.",
+        "final_return_due_date": "The last day of the 6th month after the end of the year of Income."
+      },
+      "corporate_income_tax": {
+        "provisional_return_due_date": "The last day of the 6th month after the start of the year of Income.",
+        "final_return_due_date": "The last day of the 6th month after the end of the year of Income."
+      },
+      "rental_income_tax_non_individual": {
+        "provisional_return_due_date": "The last day of the 6th month after the start of the year of Income.",
+        "final_return_due_date": "The last day of the 6th month after the end of the year of Income."
+      },
+      "presumptive_small_business_income_tax": {
+        "provisional_return_due_date": "The last day of the 3rd month after the start of the year of Income.",
+        "final_return_due_date": "The last day of the 6th month after the end of the year of Income."
+      },
+      "trust_income_tax_beneficiary": {
+        "provisional_return_due_date": "The last day of the 3rd month after the start of the year of Income.",
+        "final_return_due_date": "The last day of the 6th month after the end of the year of Income."
+      },
+      "trust_income_tax_non_beneficiary": {
+        "provisional_return_due_date": "The last day of the 6th month after the start of the year of Income.",
+        "final_return_due_date": "The last day of the 6th month after the end of the year of Income."
+      },
+      "partnership_income_tax": {
+        "provisional_return_due_date": "",
+        "final_return_due_date": "The last day of the 6th month after the end of the year of Income."
+      }
+    },
+    "monthly_returns": {
+      "withholding_tax": {
+        "due_date": "By the 15th day of the following month."
+      },
+      "PAYE": {
+        "due_date": "By the 15th day of the following month."
+      },
+      "excise_duty": {
+        "due_date": "By the 15th day of the following month."
+      }
+    }
+  }
+}
+
+
+WHAT IS AN ADVANCE RETURN?
+• This is a return submitted before its due date.
+• During any year of income, where a taxpayer has died, is bankrupt, wound up,
+gone into liquidation, is about to leave Uganda permanently or any other reason
+the Commissioner considers appropriate, he/she may be required to file an
+advance return by a specified date.
+• In the event that the Advance Return is not submitted by the due date, an
+Advance Assessment is issued.
+Note that; the notice requesting for such a return shall be in writing specifying the due
+date for filing the return.
+
+IS THERE AN EXTENSION OF THE RETURN FILING DATE?
+• If you are not able to file a return by the due date, you can apply for an extension
+to file your return providing reasons justifying the extension.
+• The extension if granted will not exceed 90 days (in aggregate) and does not
+change the due date for payment of the tax due. Interest will, therefore, accrue on
+any outstanding tax liability.
+• If any taxpayer is dissatisfied with the Commissioner’s decision about the
+extension, he may challenge it under the objection and appeals procedure.
+
+CAN A TAXPAYER AMEND A TAX RETURN?
+A taxpayer may amend the tax return on condition the return is not under
+investigation and amendment is done within 3 years from the date on which the
+original return was lodged by the taxpayer.
+
+ARE THERE ANY PENALTIES IN REGARD TO RETURN FILING?
+•	 Failure to file a return
+A person who fails to furnish a tax return by the due date or within a further time
+allowed by the Commissioner is liable to a fine not exceeding Shs. 1,000,000 and
+failure to furnish the return within the time prescribed by court to a fine not exceeding
+Shs.2, 000,000 on conviction.
+• Providing false /misleading information
+A person who knowingly or recklessly makes false or misleading statements or omits
+from a statement to a tax officer, a matter or thing is liable to a fine not exceeding two
+hundred currency points that is Shs. 110,000,000 or imprisonment not exceeding ten
+years or both on conviction.
+
+
+WHAT IS A TAX ASSESSMENT?
+A tax assessment is a document/ form showing the estimated taxable income of a
+person and the tax payable on it including any penalty. Tax assessment include;
+
+Default assessment
+This is a tax assessment made to a person based on estimated taxable income of that
+person. It is generated and issued by the Commissioner due to failure by the taxpayer
+to furnish a self-assessment return for any given tax period.
+
+Advance assessment
+Is a declaration issued if the Commissioner is satisfied that there is a risk that a
+taxpayer may delay, obstruct, prevent, or render ineffective payment or collection of
+tax that has not yet become due.
+It may be made before the date on which the taxpayer’s tax return for the period is
+due.
+It can be issued if a taxpayer defaults in submitting an advance return when requested
+by the Commissioner. However the Commissioner can also issue this assessment
+without notice. This assessment can be objected to and can also be amended.
+Where the taxpayer files a returns for a given period on which a Default or Advance
+assessments was issued, the taxpayer’s return for that period shall be accepted and
+takes precedence over the default assessment.
+Taxpayer is allowed to submit his/her return together with the objection.
+
+Additional assessment
+This is an amendment of an original tax assessment issued by the commissioner for
+any tax period to ensure that correct tax liability is obtained.
+It is made at any time where fraud or any gross or willful neglect has been committed
+by, or on behalf of the taxpayer or new information has been discovered in relation to
+the tax payable for a tax period.
+
+
+PAYMENT OF TAX
+WHAT NEXT AFTER FILING THE RETURN?
+After filing a return, the taxpayer is required to register a payment and pay the tax
+due using available payment modes e.g. bank, URA USSD code *285 #, AskURA App,
+VISA, MasterCard, American Express, Union Pay, Mobile Money, EFT, RTGS and Swift,
+Cash, Cheque, Demand draft, or Point of Sale.
+Please note: The due date of making the payment is the same as the return filing due
+date.
+
+HOW DOES ONE REGISTER A PAYMENT?
+To register a tax payment;
+• Visit the web portal (ura.go.ug)
+• Click on eServices,
+• Select Payment Registration under payments.
+• Select the tax head,
+• go to details of Tax Type
+• Select the tax head from the drop down and input the tax amount.
+• Fill in the details of the Taxpayer and mode of payment (bank, URA USSD code
+*285 #,AskURA App, VISA, MasterCard, American Express, Union Pay, Mobile
+Money, EFT, RTGS and Swift, Cash, Cheque, Demand draft, or Point of Sale),
+• Enter the given image and click Accept and Register.
+• Print out the Payment Registration Slip that appears on submission and take the
+form to the bank to effect payment.
+
+WHAT HAPPENS IN THE CASE OF UNPAID TAX?
+Any unpaid tax shall be collected by the Commissioner through serving a notice of
+demand on the person liable.
+The taxpayer will be given at least 28 days from the date of service of the notice
+within which they can pay any outstanding amount specified in the demand notice.
+Failure to pay tax
+Failure to pay attracts interest at a rate of 2%.per month the tax is not paid.
+26 A GUIDE TO TAXATION OF THE MANUFACTURING SECTOR
+HOW IS PAYMENT OF OUTSTANDING TAX ALLOCATED?
+If a taxpayer has any outstanding liability and pays any amount, the payment will be
+allocated in the order of PPI (Principal tax liability, penal tax and Interest due).
+If a taxpayer has more than one tax liability at the time a payment is made, the
+amount will be used to clear the oldest / earliest liability first in the same order as
+above (PPI).
+
+CAN A TAXPAYER REQUEST TO PAY TAX AT LATER DATE?
+A taxpayer can apply in writing to the Commissioner for an extension to pay tax
+at a later date. The date of payment can be extended but the payment due date is
+maintained. Interest shall accrue from the due date of the payment.
+
+OBJECTIONS AND APPEALS
+What happens to a taxpayer who has been assessed and is dissatisfied?
+The taxpayer has an option and a right to object to the decision against him/her.
+What is an objection?
+An objection is a communication from a taxpayer to the Commissioner expressing
+dissatisfaction with either an assessment raised on him/her or any other tax decision
+made by the Commissioner.
+This is always presented in the format prescribed by the Commissioner.
+What are the Objection timelines?
+• A person dissatisfied with a tax decision for example an assessment, may within
+45 days after receiving notice of tax decision, lodge an objection with the
+Commissioner.
+• The objection should be in a prescribed form and state precisely the grounds
+upon which it is made. There should be sufficient evidence to support the
+objection.
+• Where a taxpayer has lodged an objection to a tax assessment for the tax period,
+the Commissioner may consider the objection if the taxpayer;
+1. Has filed the return to which the assessment relates in the case of a default or
+advance assessment;
+2. Has paid the tax due under the return to which the assessment relates together
+with any penalty or interest due
+• A taxpayer may apply in writing to the Commissioner for an extension of
+time to lodge an objection.
+27 A GUIDE TO TAXATION OF THE MANUFACTURING SECTOR
+• The Commissioner may, if satisfied with the grounds upon which the application
+is made, grant an extension for such period as the Commissioner determines.
+• The Commissioner may, if satisfied with the grounds upon which the application
+is made, grant an extension for such period as the Commissioner determines.
+• The Commissioner may make a decision on an objection;
+1. To a tax assessment affirming, reducing, increasing or otherwise varying the
+assessment to which the objection relates; OR
+2. To any other decision affirming, varying or setting aside the decision.
+• The Commissioner shall within 90 days from the date of receipt of the objection,
+serve notice of an objection decision.
+• Where an objection decision has not been served within 90 days, the person
+objecting may, by notice in writing to the Commissioner, elect to treat the
+Commissioner as having made a decision to allow the objection.
+• Where a person makes an election, the person is treated as having been served
+with a notice of objection decision on the date the person’s election was lodged
+with the Commissioner.
+• Note that; this time limit for making an objection decision is waived where a
+review of the taxpayer’s records is necessary for settlement of the objection and
+the taxpayer is notified.
+• Where the Commissioner reviews the taxpayer records, the Commissioner shall
+with in ninety days, notify the taxpayer of the review.
+Alternative Dispute Resolution
+A person dissatisfied with an objection decision may within Seven (7)days after being
+served with a notice of the objection decision, apply to the Commissioner to resolve
+the dispute amicably through Alternative Dispute Resolution(ADR) mechanisms
+including reconciliation, mediation, negotiation and settlement. ADR is another
+avenue for taxpayers who would like to review tax decisions issued by URA without
+necessarily lodging an appeal to the Tax Appeals Tribunal.
+Appeals
+1. Tax Appeals Tribunal (TAT)
+A person dissatisfied with the decision of the Commissioner may appeal to the Tax
+Appeals Tribunal
+A person intending to lodge an appeal against the decision of the Commissioner shall
+do so within 45 days after being served with the decision and shall serve a copy of the
+appeal on the Commissioner.
+2. High court
+A person dissatisfied with a decision of the Tribunal may, within 30 days after being
+served with a notice of the decision, lodge an application with the High Court for
+review of the decision.
+3. Court of Appeal
+• A person dissatisfied with a decision of the High Court, arising from appeals
+to the TAT, may, within 30 days after being served with a notice of the decision or
+within further time as the Court of Appeal may allow, lodge an application with the
+Court of Appeal for review of the decision. This appeal will be on questions of law
+only.
+• The Court of appeal shall inquire and determine the appeal expeditiously and
+shall declare its findings not later than 60 days from the date of filing the appeal.
+4. Supreme Court
+• An appeal to the Supreme Court may be lodged with a certificate of the
+court of appeal that the matter raises questions of law of great public importance or
+if the Supreme Court in its overall duty to see that justice is done, considers that the
+appeal should be heard.
+• The Supreme Court shall inquire and determine the appeal expeditiously and
+shall declare its findings not later than 30 days from the date of filing the appeal.”
+• Where the decision maker is required to refund an amount of tax to a person
+as a result of a decision of a reviewing body, the tax shall be repaid with interest at
+the rate specified in the relevant law on the amount of the refund for the period
+commencing from the date the person paid the tax refunded and ending on the last
+day of the month in which the refund is made.
+Reviewing body means the Tribunal, the High Court, the Court of Appeal and the
+Supreme Court.
+
+Burden of proof
+• For any objection to a tax assessment, the burden is on the taxpayer to prove
+that the assessment is incorrect.
+• For any other tax decision, the burden is on the person objecting to the decision.
+Please note:
+Taxpayers who fail to provide information upon receiving a request from Uganda
+Revenue Authority are prohibited from presenting new information when objecting to
+a tax decision or during ADR proceedings.
+However, this restriction shall not apply to the information requested for by the
+Commissioner where the information is more than three years from the date the
+document was authored or beyond the past three financial years.
+
+
+ENFORCEMENT OF TAX
+HOW IS A TAX COLLECTED FROM PERSONS LEAVING UGANDA PERMANENTLY?
+The Commissioner may issue a certificate containing particulars of the tax payable
+to the officer responsible for immigration control and request the Commissioner for
+Immigration to prevent that person from leaving Uganda until that person;
+a. Makes payment of the tax in full; or
+b. Executes a financial bond guaranteeing payment of the tax liability.
+WHAT ARE THE TAX RECOVERY PROCEDURES?
+When a person refuses or fails to comply, the taxes may be collected using various
+methods, such as:
+• By Distress i.e. selling goods on which the assessed person has a claim in order to
+recover the tax.
+• By Agency Notice: i.e. instructing a person who has money or other liabilities of
+the assessed person to pay the held amount directly to URA.
+• Temporary closure of business premises.
+• Charge over immovable property: The Commissioner may write, to the Registrar
+of Titles, and direct the Registrar that the land or buildings in the notice are the
+subjects of security for unpaid tax.
+• Seizure of goods in cases where there is proof that the taxes due have not been
+paid especially in respect of the supply, removal or import of the goods.
+Note: The Commissioner may write to a taxpayer, to give security by bond, deposit, or
+anything else that is satisfactory, for the payment of tax that may become payable, if
+there is reason to believe that;
+c. a taxpayer establishing a business in Uganda intends to carry on the business
+for a limited time only; or
+d. A taxpayer may not pay tax when it becomes payable.
+
+INVESTIGATIONS
+WHO IS ENTITLED TO ACCESS TAX INFORMATION?
+The Commissioner is entitled to have at all times and without prior notice, full and free
+access to; any premises or place; any record and any data storage device.
+He can make an extract or copy, seize any record, data storage device that may
+contain data relevant to a tax obligation; and retain any record or data storage device
+seized for as long as it is required for determining a taxpayer’s tax obligation and
+liability.
+
+HOW IS EVIDENCE OBTAINED?
+The Commissioner may request any person;
+(a) to furnish any information or
+(b) to attend and be examined at the time and place designated for that
+purpose concerning the tax affairs of that person or any other person.
+For that purpose, the Commissioner may require the person to produce any record,
+including an electronic format, in the control of the person.
+
+
+WHAT TAX INCENTIVES APPLY TO THE MANUFACTURING SECTOR?
+To ensure that persons in the manufacturing business get a fair return on investment,
+the Government of Uganda has continued to prioritize the sector and over the years
+many incentives have been introduced to boost the sector development and these
+include;
+
+DOMESTIC TAX INCENTIVES
+
+Income Tax Incentives
+{
+  "income_tax_incentives": [
+    {
+      "type_of_incentive": "Cost of constructing an approved Industrial Building",
+      "conditions": "A person who incurs expenditure in constructing a building to be used as a factory/manufacturing premise, and the factory/manufacturing premise is being used in generating income, is allowed a deduction in his return (Industrial Building Deduction) at a rate of 5% per year for a period of 20 years from the time he starts using the building."
+    },
+    {
+      "type_of_incentive": "100% deduction of Scientific research expenditure",
+      "conditions": "A person who incurs expenditure for scientific research"
+    },
+    {
+      "type_of_incentive": "100% deduction of training expenditure",
+      "conditions": "Employers who train permanent residents or provide tertiary education not exceeding in the aggregate 5 years"
+    },
+    {
+      "type_of_incentive": "10 year Exemption of Income derived by a person from undertaking any of the listed business activities in the Industrial Park or Free Zone",
+      "conditions": "Operator in an Industrial Park or Free Zone who invests in processing agricultural products; manufacturing or assembling medical appliances, medical sundries or pharmaceuticals, building materials, automobiles and house hold appliances; manufacturing furniture, pulp, paper, printing and publishing of instructional materials; manufacture of tyres, footware, mattresses or tooth paste. Must invest a minimum of USD 10m for foreign investors and USD 300,000 for EAC citizens or USD 150,000 where the investment is made upcountry. Incentive takes effect from the date of commencement of the specified business, same incentives applies to an existing operator in an Industrial Park or Free Zone. The investor must use at least 70% of locally sourced raw materials and employ at least 70% EAC citizens who must take up at least 70% of the wage bill."
+    },
+    {
+      "type_of_incentive": "Exemption of Income derived from the exportation of finished consumer and capital goods",
+      "conditions": "10 years. Exemption valid from the beginning of the investment. Investor must export at least 80% of production. Investor must apply for and be issued with a certificate of exemption."
+    }
+  ]
+}
+
+
+VAT Tax Incentives
+{
+  "VAT_incentives": [
+    {
+      "type_of_incentive": "Zero rated Exports",
+      "conditions": "Nil"
+    },
+    {
+      "type_of_incentive": "Nil VAT on the supply of feasibility study and design services and on the supply of locally produced raw materials and inputs.",
+      "conditions": "Nil"
+    },
+    {
+      "type_of_incentive": "Investment in processing agricultural products; manufacturing or assembling medical appliances, medical sundries or pharmaceuticals, building materials, automobiles and house hold appliances; manufacturing furniture, pulp, paper, printing and publishing of instructional materials;",
+      "conditions": "Must invest a minimum of USD 10m for foreign investors and USD 300,000 for EAC citizens or USD 150,000 where the investment is made upcountry. Incentive takes effect from the date of commencement of the specified business, same incentives applies to an existing operator in an Industrial Park or Free Zone. The investor must use at least 70% of locally sourced raw materials and employ at least 70% EAC citizens who must take up at least 70% of the wage bill."
+    },
+    {
+      "type_of_incentive": "Nil VAT on the supply of services to a manufacturer other than [a manufacturer who engages in supply of locally produced materials for construction of a factory or warehouse and the supply of locally produced raw materials and inputs or machinery and equipment to an operator within an industrial park, free zone or an operator within a single factory or other business outside the industrial park or free zone].",
+      "conditions": "The investment capital of this manufacturer should be at least USD 30 million for a foreign investor or USD 5 million for a local investor, to conduct a feasibility study or to undertake design and construction, or in the case of any other manufacturer from the date on which the manufacturer makes an additional investment equivalent to USD 30 million for a foreign investor or USD 5 million for a local investor; who has capacity to use at least 70 percent of the raw materials that are locally sourced, subject to their availability, and Who has capacity to employ at least 70 percent of the employees that are citizens earning an aggregate wage of at least 70 percent of the total wage Bill."
+    },
+    {
+      "type_of_incentive": "Deemed VAT: Tax payable on a taxable supply made by a supplier to a contractor executing an aid-funded project is deemed to have been paid by the contractor provided the supply is for use by the contractor solely and exclusively for the aid funded project.",
+      "conditions": "Contractors executing aid-funded projects"
+    },
+    {
+      "type_of_incentive": "The supply of drugs, medicines and medical sundries manufactured in Uganda are zero rated",
+      "conditions": "Manufactured in Uganda"
+    },
+    {
+      "type_of_incentive": "Cash basis accounting for VAT on supplies made to government VAT registered suppliers",
+      "conditions": "Nil"
+    },
+    {
+      "type_of_incentive": "Zero rating the supply of menstrual cups and inputs for their manufacture",
+      "conditions": "Suppliers and manufacturers of menstrual cups"
+    }
+  ]
+}
+
+
+Excise Duty Incentives
+{
+  "excise_duty_incentives": [
+    {
+      "type_of_incentive": "Nil excise duty on construction materials of a manufacturer (excluding certain industries)",
+      "conditions": "Must invest a minimum of USD 50m or, in the case of any other manufacturer, who makes an additional investment equivalent to USD 50m"
+    },
+    {
+      "type_of_incentive": "Nil duty on construction materials of a factory or warehouse exclusive of those available on the local market, locally produced raw materials and inputs.",
+      "conditions": "Operator within the industrial park, free zone or other business outside the industrial park or free zone who invests in processing agricultural goods; manufactures or assembles medical appliances, medical sundries or pharmaceuticals, building materials, automobiles, household appliances or manufactures furniture, pulp, paper, printing and publishing of instructional materials. Must invest a minimum of USD 10m for foreign investors and USD 300,000 for EAC citizens or USD 150,000 where the investment is made upcountry. Incentive takes effect from the date of commencement of the specified business, same incentives applies to an existing operator in an Industrial Park or Free Zone. The investor must use at least 70% of locally sourced raw materials and employ at least 70% EAC citizens who must take up at least 70% of the wage bill."
+    },
+    {
+      "type_of_incentive": "Nil excise duty on construction materials of a manufacturer",
+      "conditions": "Investment capital is at least 50 million US Dollars or, in the case of any other manufacturer, who makes an additional investment equivalent to 50 million US Dollars. Excludes certain industries."
+    },
+    {
+      "type_of_incentive": "Duty remission",
+      "conditions": "Excise duty will be remitted on plastic products manufactured for use in packaging of products for export, use in packaging medicaments and is manufactured from recycled plastic. Manufacturers of specified goods"
+    }
+  ]
+}
+
+
+Stamp Duty Incentives
+{
+  "stamp_duty_incentives": [
+    {
+      "documents_exempted": [
+        "debenture",
+        "further charge",
+        "lease of land",
+        "increase of share capital",
+        "transfer of land",
+        "agreement to provide services on conducting a feasibility study or developing a design for construction"
+      ],
+      "conditions": "a) In case of a new manufacturer, who is subject to availability, has capacity to use at least 70% of the locally produced raw materials, and employs at least 70% citizens with an aggregate wage bill of the new manufacturer and whose investment capital is at least 50 million US Dollars. b) In case of an existing manufacturer who subject to availability has capacity to use at least 70% of the locally produced raw materials, and employs at least 70% citizens with an aggregate wage bill of the existing manufacturer from the date on which the manufacturer makes an additional investment equivalent of 35 million US Dollars"
+    },
+    {
+      "documents_exempted": [
+        "debentures",
+        "lease of land",
+        "increase of share capital",
+        "transfer of land"
+      ],
+      "conditions": "Nil Stamp duty on debentures, lease of land, Increase of share capital, transfer of land. Operator within an industrial park or free zone or an operator of a single factory or other business outside the industrial park who invests in agro processing, food processing, medical appliances, building materials, light industry, automobile manufacturing and assembly, household appliances, furniture. Must invest a minimum of USD 10m for foreign investors and USD 300,000 for EAC citizens or USD 150,000 where the investment is made upcountry. Incentive takes effect from the date of commencement of the specified business, same incentives applies to an existing operator in an Industrial Park or Free Zone. The investor must use at least 70% of locally sourced raw materials and employ at least 70% EAC citizens who must take up at least 70% of the wage bill."
+    }
+  ]
+}
+
+
+INTERNATIONAL TRADE INCENTIVES
+MANUFACTURING SECTOR
+
+{
+  "incentives": [
+    {
+      "description": "Raw materials used in production of goods meant for export.",
+      "tax_incentive": "Duty draw back i.e. customs refunds of all or part of any import duty paid on material inputs imported to produce goods for export or used in a manner for a purpose prescribed as condition for granting duty draw back."
+    },
+    {
+      "description": "Plant, machinery, equipment and raw materials used in production of goods for export.",
+      "tax_incentive": "Manufacturing under bond facility. A facility extended to manufacturers to import plant, machinery, equipment and raw materials tax free, for exclusive use in the manufacture of goods for export."
+    },
+    {
+      "description": "Organic surface-active agents",
+      "tax_incentive": "Remission of duty from 25% to 10% for one year for manufacturers of industrial tube mill coolant, textile and garments, foot wear."
+    },
+    {
+      "description": "Clear primer",
+      "tax_incentive": "Remission of duty from 10% to 0% for the manufacturers of pre-painted coils and sheets for one year."
+    },
+    {
+      "description": "Top coat colour primer (paint for iron sheets)",
+      "tax_incentive": "Remission of duty from 35% to 0% for the manufacturers of pre-painted coils and sheets for one year."
+    },
+    {
+      "description": "Erasers of rubber/pencil rubber tip",
+      "tax_incentive": "Remission of duty from 25% and 10% to 0% for the manufacturers of school pencils for one year."
+    },
+    {
+      "description": "Of aluminium, not alloyed (aluminium coils)",
+      "tax_incentive": "Remission of duty from 10% to 0% to manufacturers of kitchenware for one year."
+    },
+    {
+      "description": "Petroleum Base Oils",
+      "tax_incentive": "Remission of duty at 0% to manufacturers of lubricants."
+    },
+    {
+      "description": "Other polymers in primary forms",
+      "tax_incentive": "Remission of duty from 10% to 0% on raw materials used in the manufacture of metal crown caps for one year."
+    },
+    {
+      "description": "Other Lubricating preparations",
+      "tax_incentive": "Remission of duty from 25% to 10% and 10% to 0% on inputs for the manufacture of tyres and tubes for one year."
+    },
+    {
+      "description": "On a base of paper or paperboard only/sand paper jumbo roll",
+      "tax_incentive": "Remission of duty from 25% to 10% and 10% to 0% on inputs for the manufacture of construction sand paper and paint brushes for one year."
+    }
+  ]
+}
+{
+  "incentives": [
+    {
+      "description": "Other paper, paperboard, uncoated kraft paper and paperboard, other plates, sheets, film, foil and strip, of plastics, paper or paperboard labels of all kinds, whether or not printed.",
+      "tax_incentive": "Stay of application of the EAC CET rate of 35%, 25% and 10% and apply a duty rate of 10% (for 25% and 35%) and 0% for 10% respectively for one year."
+    },
+    {
+      "description": "Electric & Hybrid vehicles",
+      "tax_incentive": "Stay of application of EAC CET rate of 25% and apply a duty rate of 0% for one year."
+    },
+    {
+      "description": "Electric Motorcycle",
+      "tax_incentive": "Stay of application of EAC CET rate of 25% and apply a duty rate of 0% for one year."
+    },
+    {
+      "description": "White refined sugar for industrial use. The industrial sugars category includes sweeteners that service food and confectionary manufacturers, as well as the catering, baking, pharmaceutical and beverage industries.",
+      "tax_incentive": "Duty remission to 25% on imported white refined sugar (for industrial use)."
+    },
+    {
+      "description": "Paper for use in the manufacture of exercise books and textbooks. An exercise book or composition book is a notebook that is used in schools to copy down school work and notes.",
+      "tax_incentive": "Imported at import duty rate of 0% under duty remission scheme for one year."
+    },
+    {
+      "description": "Stranded wire used in manufacture of tyres. A stranded wire as opposed to solid wire is a composite of a bundle of small gauge wires wrapped in a particular pattern inside insulation to make a larger conductor.",
+      "tax_incentive": "Duty remission at 0% for manufacturers of motor vehicle tyres for one year."
+    },
+    {
+      "description": "Treads for cold retreading used in retreading of tyres. The tread of a tyre or track refers to the rubber on its circumference that contacts the road or the ground. Retread, also known as 'recap,' or a 'remold' is a re-manufacturing process for tyres that replace the tread on worn tyres.",
+      "tax_incentive": "Duty remission to 0% for manufacturers of motor vehicle tyres under the duty remission scheme in accordance with section 140 of the East African Community Customs Management Act, 2004."
+    },
+    {
+      "description": "Raw materials for manufacture of aluminium cans for the dairy industry. Aluminium can is a bucket, pail, or other container made of aluminium that is used for holding or carrying liquid, food, beverage etc.",
+      "tax_incentive": "Duty remission to 0% for one year under the duty remission scheme in accordance with section 140 of the East African Community Customs Management Act, 2004."
+    },
+    {
+      "description": "Unassembled (Complete Knocked Down) motor cycle kits imported by approved local assemblers of motor cycles.",
+      "tax_incentive": "Imported at import duty rate of 10% under duty remission scheme in accordance with section 140 of the East African Community Customs Management Act, 2004."
+    },
+    {
+      "description": "Unassembled (Complete Knocked Down) bicycle kits imported by approved local assemblers of bicycles.",
+      "tax_incentive": "Imported at import duty rate of 0% under duty remission scheme in accordance with section 140 of the East African Community Customs Management Act, 2004."
+    },
+    {
+      "description": "Raw materials and inputs used in the assembly of transformers and switch gear.",
+      "tax_incentive": "Imported at import duty rate of 0% under duty remission scheme in accordance with section 140 of the East African Community Customs Management Act, 2004."
+    },
+    {
+      "description": "Raw materials for manufacture of sanitary towels and tampons.",
+      "tax_incentive": "Remission of import duty rate of 0% under duty remission scheme in accordance with section 140 of the East African Community Customs Management Act, 2004."
+    },
+    {
+      "description": "Inputs used for the production of solar panels.",
+      "tax_incentive": "Remission of import duty rate 0% under duty remission scheme in accordance with section 140 of the East African Community Customs Management Act, 2004."
+    },
+    {
+      "description": "Component parts and inputs for the assemblers of refrigerators and freezers.",
+      "tax_incentive": "Remission of import duty rate of 10% under duty remission scheme in accordance with section 140 of the East African Community Customs Management Act, 2004."
+    },
+    {
+      "description": "Inputs and raw materials to use in the manufacture of food supplements for infants and nutrient deficient persons.",
+      "tax_incentive": "Remission of import duty rate of 0% under duty remission scheme in accordance with section 140 of the East African Community Customs Management Act, 2004."
+    },
+    {
+      "description": "Scrap batteries for manufacture of lead batteries.",
+      "tax_incentive": "Remission of import duty rate of 0% under duty remission scheme in accordance with section 140 of the East African Community Customs Management Act, 2004."
+    },
+    {
+      "description": "Inputs for the manufacture of dry cell batteries.",
+      "tax_incentive": "Duty remission to 0% under the duty remission scheme in accordance with section 140 of the East African Community Customs Management Act, 2004."
+    }
+  ]
+}
+
+
+INTERNATIONAL TRADE INCENTIVES
+MANUFACTURING SECTOR
+{
+  "incentives": [
+    {
+      "description": "Inputs used in the production of gas cylinders imported by manufacturers of such cylinders",
+      "tax_incentive": "Duty remission to 0% under the duty remission scheme in accordance with section 140 of the East African Community Customs Management Act, 2004."
+    },
+    {
+      "description": "Inputs for manufacture of matches and match boxes",
+      "tax_incentive": "Duty remission to 0% under the duty remission scheme in accordance with section 140 of the East African Community Customs Management Act, 2004."
+    },
+    {
+      "description": "Inputs for the manufacture of deep cycle batteries",
+      "tax_incentive": "Duty remission to 0% under the duty remission scheme in accordance with section 140 of the East African Community Customs Management Act, 2004."
+    },
+    {
+      "description": "Materials for manufacture of mosquito nets",
+      "tax_incentive": "Exempted from all taxes under the 5th schedule of the East African Community Customs Management Act, 2004."
+    },
+    {
+      "description": "Inputs for use in the manufacture of medical diagnostic kits imported by manufacturers of medical diagnostic kits as approved by a Director medical services",
+      "tax_incentive": "Exempted from all taxes under the 5th schedule of the East African Community Customs Management Act, 2004."
+    },
+    {
+      "description": "Packing materials and raw materials for the manufacture of medicaments",
+      "tax_incentive": "Exempted from all taxes under the 5th schedule of the East African Community Customs Management Act, 2004."
+    },
+    {
+      "description": "Iron and steel products for manufacture of automobile leaf springs, bolts and nuts",
+      "tax_incentive": "Duty remission on inputs to 0% under the duty remission scheme in accordance with section 140 of the East African Community Customs Management Act, 2004."
+    },
+    {
+      "description": "Trigger spray and lotion pumps for the manufacture of cosmetic containers",
+      "tax_incentive": "Duty remission on inputs to 0% under the duty remission scheme in accordance with section 140 of the East African Community Customs Management Act, 2004."
+    },
+    {
+      "description": "Noodles for the manufacture of toilet soap",
+      "tax_incentive": "Duty remission to 10% for one year under the duty remission scheme in accordance with section 140 of the East African Community Customs Management Act, 2004."
+    },
+    {
+      "description": "Umbrella heads for roofing nails",
+      "tax_incentive": "Import duty remitted from 25% to 10% for the manufacture of roofing nails."
+    },
+    {
+      "description": "Glucose Syrup",
+      "tax_incentive": "Import duty is applicable at a rate of 0% for one year."
+    },
+    {
+      "description": "Odiferous mixtures of a kind used as raw materials in food and drink industries",
+      "tax_incentive": "Duty remission to 0% for one year under the duty remission scheme in accordance with section 140 of the East African Community Customs Management Act, 2004."
+    },
+    {
+      "description": "Inputs for the manufacture of toothbrushes",
+      "tax_incentive": "Granted duty remission at 0% on inputs for the manufacture of tooth brushes under the duty remission scheme in accordance with section 140 of the East African Community Customs Management Act, 2004."
+    },
+    {
+      "description": "Nylon yarns for the manufacture of fishing nets.",
+      "tax_incentive": "Duty remission to 0% for one year under the duty remission scheme in accordance with section 140 of the East African Community Customs Management Act, 2004."
+    },
+    {
+      "description": "Inputs imported by a manufacturer for the use in the manufacture of agricultural equipment.",
+      "tax_incentive": "Duty remission to 0% for one year under the duty remission scheme in accordance with section 140 of the East African Community Customs Management Act, 2004."
+    },
+    {
+      "description": "Inputs used in the manufacture of pesticides, fungicides, insecticides and acaricides as approved by the Ministry of Agriculture",
+      "tax_incentive": "Granted duty remission at 0% on inputs used in the manufacture of pesticides, fungicides, insecticides and acaricides as approved by the Ministry of Agriculture."
+    },
+    {
+      "description": "Inputs used in the manufacture of energy stoves.",
+      "tax_incentive": "Granted duty remission at 0% on inputs used in the manufacture of energy saving stoves."
+    },
+    {
+      "description": "Roofing tiles coated with acrylic paint and the weather side coated with natural sand granules",
+      "tax_incentive": "Inputs for the manufacture of roofing tiles to be imported at a duty rate of 0% for one year."
+    },
+    {
+      "description": "Inputs for the manufacture of roofing tiles coated with acrylic paint and the weather side coated with natural sand granules",
+      "tax_incentive": "Imported at a duty of 0% for one year."
+    },
+    {
+      "description": "Jacquard material for making spring mattresses (printed with Logo)",
+      "tax_incentive": "Import duty applicable at a rate of 10% for one year instead of 25%."
+    },
+    {
+      "description": "Weave fabrics of polyester staple fibre Woven Grey Fabric of higher (finer) yarn counts for wet.",
+      "tax_incentive": "Import duty applicable at a rate of 10% instead of 25% for one year."
+    }
+  ]
+}
+
+{
+  "incentives": [
+    {
+      "description": "Poly Cotton Material for making mattresses",
+      "tax_incentive": "Import duty applicable at a rate of 10% for one year. To support the textile sector by increasing availability of these materials."
+    },
+    {
+      "description": "Catalytic preparations for the manufacture of foam and spring mattresses",
+      "tax_incentive": "Granted remission of duty from 10% to apply a duty rate of 0% for one year for the manufacture of foam and spring mattresses."
+    },
+    {
+      "description": "Other springs and leaves for the manufacture of foam and spring mattresses",
+      "tax_incentive": "Granted remission of duty from 25% to 10% for one year for the manufacturers of foam and spring mattresses."
+    },
+    {
+      "description": "Poly Vinyl Alcohol",
+      "tax_incentive": "Import duty applicable at a rate of 0% instead of 10%."
+    },
+    {
+      "description": "Wheat Grain",
+      "tax_incentive": "Import duty is applicable at a rate of 10% instead of 35% for one year."
+    },
+    {
+      "description": "Barley",
+      "tax_incentive": "Import duty is applicable at a rate of 10% instead of 25% for one year."
+    },
+    {
+      "description": "Aerosol cans",
+      "tax_incentive": "Duty remission to 0% instead of 10% for one year under the duty remission scheme in accordance with section 140 of the East African Community Customs Management Act, 2004."
+    },
+    {
+      "description": "Organic surface-active agents (Anionic) (LABSA)",
+      "tax_incentive": "Duty remission to 0% instead of 10% for one year for manufacturers of detergents and liquid soaps under the duty remission scheme, in accordance with section 140 of the East African Community Customs Management Act, 2004."
+    },
+    {
+      "description": "Organic surface-active agents (Cationic)",
+      "tax_incentive": "Duty remission to 0% instead of 10% for one year under the duty remission scheme in accordance with section 140 of the East African Community Customs Management Act, 2004."
+    },
+    {
+      "description": "Textile garments coated with gum for direct use in the manufacture of books",
+      "tax_incentive": "Duty remission to 0% instead of 10% for one year under the duty remission scheme in accordance with section 140 of the East African Community Customs Management Act, 2004."
+    },
+    {
+      "description": "Duplex boards",
+      "tax_incentive": "Duty remission to 0% instead of 10% for one year under the duty remission scheme in accordance with section 140 of the East African Community Customs Management Act, 2004."
+    },
+    {
+      "description": "Inputs for assembly of ships",
+      "tax_incentive": "Duty remission to 0% for one year under the duty remission scheme in accordance with section 140 of the East African Community Customs Management Act, 2004."
+    },
+    {
+      "description": "Inputs for assemblers of equipment specially designed for use by disabled, blind and physically handicapped persons",
+      "tax_incentive": "Duty remission to 0% for one year under the duty remission scheme in accordance with section 140 of the East African Community Customs Management Act, 2004."
+    },
+    {
+      "description": "Inputs for manufacture of filters",
+      "tax_incentive": "Granted duty remission rate of 0% for one year under the duty remission scheme in accordance with section 140 of the East African Community Customs Management Act, 2004."
+    },
+    {
+      "description": "Groats and meal of wheat",
+      "tax_incentive": "Granted duty remission rate of 0% for one year under the duty remission scheme in accordance with section 140 of the East African Community Customs Management Act, 2004."
+    },
+    {
+      "description": "Unassembled speakers (CKD) inputs for assembly of speakers",
+      "tax_incentive": "Granted duty remission rate of 0% for one year under the duty remission scheme in accordance with section 140 of the East African Community Customs Management Act, 2004."
+    },
+    {
+      "description": "Unassembled (CKD) hot water kettles- inputs for assembly of hot water kettles",
+      "tax_incentive": "Granted duty remission rate of 0% for one year under the duty remission scheme in accordance with section 140 of the East African Community Customs Management Act, 2004."
+    },
+    {
+      "description": "Unassembled (CKD) DVD players - inputs for assembly of DVD players",
+      "tax_incentive": "Granted duty remission rate of 0% for one year under the duty remission scheme in accordance with section 140 of the East African Community Customs Management Act, 2004."
+    },
+    {
+      "description": "Unassembled flat iron (CKD) inputs for assembly of flat iron",
+      "tax_incentive": "Granted duty remission rate of 0% for one year under the duty remission scheme in accordance with section 140 of the East African Community Customs Management Act, 2004."
+    }
+  ]
+}
+
+
+INTERNATIONAL TRADE INCENTIVES
+MANUFACTURING SECTOR
+{
+  "incentives": [
+    {
+      "description": "Unassembled (CKD) blenders - inputs for assembly of blenders",
+      "tax_incentive": "Granted duty remission rate of 0% for one year under the duty remission scheme in accordance with section 140 of the East African Community Customs Management Act, 2004."
+    },
+    {
+      "description": "Unassembled (CKD) LED, CFL bulbs - inputs for assembly of LED & CFL bulbs",
+      "tax_incentive": "Granted duty remission rate of 0% for one year under the duty remission scheme in accordance with section 140 of the East African Community Customs Management Act, 2004."
+    },
+    {
+      "description": "Unassembled floor, table and wall fans",
+      "tax_incentive": "Granted duty remission rate of 0% for one year under the duty remission scheme in accordance with section 140 of the East African Community Customs Management Act, 2004."
+    },
+    {
+      "description": "Unassembled Cookers",
+      "tax_incentive": "Granted duty remission rate of 0% for one year under the duty remission scheme in accordance with section 140 of the East African Community Customs Management Act, 2004."
+    },
+    {
+      "description": "Listed inputs for the manufacture of furniture",
+      "tax_incentive": "Granted duty remission rate of 0% for one year under the duty remission scheme in accordance with section 140 of the East African Community Customs Management Act, 2004."
+    },
+    {
+      "description": "Steel Blanks for Spoons and forks",
+      "tax_incentive": "Granted duty remission rate of 0% for one year under the duty remission scheme in accordance with section 140 of the East African Community Customs Management Act, 2004."
+    },
+    {
+      "description": "Stranded wire, ropes and cables for the manufacture of toughened and laminated glass",
+      "tax_incentive": "Granted duty remission rate of 0% for one year under the duty remission scheme in accordance with section 140 of the East African Community Customs Management Act, 2004."
+    },
+    {
+      "description": "Other plates, sheets, film, foil and strip, of plastics, noncellular and not reinforced, laminated, supported or similarly combined with other materials. Of poly (vinyl butyral) for the manufacture of Toughened and laminated glass.",
+      "tax_incentive": "Granted duty remission rate of 0% for one year under the duty remission scheme in accordance with section 140 of the East African Community Customs Management Act, 2004."
+    },
+    {
+      "description": "Non-wired glass for the manufacture of Toughened and laminated glass.",
+      "tax_incentive": "Granted duty remission rate of 0% for one year under the duty remission scheme in accordance with section 140 of the East African Community Customs Management Act, 2004."
+    },
+    {
+      "description": "Paints and varnishes (including enamels and lacquers) based on synthetic polymers or chemically modified natural polymers, dispersed or dissolved in a non-aqueous medium for the manufacture of decorative aluminium panels",
+      "tax_incentive": "Granted duty remission rate of 0% for one year under the duty remission scheme in accordance with section 140 of the East African Community Customs Management Act, 2004."
+    },
+    {
+      "description": "Aluminium plates, sheets and strip of a thickness exceeding 0.2 mm of aluminium alloy for the manufacture of decorative aluminium panels",
+      "tax_incentive": "Granted duty remission rate of 0% for one year under the duty remission scheme in accordance with section 140 of the East African Community Customs Management Act, 2004."
+    },
+    {
+      "description": "Listed inputs for the manufacture of furniture",
+      "tax_incentive": "Granted duty remission rate of 0% for one year under the duty remission scheme in accordance with section 140 of the East African Community Customs Management Act, 2004."
+    },
+    {
+      "description": "Acrylic polymers for manufacture of paints",
+      "tax_incentive": "Granted duty remission rate of 0% for one year under the duty remission scheme in accordance with section 140 of the East African Community Customs Management Act, 2004."
+    },
+    {
+      "description": "Listed inputs for the manufacture of textiles (garments)",
+      "tax_incentive": "Granted duty remission rate of 0% for one year under the duty remission scheme in accordance with section 140 of the East African Community Customs Management Act, 2004."
+    },
+    {
+      "description": "Listed inputs for the manufacture of footwear (shoes)",
+      "tax_incentive": "Granted duty remission rate of 0% for one year under the duty remission scheme in accordance with section 140 of the East African Community Customs Management Act, 2004."
+    },
+    {
+      "description": "Raw salt for the manufacture of edible salt of sub-heading 2501.00.10",
+      "tax_incentive": "Granted duty remission rate of 0% for one year under the duty remission scheme in accordance with section 140 of the East African Community Customs Management Act, 2004."
+    },
+    {
+      "description": "Inputs for the assembly/manufacture of mobile phones",
+      "tax_incentive": "Granted duty remission rate of 0% for one year under the duty remission scheme in accordance with section 140 of the East African Community Customs Management Act, 2004."
+    },
+    {
+      "description": "Parts of chains for assemblers of chains for motorcycles, bicycles and industrial machinery",
+      "tax_incentive": "Granted duty remission rate of 0% for one year under the duty remission scheme in accordance with section 140 of the East African Community Customs Management Act, 2004."
+    },
+    {
+      "description": "Valves and their corresponding component parts used for the manufacture of motorcycle tubes",
+      "tax_incentive": "Grant Uganda a remission of duty to apply a duty rate of 0% for one year. These are raw materials for manufacture of motorcycle brake shoes."
+    }
+  ]
+}
+
+{
+  "incentives": [
+    {
+      "description": "Brake linings and pads, Brakes and servo-brakes; parts thereof; Other Adhesive Glues",
+      "tax_incentive": "Grant Uganda a remission of duty to apply a duty rate of 0% for one year. These are raw materials for manufacture of motorcycle brake shoes."
+    },
+    {
+      "description": "High tensile galvanized wire",
+      "tax_incentive": "Granted duty remission rate of 0% for one year under the duty remission scheme in accordance with section 140 of the East African Community Customs Management Act, 2004."
+    },
+    {
+      "description": "Aluminium wire, not alloyed: -- Of which the maximum cross-sectional dimension exceeds 7 mm",
+      "tax_incentive": "Granted a remission of duty from 10% to 0% for one year to only cable manufacturers."
+    },
+    {
+      "description": "Wires of alloyed steel",
+      "tax_incentive": "Stay of application of the EAC CET rate of 10% and apply a rate of 0% up to 30 June 2024."
+    },
+    {
+      "description": "Other Zinc coated coils",
+      "tax_incentive": "Grant Uganda a remission of duty to 0% on Galvanised coils of a thickness of 2.5mm and above for one year. To support the local manufacture of guard rails."
+    },
+    {
+      "description": "Listed Packaging materials and plastic materials for coffee",
+      "tax_incentive": "Granted a remission of duty to apply a duty rate of a 0% instead of 10%, 10% instead of 25% on packaging material used by domestic processors of coffee, for one year."
+    },
+    {
+      "description": "Listed equipment for polishing and Heating gemstones",
+      "tax_incentive": "Granted duty remission rate of 0% for one year under the duty remission scheme in accordance with section 140 of the East African Community Customs Management Act, 2004."
+    },
+    {
+      "description": "Active yeasts",
+      "tax_incentive": "Granted duty remission to 0% for one year under the duty remission scheme in accordance with section 140 of the East African Community Customs Management Act, 2004."
+    },
+    {
+      "description": "Petroleum jelly",
+      "tax_incentive": "Granted duty remission to 10% for one year under the duty remission scheme in accordance with section 140 of the East African Community Customs Management Act, 2004."
+    },
+    {
+      "description": "Polyurethane resins",
+      "tax_incentive": "Granted duty remission to 0% for one year under the duty remission scheme in accordance with section 140 of the East African Community Customs Management Act, 2004."
+    },
+    {
+      "description": "Uncoated/Unbleached Kraft Liner paperboard, in rolls or sheets, Glues based on starch, Other plates, films, sheets of plastic, paper or paper board labels whether printed or not",
+      "tax_incentive": "Granted duty remission from 35% and 10%, to 10% and 0% respectively for one year for manufacturers of paper bags, corrugated boxes for exporting products, raw materials used in the manufacture of surgical and examination medical gloves under the duty remission scheme in accordance with section 140 of the East African Community Customs Management Act, 2004."
+    },
+    {
+      "description": "Unbleached sack Kraft paper in rolls or sheets",
+      "tax_incentive": "Granted duty remission rate of 0% for one year under the duty remission scheme in accordance with section 140 of the East African Community Customs Management Act, 2004."
+    },
+    {
+      "description": "Paper and paperboard coated, impregnated or covered with plastics (excluding adhesives)",
+      "tax_incentive": "Granted duty remission to 0% for one year under the duty remission scheme in accordance with section 140 of the East African Community Customs Management Act, 2004"
+    },
+    {
+      "description": "Other plates, sheets, film, foil and strip, of plastic --- unprinted",
+      "tax_incentive": "Grant Uganda a remission of duty from 10% to 0% for one year. This is an input material for the label printing sector."
+    },
+    {
+      "description": "Mechanically Deboned Chicken Paste (MDM)",
+      "tax_incentive": "Granted duty remission to 0% for one year under the duty remission scheme in accordance with section 140 of the East African Community Customs Management Act, 2004."
+    }
+  ]
+}
+
+
+INTERNATIONAL TRADE INCENTIVES
+MANUFACTURING SECTOR
+{
+  "incentives": [
+    {
+      "description": "Greaseproof papers; and Other, Other Kraft paper and paperboard",
+      "tax_incentive": "Grant Uganda a remission of duty from 10% to 0% for one year, packaging material for manufactured cheese in accordance with section 140 of the East African Community Customs Management Act, 2004."
+    },
+    {
+      "description": "Compositing dry toilets",
+      "tax_incentive": "Grant Uganda a stay of the application of EAC CET rate of 25% and apply a duty rate of 10% on compositing dry toilets, for one year."
+    },
+    {
+      "description": "Various goods entering export processing zone or Freeport strictly for manufacturing of goods for export.",
+      "tax_incentive": "Goods entering an export processing zone or a freeport shall be exempt from duty in accordance with the East African Community Customs Management Act."
+    },
+    {
+      "description": "Plant and machinery VAT deferment.",
+      "tax_incentive": "The VAT to be deferred should exceed $4000 among other conditions as specified in the VAT Deferment Regulations."
+    },
+    {
+      "description": "Industrial replacement spare parts",
+      "tax_incentive": "- A spare part is a duplicate part to replace a lost or damaged part of a machine. - Parts should be imported as replacement parts used exclusively on industrial machinery classified in Chapters 84 and 85 of the EAC Common External Tariff - Should be imported by registered manufacturers - Should not be for resale or any other commercial purpose other than for replacement of worn out or obsolete parts of industrial machines subject to such conditions as the commissioner may impose Exempted from all taxes under the fifth schedule of the East African Community Customs Management Act, 2004."
+    },
+    {
+      "description": "Containers and Pallets used for packaging.",
+      "tax_incentive": "- Containers, including boxes, tins, bottles, jars and other packages in which any goods not liable to ad valorem duty are packed and imported being ordinary trade packages for the goods contained therein - Containers specially designed and equipped for carriage by any mode of transport Imported containers which the commissioner is satisfied on the recommendation of the director veterinary services that it is specially designed for storing semen for artificial insemination - Any other packing material of any kind designed for packing goods for export Exempted from all taxes under the fifth schedule of the East African Community Customs Management Act, 2004."
+    },
+    {
+      "description": "Pallets and pre-packing slings designed for packaging goods for export",
+      "tax_incentive": "Exempted from all taxes under the fifth schedule of the East African Community Customs Management Act, 2004."
+    }
+  ]
+}
+
+
+IMPORTANT INFORMATION
+What other offenses can be committed?
+• Failure to furnish a return or any other document.
+• Failure to comply with an agency notice or the requirements of a receiver.
+• Failure to maintain proper records.
+• Failure, without good cause, to comply with a request for information.
+• Improper use of a taxpayer identification number.
+• Making false or misleading statements.
+• Obstructing an officer.
+• Aiding and abetting another person to commit an offense.
+• Offering bribes to officers.
+Is there any advice to the players in the sector?
+i. For Associations; mobilize your members and invite URA to sensitize them.
+ii. For Taxpayers in the manufacturing sector;
+• Register for taxes,
+• Periodically assess yourselves by filing returns and Pay liabilities due (or
+claim refunds) by the due dates to avoid any penalties and interest that
+may accrue due to noncompliance.
+• Always attend URA Tax clinics / trainings whenever called upon.
+• Engage URA as much as possible to avoid being misled about taxes.
+Are there any Initiatives to train manufacturers?
+• One of URA’s focus areas this financial year the manufacturing sector
+and thus we urge business owners to fully participate and attend tax clinics
+and workshops when called upon.
+• Taxpayer Registration Expansion Program is being implemented to
+ease the registration process and compliance process.
+
+DISCLAIMER:
+This Information is strictly for purposes of guidance to our clientele and is
+subject to change on amendment of tax legislations & any other regulations
+that govern tax administration.
+
+
+
+
