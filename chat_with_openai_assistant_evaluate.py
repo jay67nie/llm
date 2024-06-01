@@ -33,38 +33,41 @@ os.environ['OPENAI_API_KEY'] = os.environ.get("OPENAI_API_KEY")
 
 # Retrieve from an existing collection
 client = chromadb.PersistentClient(path="./chroma_db")
-db = None
+
+sector = input("Enter the sector: ")
+
+if sector.lower().__contains__("agric"):
+    sector = "agric"
+
+elif sector.lower().__contains__("const"):
+    sector = "const"
+
+elif sector.lower().__contains__("education"):
+    sector = "education"
+
+elif sector.lower().__contains__("health"):
+    sector = "health"
+
+elif sector.lower().__contains__("manufacturing"):
+    sector = "manufacturing"
+
+elif sector.lower().__contains__("hotel"):
+    sector = "hotel_accommodation"
+
+elif sector.lower().__contains__("retail") or sector.lower().__contains__("wholesale"):
+    sector = "wholesale_retail"
+
+db = Chroma(client=client, collection_name=f"{sector}_guide", embedding_function=OpenAIEmbeddings())
+
+retriever = db.as_retriever(search_type="mmr", search_kwargs={"k": 10})
+
+compressor = FlashrankRerank(top_n=10)
+compression_retriever = ContextualCompressionRetriever(base_retriever=retriever, base_compressor=compressor)
+
+openai_client = OpenAI()
+
+# thread = openai_client.beta.threads.create()
 thread_id = "thread_ylT9GI1bxvJSv0rmeNAEP5sQ"
-
-
-
-def set_sector(sector):
-    # sector = input("Enter the sector: ")
-    global db
-
-    if sector.lower().__contains__("agric"):
-        sector = "agric"
-
-    elif sector.lower().__contains__("const"):
-        sector = "const"
-
-    elif sector.lower().__contains__("education"):
-        sector = "education"
-
-    elif sector.lower().__contains__("health"):
-        sector = "health"
-
-    elif sector.lower().__contains__("manufacturing"):
-        sector = "manufacturing"
-
-    elif sector.lower().__contains__("hotel"):
-        sector = "hotel_accommodation"
-
-    elif sector.lower().__contains__("retail") or sector.lower().__contains__("wholesale"):
-        sector = "wholesale_retail"
-
-    db = Chroma(client=client, collection_name=f"{sector}_guide", embedding_function=OpenAIEmbeddings())
-
 
 
 # TODO: Print thread to file called thread.txt
@@ -72,22 +75,9 @@ def set_sector(sector):
 #     f.write(thread.id)
 
 
-def chat_with_assistant(query):
+def chat_with_assistant():
     # Make the retriever history aware
-    # query = input('Enter your query: ')
-    global db
-    if db is None:
-        raise ValueError("Database has not been set. Please set the sector first.")
-
-    
-    retriever = db.as_retriever(search_type="mmr", search_kwargs={"k": 10})
-
-    compressor = FlashrankRerank(top_n=10)
-    compression_retriever = ContextualCompressionRetriever(base_retriever=retriever, base_compressor=compressor)
-
-    openai_client = OpenAI()
-
-    # thread = openai_client.beta.threads.create()
+    query = input('Enter your query: ')
 
     if len(chat_history) > 1:
         contextualized_query = contextualize_query_for_retriever(query)
@@ -127,12 +117,9 @@ def chat_with_assistant(query):
         msg_json = json.loads(messages.to_json())
         # print(msg_json)
         if msg_json["data"][0]["role"] == "assistant":
-            response = response = msg_json["data"][0]["content"][0]["text"]["value"]
-            build_chat_history(query, response)
-            return response
+            build_chat_history(query, msg_json["data"][0]["content"][0]["text"]["value"])
 
     else:
-        return run.status
         print(run.status)
 
 
@@ -162,13 +149,13 @@ def contextualize_query_for_retriever(query):
     return llm_response[0]
 
 
-# while True:
-#     chat_with_assistant()
-#     user_input = input("Do you want to continue chatting? (yes/no): ")
-#     if user_input.lower() == "no":
-#         # client.delete_collection(f"{thread_id}")
-#         # client.create_collection(f"{thread_id}", documents=chat_history)
-#         break
-#     else:
-#         continue
+while True:
+    chat_with_assistant()
+    user_input = input("Do you want to continue chatting? (yes/no): ")
+    if user_input.lower() == "no":
+        # client.delete_collection(f"{thread_id}")
+        # client.create_collection(f"{thread_id}", documents=chat_history)
+        break
+    else:
+        continue
 
