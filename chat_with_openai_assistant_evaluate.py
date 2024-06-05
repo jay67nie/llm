@@ -1,14 +1,13 @@
 import json
 import os
 
-import chromadb
 from dotenv import load_dotenv
 from langchain.retrievers import ContextualCompressionRetriever
 from langchain.retrievers.document_compressors import FlashrankRerank
+from langchain_community.vectorstores.chroma import Chroma
 from langchain_core.output_parsers import StrOutputParser
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_openai import OpenAIEmbeddings, ChatOpenAI
-from langchain_community.vectorstores.chroma import Chroma
 from openai import OpenAI
 
 #TODO: Add streaming support for the chat response. (Jerome)
