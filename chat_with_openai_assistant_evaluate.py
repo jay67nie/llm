@@ -2,14 +2,13 @@ import json
 import os
 from typing_extensions import override
 
-import chromadb
 from dotenv import load_dotenv
 from langchain.retrievers import ContextualCompressionRetriever
 from langchain.retrievers.document_compressors import FlashrankRerank
+from langchain_community.vectorstores.chroma import Chroma
 from langchain_core.output_parsers import StrOutputParser
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_openai import OpenAIEmbeddings, ChatOpenAI
-from langchain_community.vectorstores.chroma import Chroma
 from openai import OpenAI
 from openai.lib.streaming import AssistantEventHandler
 
@@ -53,7 +52,7 @@ class EventHandler(AssistantEventHandler):
                         print(f"\n{output.logs}", flush=True)
 
 # Retrieve from an existing collection
-client = chromadb.PersistentClient(path="./chroma_db")
+client = Chroma(persist_directory="./chroma_db")
 
 sector = input("Enter the sector: ")
 
