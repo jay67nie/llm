@@ -32,7 +32,7 @@ load_dotenv()
 os.environ['OPENAI_API_KEY'] = os.environ.get("OPENAI_API_KEY")
 
 # Retrieve from an existing collection
-client = chromadb.PersistentClient(path="./chroma_db")
+client = Chroma(persist_directory="./chroma_db")
 
 sector = input("Enter the sector: ")
 

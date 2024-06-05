@@ -97,7 +97,7 @@ pulsar-client==3.4.0
 pyarrow==16.1.0
 pyasn1==0.5.1
 pyasn1-modules==0.3.0
-pydantic==2.6.4
+pydantic==1.10.15
 pydantic_core==2.16.3
 pydeck==0.9.1
 Pygments==2.18.0

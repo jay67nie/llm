@@ -32,7 +32,6 @@ load_dotenv()
 os.environ['OPENAI_API_KEY'] = os.environ.get("OPENAI_API_KEY")
 
 # Retrieve from an existing collection
-client = chromadb.PersistentClient(path="./chroma_db")
 db = None
 thread_id = "thread_ylT9GI1bxvJSv0rmeNAEP5sQ"
 
@@ -63,7 +62,7 @@ def set_sector(sector):
     elif sector.lower().__contains__("retail") or sector.lower().__contains__("wholesale"):
         sector = "wholesale_retail"
 
-    db = Chroma(client=client, collection_name=f"{sector}_guide", embedding_function=OpenAIEmbeddings())
+    db = Chroma(persist_directory="./chroma_db", collection_name=f"{sector}_guide", embedding_function=OpenAIEmbeddings())
 
 
 
