@@ -23,7 +23,7 @@ dataclasses-json==0.6.4
 Deprecated==1.2.14
 distro==1.9.0
 duckdb==1.0.0
-fastapi==0.110.0
+fastapi==0.85.1
 filelock==3.13.3
 FlashRank==0.2.0
 flatbuffers==24.3.25
