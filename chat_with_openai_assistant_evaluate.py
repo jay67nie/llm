@@ -13,14 +13,11 @@ from langchain_community.vectorstores.chroma import Chroma
 from openai import OpenAI
 from openai.lib.streaming import AssistantEventHandler
 
-# TODO: Add streaming support for the chat response. (Jerome)
+# TODO: Add streaming support for the chat response. (Jerome) ✔️
 # TODO: Create a new thread for each user, and delete it when the chat is done. (Samson)
 # TODO: Modify the functionality to suit frontend, but maintain the backend logic. (Samson)
-# TODO: Suggest a persona for the user to use when chatting with the assistant. (Jerome)
+# TODO: Suggest a persona for the user to use when chatting with the assistant. (Jerome) ✔️
 # TODO: Evaluate the responses from the assistant. (Jerome)
-# TODO: Save chat history to chroma db with thread_id as the collection name when the user is done chatting.
-# TODO: If the user deletes a thread, remember to delete the chat history as well.
-
 chat_history = []
 
 contextualize_q_system_prompt = """Given a chat history and the latest user question \
