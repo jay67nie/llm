@@ -1,13 +1,9 @@
 import streamlit as st
-from chat_with_openai_assistant import chat_with_assistant , set_sector
+from chat_with_openai_assistant_evaluate import chat_with_assistant , set_sector
 
 
 
 def handle_user_question(user_question):
-    # print(user_question)
-    # st.write(st.session_state.messages
-    
-    # st.session_state.messages.append({"role": "user", "content": user_question})
     st.session_state.awaiting_response = True  # Set a flag to indicate response is being generated
 
     # Fetch the response
@@ -15,6 +11,13 @@ def handle_user_question(user_question):
     st.session_state.messages.append({"role": "assistant", "content": response})
     st.session_state.awaiting_response = False  # Reset the flag
     st.rerun()  # Rerun the app to update the UI
+
+def reset_sector(new_sector):
+    # Reset to the new sector
+    st.session_state.sector = new_sector
+    set_sector(new_sector)
+    st.session_state.messages = []
+    st.rerun()
     
 
     
@@ -47,7 +50,12 @@ def main():
             st.rerun() # Rerun the app to update the UI
 
     else:
-        st.sidebar.write("Selcted Sector: ",st.session_state.sector)
+        with st.sidebar:
+            st.write("Change Sector")
+            sector = st.selectbox("",["Agriculture","Construction","Education","Health","Manufacturing","Retail and Wholesale"])
+            if st.button("Change Sector"):
+                reset_sector(sector)
+                st.rerun()
 
 
         if user_question := st.chat_input("Ask Question here", disabled=st.session_state.awaiting_response):
