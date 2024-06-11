@@ -59,10 +59,10 @@ thread_id = None
 sector = None
 # Retrieve from an existing collection
 
-def set_sector(sector):
+def set_sector(selected_sector):
 # sector = input("Enter the sector: ")
     global db
-    global client, retriever, compression_retriever, thread_id
+    global client, retriever, compression_retriever, thread_id, sector
     sector_mapping = {
         "agriculture": "agric",
         "construction": "const",
@@ -73,29 +73,32 @@ def set_sector(sector):
         "retail": "wholesale_retail",
         "wholesale": "wholesale_retail"
     }
-    sector_key = next((key for key in sector_mapping if key in sector.lower()), None)
+    sector_key = next((key for key in sector_mapping if key in selected_sector.lower()), None)
 
     if sector_key:
         sector = sector_mapping[sector_key]
+
+        print(f"Setting sector to {sector}")
     else:
         raise ValueError("Invalid sector provided")
-
-    # client = Chroma(persist_directory="./chroma_db", embedding_function=OpenAIEmbeddings())
+    
     db = Chroma(persist_directory="./chroma_db", collection_name=f"{sector}_guide", embedding_function=OpenAIEmbeddings())
 
     retriever = db.as_retriever(search_type="mmr", search_kwargs={"k": 3})
 
     compressor = FlashrankRerank(top_n=3)
     compression_retriever = ContextualCompressionRetriever(base_retriever=retriever, base_compressor=compressor)
+    print("COMPRESSOR: ", compression_retriever)
 
 
     openai_client = OpenAI()
 
     thread_id = openai_client.beta.threads.create().id
+     
 
-
-
+    # client = Chroma(persist_directory="./chroma_db", embedding_function=OpenAIEmbeddings())
     
+
     # thread_id = create_thread()  # Call create_thread() to create a new thread
 
 
@@ -107,8 +110,9 @@ def set_sector(sector):
 def chat_with_assistant(query):
     # Make the retriever history aware
     # query = input('Enter your query: ')
-    global db, thread_id,sector
-    print("Sector: ", sector)
+    global db, thread_id, sector, compression_retriever, retriever, openai_client
+    
+    print("##  Sector: ## ", sector)
     if db is None:
         raise ValueError("Database has not been set. Please set the sector first.")
     
@@ -120,6 +124,8 @@ def chat_with_assistant(query):
         contextualized_query = query
 
     reranked_results = compression_retriever.get_relevant_documents(contextualized_query)
+    
+    print("COMPRESSOR 2 RESULTS ", compression_retriever)
 
     for result in reranked_results:
         print("Result", result.page_content, "\n")
@@ -137,7 +143,7 @@ def chat_with_assistant(query):
     openai_client.beta.threads.messages.create(
         thread_id=thread_id,
         role="assistant",
-        content=create_system_prompt(sector)
+        content=create_system_prompt(sector),
     )
 
     openai_client.beta.threads.messages.create(
