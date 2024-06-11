@@ -94,8 +94,8 @@ def chat_with_assistant(query):
 
     reranked_results = compression_retriever.get_relevant_documents(contextualized_query)
 
-    # for result in reranked_results:
-    #     print(result.page_content, "\n")
+    for result in reranked_results:
+        print(result.page_content, "\n")
 
     user_message = f"""
     <context>

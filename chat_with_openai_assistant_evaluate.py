@@ -2,13 +2,14 @@ import json
 import os
 from typing_extensions import override
 
+import chromadb
 from dotenv import load_dotenv
 from langchain.retrievers import ContextualCompressionRetriever
 from langchain.retrievers.document_compressors import FlashrankRerank
-from langchain_community.vectorstores.chroma import Chroma
 from langchain_core.output_parsers import StrOutputParser
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_openai import OpenAIEmbeddings, ChatOpenAI
+from langchain_community.vectorstores.chroma import Chroma
 from openai import OpenAI
 from openai.lib.streaming import AssistantEventHandler
 
@@ -22,12 +23,14 @@ chat_history = []
 contextualize_q_system_prompt = """Given a chat history and the latest user question \
     which might reference context in the chat history, formulate a standalone question as the user persona \
     which can be understood by the document retriever without the chat history. Do NOT answer the question! Strictly \
-    just restructure it as a question for the retriever"""
+    just restructure it as a question for the retriever. I repeat, do not answer the user question!!!!
+    Only restructure the question!!!"""
 
 chat_history.append(('system', contextualize_q_system_prompt))
 
 load_dotenv()
 os.environ['OPENAI_API_KEY'] = os.environ.get("OPENAI_API_KEY")
+
 
 class EventHandler(AssistantEventHandler):
     @override
@@ -128,7 +131,7 @@ def chat_with_assistant(query):
     print("COMPRESSOR 2 RESULTS ", compression_retriever)
 
     for result in reranked_results:
-        print("Result", result.page_content, "\n")
+        print("Result", result, "\n")
 
     user_message = f"""
     <context>
@@ -139,6 +142,8 @@ def chat_with_assistant(query):
     {query}
     </question>
     """
+
+    print("User message: ", user_message)
 
     openai_client.beta.threads.messages.create(
         thread_id=thread_id,
@@ -160,14 +165,14 @@ def chat_with_assistant(query):
     # )
 
     with openai_client.beta.threads.runs.stream(
-        thread_id=thread_id,
-        assistant_id=os.environ.get("ASSISTANT_ID"),
-        temperature=0,
-        event_handler=EventHandler()
+            thread_id=thread_id,
+            assistant_id=os.environ.get("ASSISTANT_ID"),
+            temperature=0.2,
+            event_handler=EventHandler()
     ) as stream:
         stream.until_done()
 
-    # if run.status == "completed":
+        # if run.status == "completed":
         messages = openai_client.beta.threads.messages.list(thread_id=thread_id, limit=1, order="desc")
 
         msg_json = json.loads(messages.to_json())
@@ -199,7 +204,7 @@ def contextualize_query_for_retriever(query):
         local_chat_history,
     )
 
-    llm = ChatOpenAI(model_name="gpt-3.5-turbo", temperature=0)
+    llm = ChatOpenAI(model_name="gpt-3.5-turbo", temperature=0.2)
 
     chain = chat_prompt | llm | StrOutputParser() | (lambda x: x.split("\n"))
 
