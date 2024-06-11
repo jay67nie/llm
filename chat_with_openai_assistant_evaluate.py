@@ -31,6 +31,7 @@ chat_history.append(('system', contextualize_q_system_prompt))
 load_dotenv()
 os.environ['OPENAI_API_KEY'] = os.environ.get("OPENAI_API_KEY")
 
+
 class EventHandler(AssistantEventHandler):
     @override
     def on_text_created(self, text) -> None:
@@ -52,6 +53,7 @@ class EventHandler(AssistantEventHandler):
                 for output in delta.code_interpreter.outputs:
                     if output.type == "logs":
                         print(f"\n{output.logs}", flush=True)
+
 
 # Retrieve from an existing collectio
 sector = input("Enter the sector: ")
@@ -87,6 +89,8 @@ compression_retriever = ContextualCompressionRetriever(base_retriever=retriever,
 openai_client = OpenAI()
 
 thread_id = openai_client.beta.threads.create().id
+
+
 # thread_id = create_thread()  # Call create_thread() to create a new thread
 
 
@@ -104,15 +108,10 @@ def chat_with_assistant():
     else:
         contextualized_query = query
 
-    uncompressed_results = retriever.
-
     reranked_results = compression_retriever.invoke(contextualized_query)
 
     for result in reranked_results:
         print("Result", result, "\n")
-
-    for result in uncompressed_results:
-        print("Uncompressed Result", result, "\n")
 
     user_message = f"""
     <context>
@@ -123,7 +122,6 @@ def chat_with_assistant():
     {query}
     </question>
     """
-
 
     print("User message: ", user_message)
 
@@ -147,14 +145,14 @@ def chat_with_assistant():
     # )
 
     with openai_client.beta.threads.runs.stream(
-        thread_id=thread_id,
-        assistant_id=os.environ.get("ASSISTANT_ID"),
-        temperature=0.2,
-        event_handler=EventHandler()
+            thread_id=thread_id,
+            assistant_id=os.environ.get("ASSISTANT_ID"),
+            temperature=0.2,
+            event_handler=EventHandler()
     ) as stream:
         stream.until_done()
 
-    # if run.status == "completed":
+        # if run.status == "completed":
         messages = openai_client.beta.threads.messages.list(thread_id=thread_id, limit=1, order="desc")
 
         msg_json = json.loads(messages.to_json())
@@ -217,4 +215,3 @@ while True:
         break
     else:
         continue
-
