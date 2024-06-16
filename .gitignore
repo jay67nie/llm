@@ -1,3 +1,5 @@
 .idea
 *.xml
-
+venv/
+chroma_db/
+__pycache__/

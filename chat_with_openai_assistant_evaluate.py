@@ -53,61 +53,76 @@ class EventHandler(AssistantEventHandler):
                     if output.type == "logs":
                         print(f"\n{output.logs}", flush=True)
 
-
-# Retrieve from an existing collectio
-sector = input("Enter the sector: ")
-
-if sector.lower().__contains__("agric"):
-    sector = "agric"
-
-elif sector.lower().__contains__("const"):
-    sector = "const"
-
-elif sector.lower().__contains__("education"):
-    sector = "education"
-
-elif sector.lower().__contains__("health"):
-    sector = "health"
-
-elif sector.lower().__contains__("manufacturing"):
-    sector = "manufacturing"
-
-elif sector.lower().__contains__("hotel"):
-    sector = "hotel_accommodation"
-
-elif sector.lower().__contains__("retail") or sector.lower().__contains__("wholesale"):
-    sector = "wholesale_retail"
-
-db = Chroma(persist_directory="./chroma_db", collection_name=f"{sector}_guide", embedding_function=OpenAIEmbeddings())
-
-retriever = db.as_retriever(search_type="mmr", search_kwargs={"k": 5})
-
-compressor = FlashrankRerank(top_n=5)
-compression_retriever = ContextualCompressionRetriever(base_retriever=retriever, base_compressor=compressor)
-
+client = None
+retriever = None
+compression_retriever = None
 openai_client = OpenAI()
+thread_id = None
+sector = None
+# Retrieve from an existing collection
 
-thread_id = openai_client.beta.threads.create().id
+def set_sector(selected_sector):
+# sector = input("Enter the sector: ")
+    global db
+    global client, retriever, compression_retriever, thread_id, sector
+    sector_mapping = {
+        "agriculture": "agric",
+        "construction": "const",
+        "education": "education",
+        "health": "health",
+        "manufacturing": "manufacturing",
+        "hotel accommodation": "hotel_accommodation",
+        "retail": "wholesale_retail",
+        "wholesale": "wholesale_retail"
+    }
+    sector_key = next((key for key in sector_mapping if key in selected_sector.lower()), None)
+
+    if sector_key:
+        sector = sector_mapping[sector_key]
+
+        print(f"Setting sector to {sector}")
+        db = Chroma(persist_directory="./chroma_db", collection_name=f"{sector}_guide", embedding_function=OpenAIEmbeddings())
+        retriever = db.as_retriever(search_type="mmr", search_kwargs={"k": 3})
+        compressor = FlashrankRerank(top_n=3)
+        compression_retriever = ContextualCompressionRetriever(base_retriever=retriever, base_compressor=compressor)
+        openai_client = OpenAI()
+        thread_id = openai_client.beta.threads.create().id
+    else:
+        raise ValueError("Invalid sector provided")
+    
+    
+     
+
+    # client = Chroma(persist_directory="./chroma_db", embedding_function=OpenAIEmbeddings())
+    
+
+    # thread_id = create_thread()  # Call create_thread() to create a new thread
 
 
-# thread_id = create_thread()  # Call create_thread() to create a new thread
+    # TODO: Print thread to file called thread.txt
+    # with open(f"{sector}_thread.txt", "w") as f:
+    #     f.write(thread.id)
 
 
-# TODO: Print thread to file called thread.txt
-# with open(f"{sector}_thread.txt", "w") as f:
-#     f.write(thread.id)
-
-
-def chat_with_assistant():
+def chat_with_assistant(query):
     # Make the retriever history aware
-    query = input('Enter your query: ')
+    # query = input('Enter your query: ')
+    global db, thread_id, sector, compression_retriever, retriever, openai_client
+    
+    print("##  Sector: ## ", sector)
+    if db is None:
+        raise ValueError("Database has not been set. Please set the sector first.")
+    
+   
 
     if len(chat_history) > 1:
         contextualized_query = contextualize_query_for_retriever(query)
     else:
         contextualized_query = query
 
-    reranked_results = compression_retriever.invoke(contextualized_query)
+    reranked_results = compression_retriever.get_relevant_documents(contextualized_query)
+    
+    print("COMPRESSOR 2 RESULTS ", compression_retriever)
 
     for result in reranked_results:
         print("Result", result, "\n")
@@ -127,7 +142,7 @@ def chat_with_assistant():
     openai_client.beta.threads.messages.create(
         thread_id=thread_id,
         role="assistant",
-        content=create_system_prompt(sector)
+        content=create_system_prompt(sector),
     )
 
     openai_client.beta.threads.messages.create(
@@ -157,7 +172,12 @@ def chat_with_assistant():
         msg_json = json.loads(messages.to_json())
         # print(msg_json)
         if msg_json["data"][0]["role"] == "assistant":
-            build_chat_history(query, msg_json["data"][0]["content"][0]["text"]["value"])
+            response = msg_json["data"][0]["content"][0]["text"]["value"]
+            build_chat_history(query, response)
+            return response
+        else:
+             return "Assistant response not found"
+
 
     # else:
     #     print(run.status)
@@ -206,11 +226,12 @@ def create_system_prompt(sector):
     should be substituted for taxpayer in the passed-in context """
 
 
-while True:
-    chat_with_assistant()
-    user_input = input("Do you want to continue chatting? (yes/no): ")
-    if user_input.lower() == "no":
-        delete_thread(thread_id)
-        break
-    else:
-        continue
+# while True:
+#     chat_with_assistant()
+#     user_input = input("Do you want to continue chatting? (yes/no): ")
+#     if user_input.lower() == "no":
+#         delete_thread(thread_id)
+#         break
+#     else:
+#         continue
+

@@ -1,20 +1,28 @@
 import streamlit as st
-from chat_with_openai_assistant import chat_with_assistant , set_sector
+from chat_with_openai_assistant_evaluate import chat_with_assistant, set_sector
+from PIL import Image
+
+
+ura_logo = Image.open('./images/ura_logo.jpeg')
 
 
 
 def handle_user_question(user_question):
-    # print(user_question)
-    # st.write(st.session_state.messages
-    
-    # st.session_state.messages.append({"role": "user", "content": user_question})
     st.session_state.awaiting_response = True  # Set a flag to indicate response is being generated
 
     # Fetch the response
     response = chat_with_assistant(user_question)
+    
     st.session_state.messages.append({"role": "assistant", "content": response})
     st.session_state.awaiting_response = False  # Reset the flag
     st.rerun()  # Rerun the app to update the UI
+
+def reset_sector(new_sector):
+    # Reset to the new sector
+    st.session_state.sector = new_sector
+    set_sector(new_sector)
+    st.session_state.messages = []
+    st.rerun()
     
 
     
@@ -30,6 +38,8 @@ def main():
     if "awaiting_response" not in st.session_state: 
         st.session_state.awaiting_response = False
 
+
+
    
     hide_decoration_bar_style = '''
         <style>
@@ -38,30 +48,57 @@ def main():
         '''
     st.markdown(hide_decoration_bar_style, unsafe_allow_html=True)
 
+    options = ("Agriculture","Construction","Education","Health","Manufacturing","Retail and Wholesale");
+
     if st.session_state.sector is None:
-        sector = st.selectbox("Select sector",["Agriculture","Construction","Education","Health","Manufacturing","Retail and Wholesale"])
+        sector = st.selectbox("Select sector", options)
 
         if st.button("Confirm Sector"):
-            st.session_state.sector =sector
+            st.session_state.sector = sector
             set_sector(sector)
             st.rerun() # Rerun the app to update the UI
 
     else:
-        st.sidebar.write("Selcted Sector: ",st.session_state.sector)
+        with st.sidebar:
+            sector = st.selectbox("Change Sector",options, index=options.index(st.session_state.sector))
+            if st.button("Change Sector"):
+                reset_sector(sector)
+                st.rerun()
 
+        user_question = st.chat_input("Ask Question here", disabled=st.session_state.awaiting_response)
+        # st.caption("AI can also make mistakes. Check Important information.")
 
-        if user_question := st.chat_input("Ask Question here", disabled=st.session_state.awaiting_response):
+        # Check if there is a user question and handle it
+        if user_question:    
+        # if user_question := st.chat_input("Ask Question here", disabled=st.session_state.awaiting_response):
             st.session_state.messages.append({"role": "user", "content": user_question})
             st.session_state.awaiting_response = True  # Set the flag to indicate the response is being generated
             st.rerun()  # Rerun the app to display the user message immediately
+        
+        st.markdown("""
+        <div style="vertical-align: top;'>
+        <small>Welcome to My App</small>
+        </div>
+        """, unsafe_allow_html=True)
+
 
         for message in st.session_state.messages:
-            with st.chat_message(message["role"]):
-                st.write(message["content"])
+            if message["role"] == "assistant":
+                col1, col2 = st.columns([1, 20])
+                with col1:
+                    st.image(ura_logo, width=25)  # Adjust the width as needed
+                with col2:
+                    st.write(message["content"])
+            else:
+                with st.chat_message(message["role"]):
+                    st.write(message["content"])
+
 
         if st.session_state.awaiting_response:
             with st.spinner("Generating response..."):
                 handle_user_question(st.session_state.messages[-1]["content"]) 
+
+                
 
 # TODO add streaming and changing the sector
 
