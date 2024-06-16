@@ -1,17 +1,16 @@
 import json
 import os
-from typing_extensions import override
 
-import chromadb
 from dotenv import load_dotenv
 from langchain.retrievers import ContextualCompressionRetriever
 from langchain.retrievers.document_compressors import FlashrankRerank
+from langchain_community.vectorstores.chroma import Chroma
 from langchain_core.output_parsers import StrOutputParser
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_openai import OpenAIEmbeddings, ChatOpenAI
-from langchain_community.vectorstores.chroma import Chroma
 from openai import OpenAI
 from openai.lib.streaming import AssistantEventHandler
+from typing_extensions import override
 
 # TODO: Add streaming support for the chat response. (Jerome) ✔️
 # TODO: Create a new thread for each user, and delete it when the chat is done. (Samson)
