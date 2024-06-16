@@ -1,5 +1,9 @@
 import streamlit as st
-from chat_with_openai_assistant_evaluate import chat_with_assistant , set_sector
+from chat_with_openai_assistant_evaluate import chat_with_assistant, set_sector
+from PIL import Image
+
+
+ura_logo = Image.open('./images/ura_logo.jpeg')
 
 
 
@@ -61,20 +65,34 @@ def main():
                 reset_sector(sector)
                 st.rerun()
 
-    
+        user_question = st.chat_input("Ask Question here", disabled=st.session_state.awaiting_response)
+        # st.caption("AI can also make mistakes. Check Important information.")
 
-
-        if user_question := st.chat_input("Ask Question here", disabled=st.session_state.awaiting_response):
+        # Check if there is a user question and handle it
+        if user_question:    
+        # if user_question := st.chat_input("Ask Question here", disabled=st.session_state.awaiting_response):
             st.session_state.messages.append({"role": "user", "content": user_question})
             st.session_state.awaiting_response = True  # Set the flag to indicate the response is being generated
             st.rerun()  # Rerun the app to display the user message immediately
+        
+        st.markdown("""
+        <div style="vertical-align: top;'>
+        <small>Welcome to My App</small>
+        </div>
+        """, unsafe_allow_html=True)
+
 
         for message in st.session_state.messages:
-            with st.chat_message(message["role"]):
-                if message["role"] == "user":
+            if message["role"] == "assistant":
+                col1, col2 = st.columns([1, 20])
+                with col1:
+                    st.image(ura_logo, width=25)  # Adjust the width as needed
+                with col2:
                     st.write(message["content"])
-                else:
+            else:
+                with st.chat_message(message["role"]):
                     st.write(message["content"])
+
 
         if st.session_state.awaiting_response:
             with st.spinner("Generating response..."):
