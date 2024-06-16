@@ -82,21 +82,16 @@ def set_sector(selected_sector):
         sector = sector_mapping[sector_key]
 
         print(f"Setting sector to {sector}")
+        db = Chroma(persist_directory="./chroma_db", collection_name=f"{sector}_guide", embedding_function=OpenAIEmbeddings())
+        retriever = db.as_retriever(search_type="mmr", search_kwargs={"k": 3})
+        compressor = FlashrankRerank(top_n=3)
+        compression_retriever = ContextualCompressionRetriever(base_retriever=retriever, base_compressor=compressor)
+        openai_client = OpenAI()
+        thread_id = openai_client.beta.threads.create().id
     else:
         raise ValueError("Invalid sector provided")
     
-    db = Chroma(persist_directory="./chroma_db", collection_name=f"{sector}_guide", embedding_function=OpenAIEmbeddings())
-
-    retriever = db.as_retriever(search_type="mmr", search_kwargs={"k": 3})
-
-    compressor = FlashrankRerank(top_n=3)
-    compression_retriever = ContextualCompressionRetriever(base_retriever=retriever, base_compressor=compressor)
-    print("COMPRESSOR: ", compression_retriever)
-
-
-    openai_client = OpenAI()
-
-    thread_id = openai_client.beta.threads.create().id
+    
      
 
     # client = Chroma(persist_directory="./chroma_db", embedding_function=OpenAIEmbeddings())
