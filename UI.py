@@ -5,6 +5,8 @@ from PIL import Image
 
 ura_logo = Image.open('./images/ura_logo.jpeg')
 
+st.set_page_config(page_title="URA Chatbot", page_icon=ura_logo)
+
 
 
 def handle_user_question(user_question):
@@ -22,6 +24,7 @@ def reset_sector(new_sector):
     st.session_state.sector = new_sector
     set_sector(new_sector)
     st.session_state.messages = []
+    st.session_state.awaiting_response = False
     st.rerun()
     
 
@@ -93,6 +96,7 @@ def main():
                 with st.chat_message(message["role"]):
                     st.write(message["content"])
 
+            
 
         if st.session_state.awaiting_response:
             with st.spinner("Generating response..."):
