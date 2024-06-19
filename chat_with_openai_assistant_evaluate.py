@@ -78,7 +78,7 @@ def set_sector(selected_sector):
     if sector_key:
         # Set the sector to the corresponding key
         sector = sector_mapping[sector_key]
-        print(f"Setting sector to {sector}")
+        # print(f"Setting sector to {sector}")
         # Initialize the chat history
         chat_history = []
         # Add the system prompt to the chat history
@@ -173,7 +173,7 @@ def contextualize_query_for_retriever(query, chat_history):
     # Create a chat prompt from the chat history
     chat_prompt = ChatPromptTemplate.from_messages(local_chat_history)
 
-    print("Chat Prompt: ", chat_prompt)
+    # print("Chat Prompt: ", chat_prompt)
 
     # Initialize the language model
     llm = ChatOpenAI(model_name="gpt-3.5-turbo", temperature=0.2)
@@ -186,7 +186,7 @@ def contextualize_query_for_retriever(query, chat_history):
     # Invoke the chain with the query
     llm_response = chain.invoke({})
 
-    print("LLM Response: ", llm_response)
+    # print("LLM Response: ", llm_response)
     return llm_response[0]
 
 
@@ -196,7 +196,7 @@ def build_chat_history(query, response):
     # Add the user query and assistant response to the chat history
     chat_history.append(('user', query))
     chat_history.append(('assistant', response))
-    print("\nChat History: ", chat_history)
+    # print("\nChat History: ", chat_history)
 
 
 # Function to chat with the assistant
@@ -219,8 +219,8 @@ def chat_with_assistant(query):
     # Get the relevant documents for the contextualized query
     reranked_results = compression_retriever.get_relevant_documents(contextualized_query)
 
-    for result in reranked_results:
-        print("Result", result, "\n")
+    # for result in reranked_results:
+    #     print("Result", result, "\n")
 
     # Create the user message with the reranked results and query
     user_message = f"""
@@ -232,7 +232,7 @@ def chat_with_assistant(query):
     {query}
     </question>
     """
-    print("User message: ", user_message)
+    # print("User message: ", user_message)
 
     # Create a message in the thread with the system prompt
     openai_client.beta.threads.messages.create(
