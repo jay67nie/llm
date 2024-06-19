@@ -18,6 +18,12 @@ load_dotenv()
 # This enables us to connect to the OpenAI ChatGPT LLM via API calls
 os.environ['OPENAI_API_KEY'] = os.environ.get("OPENAI_API_KEY")
 
+contextualize_q_system_prompt = """Given a chat history and the latest user query \
+            which might reference context in the chat history, formulate a standalone query as the user persona \
+            which can be understood by the document retriever without the chat history. Do NOT answer the query! Strictly \
+            just restructure it as a query for the retriever. I repeat, do not answer the user query!!!! \
+            Only restructure the query!!!"""
+
 
 # Define an event handler for the OpenAI assistant
 # This is used to handle the assistant's responses for streaming,
@@ -54,7 +60,7 @@ class EventHandler(AssistantEventHandler):
 
 # Function to set the sector
 def set_sector(selected_sector):
-    global sector, openai_client, thread_id
+    global sector, openai_client, thread_id, chat_history, contextualize_q_system_prompt
     # Define a mapping from sector names to database keys to identify the sector guide
     sector_mapping = {
         "agriculture": "agric",
@@ -73,8 +79,15 @@ def set_sector(selected_sector):
         # Set the sector to the corresponding key
         sector = sector_mapping[sector_key]
         print(f"Setting sector to {sector}")
+        # Initialize the chat history
+        chat_history = []
+        # Add the system prompt to the chat history
+        # This is used to restructure the user question for the retriever
+        chat_history.append(('assistant', contextualize_q_system_prompt))
 
-        compression_retriever = initialize_database(sector)
+        # Set up the database for the selected sector
+        # and the retrieval system
+        initialize_database(sector)
 
         # Initialize the OpenAI client
         # This is used to interact with the OpenAI API
@@ -115,8 +128,6 @@ def initialize_database(sector):
     # Initialize the compression retriever with the retriever and compressor
     compression_retriever = ContextualCompressionRetriever(base_retriever=retriever, base_compressor=compressor)
 
-    return compression_retriever
-
 
 # Function to create a new thread
 def create_thread():
@@ -148,7 +159,8 @@ def delete_thread(t_id):
 def create_system_prompt(sector):
     # Create a system prompt for the LLM to restructure the user question
     return f"""The user is posing as a person in the {sector} sector who is a taxpayer. So the person in the {sector} 
-    sector, in the user question should be substituted for taxpayer in the passed-in context """
+    sector, in the user question should be substituted for taxpayer in the passed-in context
+    Reply using first person directly to the user. Remember the user doesn't know the context of the chat history."""
 
 
 # Function to contextualize the query for the retriever
@@ -156,10 +168,12 @@ def create_system_prompt(sector):
 # through query transformation, a technique which is essential for accurate responses
 def contextualize_query_for_retriever(query, chat_history):
     # Add the user question to the chat history
-    local_chat_history = chat_history + [("user", "{question}")]
+    local_chat_history = chat_history + [("assistant", contextualize_q_system_prompt)] + [("user", query)]
 
     # Create a chat prompt from the chat history
     chat_prompt = ChatPromptTemplate.from_messages(local_chat_history)
+
+    print("Chat Prompt: ", chat_prompt)
 
     # Initialize the language model
     llm = ChatOpenAI(model_name="gpt-3.5-turbo", temperature=0.2)
@@ -170,22 +184,11 @@ def contextualize_query_for_retriever(query, chat_history):
     chain = chat_prompt | llm | StrOutputParser() | (lambda x: x.split("\n"))
 
     # Invoke the chain with the query
-    llm_response = chain.invoke({"question": query})
+    llm_response = chain.invoke({})
 
     print("LLM Response: ", llm_response)
     return llm_response[0]
 
-
-# Initialize the chat history
-chat_history = []
-# Add the system prompt to the chat history
-# This is used to restructure the user question for the retriever
-contextualize_q_system_prompt = """Given a chat history and the latest user question \
-    which might reference context in the chat history, formulate a standalone question as the user persona \
-    which can be understood by the document retriever without the chat history. Do NOT answer the question! Strictly \
-    just restructure it as a question for the retriever. I repeat, do not answer the user question!!!! \
-    Only restructure the question!!!"""
-chat_history.append(('system', contextualize_q_system_prompt))
 
 
 # Function to build the chat history
