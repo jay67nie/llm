@@ -14,8 +14,8 @@ def handle_user_question(user_question):
 
     # Fetch the response
     response = chat_with_assistant(user_question)
-    
-    st.session_state.messages.append({"role": "assistant", "content": response})
+
+    st.session_state.messages.append({"role": "assistant", "content": response}) # Append the response to the messages list
     st.session_state.awaiting_response = False  # Reset the flag
     st.rerun()  # Rerun the app to update the UI
 
@@ -25,7 +25,7 @@ def reset_sector(new_sector):
     set_sector(new_sector)
     st.session_state.messages = []
     st.session_state.awaiting_response = False
-    st.rerun()
+    # st.rerun()
     
 
     
@@ -40,8 +40,7 @@ def main():
 
     if "awaiting_response" not in st.session_state: 
         st.session_state.awaiting_response = False
-
-
+    
 
    
     hide_decoration_bar_style = '''
@@ -54,19 +53,21 @@ def main():
     options = ("Agriculture","Construction","Education","Health","Manufacturing","Retail and Wholesale");
 
     if st.session_state.sector is None:
-        sector = st.selectbox("Select sector", options)
+        st.title("Welcome to URA Chatbot")
+        sector = st.selectbox("Please select a sector", options)
 
         if st.button("Confirm Sector"):
             st.session_state.sector = sector
-            set_sector(sector)
-            st.rerun() # Rerun the app to update the UI
+            with st.spinner("Setting sector ... Please Wait"):
+                set_sector(sector)
 
     else:
+        # on the side bar, display header and sector selection
         with st.sidebar:
+            st.title("URA Chatbot")
             sector = st.selectbox("Change Sector",options, index=options.index(st.session_state.sector))
             if st.button("Change Sector"):
                 reset_sector(sector)
-                st.rerun()
 
         user_question = st.chat_input("Ask Question here", disabled=st.session_state.awaiting_response)
         # st.caption("AI can also make mistakes. Check Important information.")
@@ -76,13 +77,12 @@ def main():
         # if user_question := st.chat_input("Ask Question here", disabled=st.session_state.awaiting_response):
             st.session_state.messages.append({"role": "user", "content": user_question})
             st.session_state.awaiting_response = True  # Set the flag to indicate the response is being generated
-            st.rerun()  # Rerun the app to display the user message immediately
         
-        st.markdown("""
-        <div style="vertical-align: top;'>
-        <small>Welcome to My App</small>
-        </div>
-        """, unsafe_allow_html=True)
+        # st.markdown("""
+        # <div style="vertical-align: top;'>
+        # <small>Welcome to My App</small>
+        # </div>
+        # """, unsafe_allow_html=True)
 
 
         for message in st.session_state.messages:
