@@ -20,7 +20,8 @@ os.environ['OPENAI_API_KEY'] = os.environ.get("OPENAI_API_KEY")
 
 contextualize_q_system_prompt = """Given a chat history and the latest user query \
             which might reference context in the chat history, formulate a standalone query as the user persona \
-            which can be understood by the document retriever without the chat history. Do NOT answer the query! Strictly \
+            which can be understood by the document retriever without the chat history. Do NOT answer the query!
+             Strictly \
             just restructure it as a query for the retriever. I repeat, do not answer the user query!!!! \
             Only restructure the query!!!"""
 
@@ -97,7 +98,7 @@ def set_sector(selected_sector):
         # Set the thread ID
         # This is used to identify the conversation thread / session
         # Right now, we are using a fixed thread ID for testing purposes
-        thread_id = "thread_AYA7B1cxHaA1Pbl08Gt5H62M"
+        thread_id = "thread_ZA2tPZYGG7Mu4sbZNX1QhyNl"
     else:
         # Raise an error if the sector is invalid
         raise ValueError("Invalid sector provided")
@@ -191,7 +192,6 @@ def contextualize_query_for_retriever(query, chat_history):
     return llm_response[0]
 
 
-
 # Function to build the chat history
 def build_chat_history(query, response):
     # Add the user query and assistant response to the chat history
@@ -270,4 +270,4 @@ def chat_with_assistant(query):
             build_chat_history(query, response)
             return response
         else:
-            return "Assistant response not found"
+            return "Sorry, please try again. An error occurred."
