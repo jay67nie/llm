@@ -53,13 +53,26 @@ def main():
     options = ("Agriculture","Construction","Education","Health","Manufacturing","Retail and Wholesale")
 
     if st.session_state.sector is None:
-        st.title("Welcome to URA Chatbot")
+        # Display header and sector selection
+        st.markdown("""
+        <div style='display: flex; align-items: center;'>
+            <img src='data:image/png;base64,{0}' class='img-fluid' style='margin-right: 10px; width: 48px; height: auto;'>
+            <h1>Welcome to the URA Chatbot</h1>
+        </div>
+    """.format(image_to_base64(ura_logo)), unsafe_allow_html=True)
+        
+        # Display sector selection
         sector = st.selectbox("Please select a sector", options)
 
-        if st.button("Confirm Sector"):
+        if st.button("Confirm Sector"): # Set the sector
             st.session_state.sector = sector
             with st.spinner("Setting sector ... Please Wait"):
                 set_sector(sector)
+                st.session_state.messages = [{
+                "role": "assistant",
+                "content": f"Hello there, you can ask me any question with regards to taxes in the {sector} sector! I shall try my best to answer them. However, remember that AI can also make mistakes. Please check important information."}]
+                st.rerun()
+
 
     else:
         # Display header and sector selection on the sidebar
@@ -95,6 +108,17 @@ def main():
         if st.session_state.awaiting_response:
             with st.spinner("Generating response..."):
                 handle_user_question(st.session_state.messages[-1]["content"]) 
+
+
+# Function to convert image to base64
+def image_to_base64(image_path):
+    import base64 
+    from io import BytesIO
+
+    buffered = BytesIO() 
+    image_path.save(buffered, format="PNG")
+    img_str = base64.b64encode(buffered.getvalue()).decode()
+    return img_str
 
 if __name__ == "__main__":
     main()

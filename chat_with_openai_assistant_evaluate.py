@@ -74,6 +74,7 @@ def set_sector(selected_sector):
     }
     # Find the key for the selected sector
     sector_key = next((key for key in sector_mapping if key in selected_sector.lower()), None)
+    print(f"Selected sector: {sector_key}")
 
     if sector_key:
         # Set the sector to the corresponding key
