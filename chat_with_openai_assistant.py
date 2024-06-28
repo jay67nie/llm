@@ -32,7 +32,7 @@ os.environ['OPENAI_API_KEY'] = os.environ.get("OPENAI_API_KEY")
 
 # Retrieve from an existing collection
 db = None
-thread_id = "thread_ylT9GI1bxvJSv0rmeNAEP5sQ"
+thread_id = ""
 
 
 
