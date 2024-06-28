@@ -98,7 +98,7 @@ def set_sector(selected_sector):
         # Set the thread ID
         # This is used to identify the conversation thread / session
         # Right now, we are using a fixed thread ID for testing purposes
-        thread_id = "thread_ZA2tPZYGG7Mu4sbZNX1QhyNl"
+        thread_id = create_thread()
     else:
         # Raise an error if the sector is invalid
         raise ValueError("Invalid sector provided")
@@ -150,11 +150,14 @@ def create_thread():
 
 
 # Function to delete a thread
-def delete_thread(t_id):
+def delete_thread():
     # Initialize the OpenAI client
     openai_client = OpenAI()
     # Delete the thread with the given ID
-    openai_client.beta.threads.delete(thread_id=t_id)
+    try:
+        openai_client.beta.threads.delete(thread_id=thread_id)
+    except Exception as e:
+        print(f"Error deleting thread: {e}")
 
 
 # Function to create a system prompt

@@ -1,5 +1,6 @@
 import streamlit as st
-from chat_with_openai_assistant_evaluate import chat_with_assistant, set_sector
+
+from chat_with_openai_assistant_evaluate import chat_with_assistant, set_sector, delete_thread
 from PIL import Image
 
 # Load URA logo image
@@ -25,10 +26,12 @@ def handle_user_question(user_question):
 # Function to reset sector
 def reset_sector(new_sector):
     # Reset to the new sector
+    delete_thread()
     st.session_state.sector = new_sector
     set_sector(new_sector)
     st.session_state.messages = []
     st.session_state.awaiting_response = False
+
 
 
 # Main function
